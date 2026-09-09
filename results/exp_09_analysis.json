@@ -1,0 +1,3776 @@
+{
+  "mode": "full",
+  "gates": {
+    "G1_median_reproduction": {
+      "n_cells": 90,
+      "max_abs_err": 0.0,
+      "tolerance": 1e-09,
+      "passed": true,
+      "cells": [
+        {
+          "problem": "WangFreitas",
+          "method": "LHS",
+          "computed": 0.012706391360370883,
+          "expected": 0.012706391360370883,
+          "abs_err": 0.0
+        },
+        {
+          "problem": "WangFreitas",
+          "method": "Explore",
+          "computed": 0.010357224418416244,
+          "expected": 0.010357224418416244,
+          "abs_err": 0.0
+        },
+        {
+          "problem": "WangFreitas",
+          "method": "EI",
+          "computed": 2.0000000000241007,
+          "expected": 2.0000000000241007,
+          "abs_err": 0.0
+        },
+        {
+          "problem": "WangFreitas",
+          "method": "PI",
+          "computed": 2.0555667169079737,
+          "expected": 2.0555667169079737,
+          "abs_err": 0.0
+        },
+        {
+          "problem": "WangFreitas",
+          "method": "UCB",
+          "computed": 2.0000000000073563,
+          "expected": 2.0000000000073563,
+          "abs_err": 0.0
+        },
+        {
+          "problem": "WangFreitas",
+          "method": "PFRandom",
+          "computed": 0.00020029058365755859,
+          "expected": 0.00020029058365755859,
+          "abs_err": 0.0
+        },
+        {
+          "problem": "WangFreitas",
+          "method": "eRandom",
+          "computed": 1.0366034954856218e-06,
+          "expected": 1.0366034954856218e-06,
+          "abs_err": 0.0
+        },
+        {
+          "problem": "WangFreitas",
+          "method": "eFront",
+          "computed": 2.0000000000000258,
+          "expected": 2.0000000000000258,
+          "abs_err": 0.0
+        },
+        {
+          "problem": "WangFreitas",
+          "method": "Exploit",
+          "computed": 2.000000000433966,
+          "expected": 2.000000000433966,
+          "abs_err": 0.0
+        },
+        {
+          "problem": "BraninForrester",
+          "method": "LHS",
+          "computed": 0.45863152862383316,
+          "expected": 0.45863152862383316,
+          "abs_err": 0.0
+        },
+        {
+          "problem": "BraninForrester",
+          "method": "Explore",
+          "computed": 0.45789890214593143,
+          "expected": 0.45789890214593143,
+          "abs_err": 0.0
+        },
+        {
+          "problem": "BraninForrester",
+          "method": "EI",
+          "computed": 2.470804925991388e-06,
+          "expected": 2.470804925991388e-06,
+          "abs_err": 0.0
+        },
+        {
+          "problem": "BraninForrester",
+          "method": "PI",
+          "computed": 0.0003730689395595732,
+          "expected": 0.0003730689395595732,
+          "abs_err": 0.0
+        },
+        {
+          "problem": "BraninForrester",
+          "method": "UCB",
+          "computed": 4.963415204173316e-06,
+          "expected": 4.963415204173316e-06,
+          "abs_err": 0.0
+        },
+        {
+          "problem": "BraninForrester",
+          "method": "PFRandom",
+          "computed": 0.002704638790703484,
+          "expected": 0.002704638790703484,
+          "abs_err": 0.0
+        },
+        {
+          "problem": "BraninForrester",
+          "method": "eRandom",
+          "computed": 1.9954730667848253e-06,
+          "expected": 1.9954730667848253e-06,
+          "abs_err": 0.0
+        },
+        {
+          "problem": "BraninForrester",
+          "method": "eFront",
+          "computed": 2.311946044386559e-06,
+          "expected": 2.311946044386559e-06,
+          "abs_err": 0.0
+        },
+        {
+          "problem": "BraninForrester",
+          "method": "Exploit",
+          "computed": 4.611790526354298e-06,
+          "expected": 4.611790526354298e-06,
+          "abs_err": 0.0
+        },
+        {
+          "problem": "Branin",
+          "method": "LHS",
+          "computed": 0.13078472002181207,
+          "expected": 0.13078472002181207,
+          "abs_err": 0.0
+        },
+        {
+          "problem": "Branin",
+          "method": "Explore",
+          "computed": 0.1662550648429758,
+          "expected": 0.1662550648429758,
+          "abs_err": 0.0
+        },
+        {
+          "problem": "Branin",
+          "method": "EI",
+          "computed": 4.14988791852533e-06,
+          "expected": 4.14988791852533e-06,
+          "abs_err": 0.0
+        },
+        {
+          "problem": "Branin",
+          "method": "PI",
+          "computed": 2.264956928399453e-05,
+          "expected": 2.264956928399453e-05,
+          "abs_err": 0.0
+        },
+        {
+          "problem": "Branin",
+          "method": "UCB",
+          "computed": 4.4244086073730315e-06,
+          "expected": 4.4244086073730315e-06,
+          "abs_err": 0.0
+        },
+        {
+          "problem": "Branin",
+          "method": "PFRandom",
+          "computed": 0.0016675282454440277,
+          "expected": 0.0016675282454440277,
+          "abs_err": 0.0
+        },
+        {
+          "problem": "Branin",
+          "method": "eRandom",
+          "computed": 3.166103380247698e-06,
+          "expected": 3.166103380247698e-06,
+          "abs_err": 0.0
+        },
+        {
+          "problem": "Branin",
+          "method": "eFront",
+          "computed": 3.5697601007411706e-06,
+          "expected": 3.5697601007411706e-06,
+          "abs_err": 0.0
+        },
+        {
+          "problem": "Branin",
+          "method": "Exploit",
+          "computed": 3.078559232316813e-06,
+          "expected": 3.078559232316813e-06,
+          "abs_err": 0.0
+        },
+        {
+          "problem": "Cosines",
+          "method": "LHS",
+          "computed": 0.4785782692374201,
+          "expected": 0.4785782692374201,
+          "abs_err": 0.0
+        },
+        {
+          "problem": "Cosines",
+          "method": "Explore",
+          "computed": 0.4560422748872539,
+          "expected": 0.4560422748872539,
+          "abs_err": 0.0
+        },
+        {
+          "problem": "Cosines",
+          "method": "EI",
+          "computed": 6.30699508996635e-06,
+          "expected": 6.30699508996635e-06,
+          "abs_err": 0.0
+        },
+        {
+          "problem": "Cosines",
+          "method": "PI",
+          "computed": 0.002500515128640135,
+          "expected": 0.002500515128640135,
+          "abs_err": 0.0
+        },
+        {
+          "problem": "Cosines",
+          "method": "UCB",
+          "computed": 7.124109439260451e-06,
+          "expected": 7.124109439260451e-06,
+          "abs_err": 0.0
+        },
+        {
+          "problem": "Cosines",
+          "method": "PFRandom",
+          "computed": 0.00882146948470286,
+          "expected": 0.00882146948470286,
+          "abs_err": 0.0
+        },
+        {
+          "problem": "Cosines",
+          "method": "eRandom",
+          "computed": 8.656489256075872e-06,
+          "expected": 8.656489256075872e-06,
+          "abs_err": 0.0
+        },
+        {
+          "problem": "Cosines",
+          "method": "eFront",
+          "computed": 2.016118971770453e-06,
+          "expected": 2.016118971770453e-06,
+          "abs_err": 0.0
+        },
+        {
+          "problem": "Cosines",
+          "method": "Exploit",
+          "computed": 0.4129289396440412,
+          "expected": 0.4129289396440412,
+          "abs_err": 0.0
+        },
+        {
+          "problem": "logGoldsteinPrice",
+          "method": "LHS",
+          "computed": 1.0813334494603335,
+          "expected": 1.0813334494603335,
+          "abs_err": 0.0
+        },
+        {
+          "problem": "logGoldsteinPrice",
+          "method": "Explore",
+          "computed": 1.0125510728707996,
+          "expected": 1.0125510728707996,
+          "abs_err": 0.0
+        },
+        {
+          "problem": "logGoldsteinPrice",
+          "method": "EI",
+          "computed": 2.7305214203021677e-06,
+          "expected": 2.7305214203021677e-06,
+          "abs_err": 0.0
+        },
+        {
+          "problem": "logGoldsteinPrice",
+          "method": "PI",
+          "computed": 0.002919598513914101,
+          "expected": 0.002919598513914101,
+          "abs_err": 0.0
+        },
+        {
+          "problem": "logGoldsteinPrice",
+          "method": "UCB",
+          "computed": 6.146445212351637e-06,
+          "expected": 6.146445212351637e-06,
+          "abs_err": 0.0
+        },
+        {
+          "problem": "logGoldsteinPrice",
+          "method": "PFRandom",
+          "computed": 0.0025419662435939294,
+          "expected": 0.0025419662435939294,
+          "abs_err": 0.0
+        },
+        {
+          "problem": "logGoldsteinPrice",
+          "method": "eRandom",
+          "computed": 2.332410647509775e-06,
+          "expected": 2.332410647509775e-06,
+          "abs_err": 0.0
+        },
+        {
+          "problem": "logGoldsteinPrice",
+          "method": "eFront",
+          "computed": 8.756559344291759e-07,
+          "expected": 8.756559344291759e-07,
+          "abs_err": 0.0
+        },
+        {
+          "problem": "logGoldsteinPrice",
+          "method": "Exploit",
+          "computed": 2.2602073814770307e-06,
+          "expected": 2.2602073814770307e-06,
+          "abs_err": 0.0
+        },
+        {
+          "problem": "logSixHumpCamel",
+          "method": "LHS",
+          "computed": 6.519822339084309,
+          "expected": 6.519822339084309,
+          "abs_err": 0.0
+        },
+        {
+          "problem": "logSixHumpCamel",
+          "method": "Explore",
+          "computed": 6.528993757280407,
+          "expected": 6.528993757280407,
+          "abs_err": 0.0
+        },
+        {
+          "problem": "logSixHumpCamel",
+          "method": "EI",
+          "computed": 7.417785705143842e-05,
+          "expected": 7.417785705143842e-05,
+          "abs_err": 0.0
+        },
+        {
+          "problem": "logSixHumpCamel",
+          "method": "PI",
+          "computed": 0.14551903963175583,
+          "expected": 0.14551903963175583,
+          "abs_err": 0.0
+        },
+        {
+          "problem": "logSixHumpCamel",
+          "method": "UCB",
+          "computed": 3.840329949737641,
+          "expected": 3.840329949737641,
+          "abs_err": 0.0
+        },
+        {
+          "problem": "logSixHumpCamel",
+          "method": "PFRandom",
+          "computed": 0.1518058011182113,
+          "expected": 0.1518058011182113,
+          "abs_err": 0.0
+        },
+        {
+          "problem": "logSixHumpCamel",
+          "method": "eRandom",
+          "computed": 3.807258574184402e-05,
+          "expected": 3.807258574184402e-05,
+          "abs_err": 0.0
+        },
+        {
+          "problem": "logSixHumpCamel",
+          "method": "eFront",
+          "computed": 4.064998741881709e-05,
+          "expected": 4.064998741881709e-05,
+          "abs_err": 0.0
+        },
+        {
+          "problem": "logSixHumpCamel",
+          "method": "Exploit",
+          "computed": 4.207165956771064e-05,
+          "expected": 4.207165956771064e-05,
+          "abs_err": 0.0
+        },
+        {
+          "problem": "logHartmann6",
+          "method": "LHS",
+          "computed": 0.3367349529631507,
+          "expected": 0.3367349529631507,
+          "abs_err": 0.0
+        },
+        {
+          "problem": "logHartmann6",
+          "method": "Explore",
+          "computed": 0.3065011000181893,
+          "expected": 0.3065011000181893,
+          "abs_err": 0.0
+        },
+        {
+          "problem": "logHartmann6",
+          "method": "EI",
+          "computed": 0.00106015206659138,
+          "expected": 0.00106015206659138,
+          "abs_err": 0.0
+        },
+        {
+          "problem": "logHartmann6",
+          "method": "PI",
+          "computed": 0.0006154251493042384,
+          "expected": 0.0006154251493042384,
+          "abs_err": 0.0
+        },
+        {
+          "problem": "logHartmann6",
+          "method": "UCB",
+          "computed": 0.20446947797889936,
+          "expected": 0.20446947797889936,
+          "abs_err": 0.0
+        },
+        {
+          "problem": "logHartmann6",
+          "method": "PFRandom",
+          "computed": 0.06574677764886738,
+          "expected": 0.06574677764886738,
+          "abs_err": 0.0
+        },
+        {
+          "problem": "logHartmann6",
+          "method": "eRandom",
+          "computed": 0.0005094879459277557,
+          "expected": 0.0005094879459277557,
+          "abs_err": 0.0
+        },
+        {
+          "problem": "logHartmann6",
+          "method": "eFront",
+          "computed": 0.0007712062576819001,
+          "expected": 0.0007712062576819001,
+          "abs_err": 0.0
+        },
+        {
+          "problem": "logHartmann6",
+          "method": "Exploit",
+          "computed": 0.0006369988957011241,
+          "expected": 0.0006369988957011241,
+          "abs_err": 0.0
+        },
+        {
+          "problem": "logGSobol",
+          "method": "LHS",
+          "computed": 15.071315831389018,
+          "expected": 15.071315831389018,
+          "abs_err": 0.0
+        },
+        {
+          "problem": "logGSobol",
+          "method": "Explore",
+          "computed": 17.479355495053632,
+          "expected": 17.479355495053632,
+          "abs_err": 0.0
+        },
+        {
+          "problem": "logGSobol",
+          "method": "EI",
+          "computed": 7.148645304059357,
+          "expected": 7.148645304059357,
+          "abs_err": 0.0
+        },
+        {
+          "problem": "logGSobol",
+          "method": "PI",
+          "computed": 6.29162545658018,
+          "expected": 6.29162545658018,
+          "abs_err": 0.0
+        },
+        {
+          "problem": "logGSobol",
+          "method": "UCB",
+          "computed": 14.529941287614403,
+          "expected": 14.529941287614403,
+          "abs_err": 0.0
+        },
+        {
+          "problem": "logGSobol",
+          "method": "PFRandom",
+          "computed": 5.598480911464031,
+          "expected": 5.598480911464031,
+          "abs_err": 0.0
+        },
+        {
+          "problem": "logGSobol",
+          "method": "eRandom",
+          "computed": 5.13303874627281,
+          "expected": 5.13303874627281,
+          "abs_err": 0.0
+        },
+        {
+          "problem": "logGSobol",
+          "method": "eFront",
+          "computed": 5.060675382352009,
+          "expected": 5.060675382352009,
+          "abs_err": 0.0
+        },
+        {
+          "problem": "logGSobol",
+          "method": "Exploit",
+          "computed": 5.272746497252611,
+          "expected": 5.272746497252611,
+          "abs_err": 0.0
+        },
+        {
+          "problem": "logRosenbrock",
+          "method": "LHS",
+          "computed": 11.580397518774381,
+          "expected": 11.580397518774381,
+          "abs_err": 0.0
+        },
+        {
+          "problem": "logRosenbrock",
+          "method": "Explore",
+          "computed": 12.770305436253008,
+          "expected": 12.770305436253008,
+          "abs_err": 0.0
+        },
+        {
+          "problem": "logRosenbrock",
+          "method": "EI",
+          "computed": 6.619237201132718,
+          "expected": 6.619237201132718,
+          "abs_err": 0.0
+        },
+        {
+          "problem": "logRosenbrock",
+          "method": "PI",
+          "computed": 6.89268924372634,
+          "expected": 6.89268924372634,
+          "abs_err": 0.0
+        },
+        {
+          "problem": "logRosenbrock",
+          "method": "UCB",
+          "computed": 8.309360895023469,
+          "expected": 8.309360895023469,
+          "abs_err": 0.0
+        },
+        {
+          "problem": "logRosenbrock",
+          "method": "PFRandom",
+          "computed": 5.227397783393143,
+          "expected": 5.227397783393143,
+          "abs_err": 0.0
+        },
+        {
+          "problem": "logRosenbrock",
+          "method": "eRandom",
+          "computed": 4.753705583942892,
+          "expected": 4.753705583942892,
+          "abs_err": 0.0
+        },
+        {
+          "problem": "logRosenbrock",
+          "method": "eFront",
+          "computed": 4.644848295853532,
+          "expected": 4.644848295853532,
+          "abs_err": 0.0
+        },
+        {
+          "problem": "logRosenbrock",
+          "method": "Exploit",
+          "computed": 4.544487808579054,
+          "expected": 4.544487808579054,
+          "abs_err": 0.0
+        },
+        {
+          "problem": "logStyblinskiTang",
+          "method": "LHS",
+          "computed": 2.8454460785638904,
+          "expected": 2.8454460785638904,
+          "abs_err": 0.0
+        },
+        {
+          "problem": "logStyblinskiTang",
+          "method": "Explore",
+          "computed": 3.1879119610547324,
+          "expected": 3.1879119610547324,
+          "abs_err": 0.0
+        },
+        {
+          "problem": "logStyblinskiTang",
+          "method": "EI",
+          "computed": 2.3358139068434367,
+          "expected": 2.3358139068434367,
+          "abs_err": 0.0
+        },
+        {
+          "problem": "logStyblinskiTang",
+          "method": "PI",
+          "computed": 2.2884344118561515,
+          "expected": 2.2884344118561515,
+          "abs_err": 0.0
+        },
+        {
+          "problem": "logStyblinskiTang",
+          "method": "UCB",
+          "computed": 3.1879119610547324,
+          "expected": 3.1879119610547324,
+          "abs_err": 0.0
+        },
+        {
+          "problem": "logStyblinskiTang",
+          "method": "PFRandom",
+          "computed": 2.7041749224526566,
+          "expected": 2.7041749224526566,
+          "abs_err": 0.0
+        },
+        {
+          "problem": "logStyblinskiTang",
+          "method": "eRandom",
+          "computed": 1.6141986350384157,
+          "expected": 1.6141986350384157,
+          "abs_err": 0.0
+        },
+        {
+          "problem": "logStyblinskiTang",
+          "method": "eFront",
+          "computed": 1.5295770763676066,
+          "expected": 1.5295770763676066,
+          "abs_err": 0.0
+        },
+        {
+          "problem": "logStyblinskiTang",
+          "method": "Exploit",
+          "computed": 1.8186883721274345,
+          "expected": 1.8186883721274345,
+          "abs_err": 0.0
+        }
+      ]
+    },
+    "G2_friedman_reproduction": {
+      "chi_square": 50.66221851542953,
+      "exp05_chi_square": 50.66221851542953,
+      "target_chi_square": 50.66,
+      "chi2_matches_exp05": true,
+      "chi2_matches_target_0.01": true,
+      "average_ranks": {
+        "LHS": 7.9,
+        "Explore": 7.95,
+        "EI": 4.5,
+        "PI": 5.5,
+        "UCB": 6.05,
+        "PFRandom": 5.4,
+        "eRandom": 2.0,
+        "eFront": 2.2,
+        "Exploit": 3.5
+      },
+      "rank_max_abs_err_vs_exp05": 0.0,
+      "ranks_passed": true,
+      "passed": true
+    },
+    "G3_critical_differences": {
+      "CD_k9_N10": {
+        "computed": 3.7988283279509996,
+        "target": 3.799,
+        "passed": true
+      },
+      "CD_k8_N10": {
+        "computed": 3.3201609918201997,
+        "target": 3.32,
+        "passed": true
+      },
+      "passed": true
+    },
+    "all_core_gates_passed": true,
+    "G4_manifest": {
+      "n_files": 2400,
+      "n_files_expected": 2400,
+      "files_ok": true,
+      "n_nan_final_regrets": 0,
+      "nan_runs": [],
+      "passed": true
+    }
+  },
+  "analysis_A_cross_problem": {
+    "per_checkpoint": {
+      "20": {
+        "problems": [
+          "WangFreitas",
+          "BraninForrester",
+          "Branin",
+          "Cosines",
+          "GoldsteinPriceLog",
+          "SixHumpCamelLog",
+          "Hartmann6Log"
+        ],
+        "friedman_nemenyi": {
+          "n_blocks": 7,
+          "k": 8,
+          "friedman": {
+            "chi_square": 32.47619047619045,
+            "p_value": 3.3137110384704935e-05,
+            "df": 7,
+            "rejected_H0": true
+          },
+          "average_ranks": {
+            "EI": 3.2857142857142856,
+            "LogEI": 3.2857142857142856,
+            "UCB": 2.142857142857143,
+            "eps-RS": 4.714285714285714,
+            "eps-PF": 3.7142857142857144,
+            "Exploit": 3.857142857142857,
+            "Explore": 7.857142857142857,
+            "Random": 7.142857142857143
+          },
+          "rank_sum": 36.0,
+          "nemenyi_pvalues": {
+            "EI": {
+              "EI": 1.0,
+              "LogEI": 1.0,
+              "UCB": 0.988441,
+              "eps-RS": 0.958863,
+              "eps-PF": 0.999981,
+              "Exploit": 0.999865,
+              "Explore": 0.011316,
+              "Random": 0.063825
+            },
+            "LogEI": {
+              "EI": 1.0,
+              "LogEI": 1.0,
+              "UCB": 0.988441,
+              "eps-RS": 0.958863,
+              "eps-PF": 0.999981,
+              "Exploit": 0.999865,
+              "Explore": 0.011316,
+              "Random": 0.063825
+            },
+            "UCB": {
+              "EI": 0.988441,
+              "LogEI": 0.988441,
+              "UCB": 1.0,
+              "eps-RS": 0.506521,
+              "eps-PF": 0.932143,
+              "Exploit": 0.895699,
+              "Explore": 0.00034,
+              "Random": 0.003364
+            },
+            "eps-RS": {
+              "EI": 0.958863,
+              "LogEI": 0.958863,
+              "UCB": 0.506521,
+              "eps-RS": 1.0,
+              "eps-PF": 0.994859,
+              "Exploit": 0.998051,
+              "Explore": 0.240944,
+              "Random": 0.582225
+            },
+            "eps-PF": {
+              "EI": 0.999981,
+              "LogEI": 0.999981,
+              "UCB": 0.932143,
+              "eps-RS": 0.994859,
+              "eps-PF": 1.0,
+              "Exploit": 1.0,
+              "Explore": 0.033441,
+              "Random": 0.149068
+            },
+            "Exploit": {
+              "EI": 0.999865,
+              "LogEI": 0.999865,
+              "UCB": 0.895699,
+              "eps-RS": 0.998051,
+              "eps-PF": 1.0,
+              "Exploit": 1.0,
+              "Explore": 0.046563,
+              "Random": 0.191192
+            },
+            "Explore": {
+              "EI": 0.011316,
+              "LogEI": 0.011316,
+              "UCB": 0.00034,
+              "eps-RS": 0.240944,
+              "eps-PF": 0.033441,
+              "Exploit": 0.046563,
+              "Explore": 1.0,
+              "Random": 0.999403
+            },
+            "Random": {
+              "EI": 0.063825,
+              "LogEI": 0.063825,
+              "UCB": 0.003364,
+              "eps-RS": 0.582225,
+              "eps-PF": 0.149068,
+              "Exploit": 0.191192,
+              "Explore": 0.999403,
+              "Random": 1.0
+            }
+          },
+          "CD": 3.9684
+        }
+      },
+      "50": {
+        "problems": [
+          "WangFreitas",
+          "BraninForrester",
+          "Branin",
+          "Cosines",
+          "GoldsteinPriceLog",
+          "SixHumpCamelLog",
+          "Hartmann6Log",
+          "GSobolLog",
+          "RosenbrockLog",
+          "StyblinskiTangLog"
+        ],
+        "friedman_nemenyi": {
+          "n_blocks": 10,
+          "k": 8,
+          "friedman": {
+            "chi_square": 30.066666666666663,
+            "p_value": 9.232281898488052e-05,
+            "df": 7,
+            "rejected_H0": true
+          },
+          "average_ranks": {
+            "EI": 3.3,
+            "LogEI": 2.7,
+            "UCB": 3.2,
+            "eps-RS": 4.0,
+            "eps-PF": 4.3,
+            "Exploit": 4.8,
+            "Explore": 7.2,
+            "Random": 6.5
+          },
+          "rank_sum": 36.0,
+          "nemenyi_pvalues": {
+            "EI": {
+              "EI": 1.0,
+              "LogEI": 0.999387,
+              "UCB": 1.0,
+              "eps-RS": 0.998331,
+              "eps-PF": 0.984944,
+              "Exploit": 0.871315,
+              "Explore": 0.008864,
+              "Random": 0.068406
+            },
+            "LogEI": {
+              "EI": 0.999387,
+              "LogEI": 1.0,
+              "UCB": 0.999817,
+              "eps-RS": 0.935949,
+              "eps-PF": 0.828396,
+              "Exploit": 0.539025,
+              "Explore": 0.00104,
+              "Random": 0.012246
+            },
+            "UCB": {
+              "EI": 1.0,
+              "LogEI": 0.999817,
+              "UCB": 1.0,
+              "eps-RS": 0.996109,
+              "eps-PF": 0.973977,
+              "Exploit": 0.828396,
+              "Explore": 0.006353,
+              "Random": 0.052759
+            },
+            "eps-RS": {
+              "EI": 0.998331,
+              "LogEI": 0.935949,
+              "UCB": 0.996109,
+              "eps-RS": 1.0,
+              "eps-PF": 0.999994,
+              "Exploit": 0.996109,
+              "Explore": 0.068406,
+              "Random": 0.303356
+            },
+            "eps-PF": {
+              "EI": 0.984944,
+              "LogEI": 0.828396,
+              "UCB": 0.973977,
+              "eps-RS": 0.999994,
+              "eps-PF": 1.0,
+              "Exploit": 0.999817,
+              "Explore": 0.139218,
+              "Random": 0.47609
+            },
+            "Exploit": {
+              "EI": 0.871315,
+              "LogEI": 0.539025,
+              "UCB": 0.828396,
+              "eps-RS": 0.996109,
+              "eps-PF": 0.999817,
+              "Exploit": 1.0,
+              "Explore": 0.357134,
+              "Random": 0.778946
+            },
+            "Explore": {
+              "EI": 0.008864,
+              "LogEI": 0.00104,
+              "UCB": 0.006353,
+              "eps-RS": 0.068406,
+              "eps-PF": 0.139218,
+              "Exploit": 0.357134,
+              "Explore": 1.0,
+              "Random": 0.998331
+            },
+            "Random": {
+              "EI": 0.068406,
+              "LogEI": 0.012246,
+              "UCB": 0.052759,
+              "eps-RS": 0.303356,
+              "eps-PF": 0.47609,
+              "Exploit": 0.778946,
+              "Explore": 0.998331,
+              "Random": 1.0
+            }
+          },
+          "CD": 3.3202
+        }
+      },
+      "150": {
+        "problems": [
+          "WangFreitas",
+          "BraninForrester",
+          "Branin",
+          "Cosines",
+          "GoldsteinPriceLog",
+          "SixHumpCamelLog",
+          "Hartmann6Log",
+          "GSobolLog",
+          "RosenbrockLog",
+          "StyblinskiTangLog"
+        ],
+        "friedman_nemenyi": {
+          "n_blocks": 10,
+          "k": 8,
+          "friedman": {
+            "chi_square": 29.69999999999999,
+            "p_value": 0.00010777515926035087,
+            "df": 7,
+            "rejected_H0": true
+          },
+          "average_ranks": {
+            "EI": 3.9,
+            "LogEI": 3.7,
+            "UCB": 2.5,
+            "eps-RS": 3.8,
+            "eps-PF": 3.4,
+            "Exploit": 5.1,
+            "Explore": 7.1,
+            "Random": 6.5
+          },
+          "rank_sum": 36.0,
+          "nemenyi_pvalues": {
+            "EI": {
+              "EI": 1.0,
+              "LogEI": 1.0,
+              "UCB": 0.907187,
+              "eps-RS": 1.0,
+              "eps-PF": 0.999817,
+              "Exploit": 0.95797,
+              "Explore": 0.068406,
+              "Random": 0.2544
+            },
+            "LogEI": {
+              "EI": 1.0,
+              "LogEI": 1.0,
+              "UCB": 0.95797,
+              "eps-RS": 1.0,
+              "eps-PF": 0.999994,
+              "Exploit": 0.907187,
+              "Explore": 0.040243,
+              "Random": 0.172305
+            },
+            "UCB": {
+              "EI": 0.907187,
+              "LogEI": 0.95797,
+              "UCB": 1.0,
+              "eps-RS": 0.935949,
+              "eps-PF": 0.991964,
+              "Exploit": 0.2544,
+              "Explore": 0.000705,
+              "Random": 0.006353
+            },
+            "eps-RS": {
+              "EI": 1.0,
+              "LogEI": 1.0,
+              "UCB": 0.935949,
+              "eps-RS": 1.0,
+              "eps-PF": 0.99996,
+              "Exploit": 0.935949,
+              "Explore": 0.052759,
+              "Random": 0.21067
+            },
+            "eps-PF": {
+              "EI": 0.999817,
+              "LogEI": 0.999994,
+              "UCB": 0.991964,
+              "eps-RS": 0.99996,
+              "eps-PF": 1.0,
+              "Exploit": 0.778946,
+              "Explore": 0.016747,
+              "Random": 0.087699
+            },
+            "Exploit": {
+              "EI": 0.95797,
+              "LogEI": 0.907187,
+              "UCB": 0.2544,
+              "eps-RS": 0.935949,
+              "eps-PF": 0.778946,
+              "Exploit": 1.0,
+              "Explore": 0.602375,
+              "Random": 0.907187
+            },
+            "Explore": {
+              "EI": 0.068406,
+              "LogEI": 0.040243,
+              "UCB": 0.000705,
+              "eps-RS": 0.052759,
+              "eps-PF": 0.016747,
+              "Exploit": 0.602375,
+              "Explore": 1.0,
+              "Random": 0.999387
+            },
+            "Random": {
+              "EI": 0.2544,
+              "LogEI": 0.172305,
+              "UCB": 0.006353,
+              "eps-RS": 0.21067,
+              "eps-PF": 0.087699,
+              "Exploit": 0.907187,
+              "Explore": 0.999387,
+              "Random": 1.0
+            }
+          },
+          "CD": 3.3202
+        }
+      },
+      "250": {
+        "problems": [
+          "WangFreitas",
+          "BraninForrester",
+          "Branin",
+          "Cosines",
+          "GoldsteinPriceLog",
+          "SixHumpCamelLog",
+          "Hartmann6Log",
+          "GSobolLog",
+          "RosenbrockLog",
+          "StyblinskiTangLog"
+        ],
+        "friedman_nemenyi": {
+          "n_blocks": 10,
+          "k": 8,
+          "friedman": {
+            "chi_square": 30.96666666666664,
+            "p_value": 6.306018304655232e-05,
+            "df": 7,
+            "rejected_H0": true
+          },
+          "average_ranks": {
+            "EI": 3.8,
+            "LogEI": 4.0,
+            "UCB": 2.8,
+            "eps-RS": 3.4,
+            "eps-PF": 3.1,
+            "Exploit": 5.2,
+            "Explore": 7.2,
+            "Random": 6.5
+          },
+          "rank_sum": 36.0,
+          "nemenyi_pvalues": {
+            "EI": {
+              "EI": 1.0,
+              "LogEI": 1.0,
+              "UCB": 0.984944,
+              "eps-RS": 0.99996,
+              "eps-PF": 0.998331,
+              "Exploit": 0.907187,
+              "Explore": 0.040243,
+              "Random": 0.21067
+            },
+            "LogEI": {
+              "EI": 1.0,
+              "LogEI": 1.0,
+              "UCB": 0.95797,
+              "eps-RS": 0.999387,
+              "eps-PF": 0.991964,
+              "Exploit": 0.95797,
+              "Explore": 0.068406,
+              "Random": 0.303356
+            },
+            "UCB": {
+              "EI": 0.984944,
+              "LogEI": 0.95797,
+              "UCB": 1.0,
+              "eps-RS": 0.999387,
+              "eps-PF": 0.999994,
+              "Exploit": 0.357134,
+              "Explore": 0.001522,
+              "Random": 0.016747
+            },
+            "eps-RS": {
+              "EI": 0.99996,
+              "LogEI": 0.999387,
+              "UCB": 0.999387,
+              "eps-RS": 1.0,
+              "eps-PF": 0.999994,
+              "Exploit": 0.723901,
+              "Explore": 0.012246,
+              "Random": 0.087699
+            },
+            "eps-PF": {
+              "EI": 0.998331,
+              "LogEI": 0.991964,
+              "UCB": 0.999994,
+              "eps-RS": 0.999994,
+              "eps-PF": 1.0,
+              "Exploit": 0.539025,
+              "Explore": 0.004509,
+              "Random": 0.040243
+            },
+            "Exploit": {
+              "EI": 0.907187,
+              "LogEI": 0.95797,
+              "UCB": 0.357134,
+              "eps-RS": 0.723901,
+              "eps-PF": 0.539025,
+              "Exploit": 1.0,
+              "Explore": 0.602375,
+              "Random": 0.935949
+            },
+            "Explore": {
+              "EI": 0.040243,
+              "LogEI": 0.068406,
+              "UCB": 0.001522,
+              "eps-RS": 0.012246,
+              "eps-PF": 0.004509,
+              "Exploit": 0.602375,
+              "Explore": 1.0,
+              "Random": 0.998331
+            },
+            "Random": {
+              "EI": 0.21067,
+              "LogEI": 0.303356,
+              "UCB": 0.016747,
+              "eps-RS": 0.087699,
+              "eps-PF": 0.040243,
+              "Exploit": 0.935949,
+              "Explore": 0.998331,
+              "Random": 1.0
+            }
+          },
+          "CD": 3.3202
+        }
+      }
+    },
+    "mixedlm": {
+      "20": {
+        "floor_1e-06": {
+          "formula": "y ~ C(strategy, Treatment(reference='Random'))",
+          "converged": true,
+          "n_obs": 1680,
+          "coefficients": {
+            "Intercept": {
+              "coef": 0.7353124744879922,
+              "ci_low": -0.14178983931801215,
+              "ci_high": 1.6124147882939965,
+              "p_value": 0.10035772707348466
+            },
+            "C(strategy, Treatment(reference='Random'))[T.EI]": {
+              "coef": -1.660238420606876,
+              "ci_low": -1.9630532298052752,
+              "ci_high": -1.357423611408477,
+              "p_value": 6.197721091638303e-27
+            },
+            "C(strategy, Treatment(reference='Random'))[T.Exploit]": {
+              "coef": -1.033779642484871,
+              "ci_low": -1.33659445168327,
+              "ci_high": -0.7309648332864722,
+              "p_value": 2.214657499195852e-11
+            },
+            "C(strategy, Treatment(reference='Random'))[T.Explore]": {
+              "coef": 0.1965615239102854,
+              "ci_low": -0.10625328528811354,
+              "ci_high": 0.49937633310868434,
+              "p_value": 0.2032873964420162
+            },
+            "C(strategy, Treatment(reference='Random'))[T.LogEI]": {
+              "coef": -1.5995056101031315,
+              "ci_low": -1.9023204193015304,
+              "ci_high": -1.2966908009047327,
+              "p_value": 4.0653149033105494e-25
+            },
+            "C(strategy, Treatment(reference='Random'))[T.UCB]": {
+              "coef": -1.8037269357850725,
+              "ci_low": -2.1065417449834714,
+              "ci_high": -1.5009121265866736,
+              "p_value": 1.7188521411930925e-31
+            },
+            "C(strategy, Treatment(reference='Random'))[T.eps-PF]": {
+              "coef": -1.1923127026732514,
+              "ci_low": -1.4951275118716503,
+              "ci_high": -0.8894978934748525,
+              "p_value": 1.1888985997693621e-14
+            },
+            "C(strategy, Treatment(reference='Random'))[T.eps-RS]": {
+              "coef": -1.0612126064251401,
+              "ci_low": -1.364027415623539,
+              "ci_high": -0.7583977972267413,
+              "p_value": 6.479797830573947e-12
+            }
+          },
+          "warnings": []
+        },
+        "floor_1e-08": {
+          "formula": "y ~ C(strategy, Treatment(reference='Random'))",
+          "converged": true,
+          "n_obs": 1680,
+          "coefficients": {
+            "Intercept": {
+              "coef": 0.7352939380774168,
+              "ci_low": -0.1418154136383719,
+              "ci_high": 1.6124032897932055,
+              "p_value": 0.10036902320369144
+            },
+            "C(strategy, Treatment(reference='Random'))[T.EI]": {
+              "coef": -1.660422965173755,
+              "ci_low": -1.9633617742856995,
+              "ci_high": -1.3574841560618105,
+              "p_value": 6.416710522735856e-27
+            },
+            "C(strategy, Treatment(reference='Random'))[T.Exploit]": {
+              "coef": -1.0340461639706686,
+              "ci_low": -1.3369849730826133,
+              "ci_high": -0.7311073548587238,
+              "p_value": 2.2300651045434292e-11
+            },
+            "C(strategy, Treatment(reference='Random'))[T.Explore]": {
+              "coef": 0.19657924896203294,
+              "ci_low": -0.10635956014991171,
+              "ci_high": 0.4995180580739776,
+              "p_value": 0.20343167095348436
+            },
+            "C(strategy, Treatment(reference='Random'))[T.LogEI]": {
+              "coef": -1.5996817277274458,
+              "ci_low": -1.9026205368393905,
+              "ci_high": -1.296742918615501,
+              "p_value": 4.199036641101833e-25
+            },
+            "C(strategy, Treatment(reference='Random'))[T.UCB]": {
+              "coef": -1.803914318514017,
+              "ci_low": -2.106853127625962,
+              "ci_high": -1.500975509402072,
+              "p_value": 1.7924568295427375e-31
+            },
+            "C(strategy, Treatment(reference='Random'))[T.eps-PF]": {
+              "coef": -1.1923895418446635,
+              "ci_low": -1.4953283509566084,
+              "ci_high": -0.8894507327327186,
+              "p_value": 1.2139736599274629e-14
+            },
+            "C(strategy, Treatment(reference='Random'))[T.eps-RS]": {
+              "coef": -1.0613654947447297,
+              "ci_low": -1.3643043038566747,
+              "ci_high": -0.7584266856327848,
+              "p_value": 6.563079441105299e-12
+            }
+          },
+          "warnings": []
+        }
+      },
+      "50": {
+        "floor_1e-06": {
+          "formula": "y ~ C(strategy, Treatment(reference='Random'))",
+          "converged": false,
+          "n_obs": 2400,
+          "coefficients": {
+            "Intercept": {
+              "coef": 0.7829832430234076,
+              "ci_low": -0.4046955046288161,
+              "ci_high": 1.9706619906756313,
+              "p_value": 0.19631690456606354
+            },
+            "C(strategy, Treatment(reference='Random'))[T.EI]": {
+              "coef": -2.1262268757184217,
+              "ci_low": -2.412694029832984,
+              "ci_high": -1.8397597216038593,
+              "p_value": 6.074017728613668e-48
+            },
+            "C(strategy, Treatment(reference='Random'))[T.Exploit]": {
+              "coef": -1.2749835386215638,
+              "ci_low": -1.5614506927361265,
+              "ci_high": -0.9885163845070011,
+              "p_value": 2.7035175722478305e-18
+            },
+            "C(strategy, Treatment(reference='Random'))[T.Explore]": {
+              "coef": 0.1881158796900079,
+              "ci_low": -0.09835127442455474,
+              "ci_high": 0.47458303380457056,
+              "p_value": 0.19807345661015496
+            },
+            "C(strategy, Treatment(reference='Random'))[T.LogEI]": {
+              "coef": -2.040839542660291,
+              "ci_low": -2.3273066967748535,
+              "ci_high": -1.7543723885457283,
+              "p_value": 2.617624726961113e-44
+            },
+            "C(strategy, Treatment(reference='Random'))[T.UCB]": {
+              "coef": -2.3867944511388726,
+              "ci_low": -2.673261605253435,
+              "ci_high": -2.10032729702431,
+              "p_value": 6.030653780739036e-60
+            },
+            "C(strategy, Treatment(reference='Random'))[T.eps-PF]": {
+              "coef": -1.804253103893648,
+              "ci_low": -2.0907202580082105,
+              "ci_high": -1.5177859497790853,
+              "p_value": 5.22085900761613e-35
+            },
+            "C(strategy, Treatment(reference='Random'))[T.eps-RS]": {
+              "coef": -1.6657694686418771,
+              "ci_low": -1.9522366227564398,
+              "ci_high": -1.3793023145273144,
+              "p_value": 4.330885620900171e-30
+            }
+          },
+          "warnings": [
+            "ConvergenceWarning: Gradient optimization failed, |grad| = 13.807900",
+            "ConvergenceWarning: Maximum Likelihood optimization failed to converge. Check mle_retvals",
+            "ConvergenceWarning: MixedLM optimization failed, trying a different optimizer may help.",
+            "ConvergenceWarning: Retrying MixedLM optimization with cg",
+            "ConvergenceWarning: Retrying MixedLM optimization with lbfgs"
+          ]
+        },
+        "floor_1e-08": {
+          "formula": "y ~ C(strategy, Treatment(reference='Random'))",
+          "converged": false,
+          "n_obs": 2400,
+          "coefficients": {
+            "Intercept": {
+              "coef": 0.7829696976962277,
+              "ci_low": -0.40697446435930273,
+              "ci_high": 1.9729138597517581,
+              "p_value": 0.19717777691905225
+            },
+            "C(strategy, Treatment(reference='Random'))[T.EI]": {
+              "coef": -2.126731033654297,
+              "ci_low": -2.413824760381803,
+              "ci_high": -1.8396373069267915,
+              "p_value": 9.182900220949959e-48
+            },
+            "C(strategy, Treatment(reference='Random'))[T.Exploit]": {
+              "coef": -1.275403354134223,
+              "ci_low": -1.5624970808617284,
+              "ci_high": -0.9883096274067174,
+              "p_value": 3.1183566263435176e-18
+            },
+            "C(strategy, Treatment(reference='Random'))[T.Explore]": {
+              "coef": 0.18812806349337124,
+              "ci_low": -0.0989656632341343,
+              "ci_high": 0.4752217902208768,
+              "p_value": 0.19902512191267707
+            },
+            "C(strategy, Treatment(reference='Random'))[T.LogEI]": {
+              "coef": -2.0411788380868376,
+              "ci_low": -2.328272564814343,
+              "ci_high": -1.754085111359332,
+              "p_value": 3.884670150271892e-44
+            },
+            "C(strategy, Treatment(reference='Random'))[T.UCB]": {
+              "coef": -2.387315881131243,
+              "ci_low": -2.6744096078587485,
+              "ci_high": -2.100222154403738,
+              "p_value": 1.019771172983873e-59
+            },
+            "C(strategy, Treatment(reference='Random'))[T.eps-PF]": {
+              "coef": -1.8079343477887535,
+              "ci_low": -2.095028074516259,
+              "ci_high": -1.520840621061248,
+              "p_value": 5.339571971290393e-35
+            },
+            "C(strategy, Treatment(reference='Random'))[T.eps-RS]": {
+              "coef": -1.6673502465282204,
+              "ci_low": -1.9544439732557257,
+              "ci_high": -1.380256519800715,
+              "p_value": 5.0905101727676734e-30
+            }
+          },
+          "warnings": [
+            "ConvergenceWarning: Gradient optimization failed, |grad| = 16.008845",
+            "ConvergenceWarning: Maximum Likelihood optimization failed to converge. Check mle_retvals",
+            "ConvergenceWarning: MixedLM optimization failed, trying a different optimizer may help.",
+            "ConvergenceWarning: Retrying MixedLM optimization with cg",
+            "ConvergenceWarning: Retrying MixedLM optimization with lbfgs"
+          ]
+        }
+      },
+      "150": {
+        "floor_1e-06": {
+          "formula": "y ~ C(strategy, Treatment(reference='Random'))",
+          "converged": true,
+          "n_obs": 2400,
+          "coefficients": {
+            "Intercept": {
+              "coef": 0.16599508406855762,
+              "ci_low": -1.2956353458786196,
+              "ci_high": 1.6276255140157347,
+              "p_value": 0.8238545833173851
+            },
+            "C(strategy, Treatment(reference='Random'))[T.EI]": {
+              "coef": -2.595613633123398,
+              "ci_low": -2.9522046144726906,
+              "ci_high": -2.239022651774105,
+              "p_value": 3.5384276203093804e-46
+            },
+            "C(strategy, Treatment(reference='Random'))[T.Exploit]": {
+              "coef": -1.3141618414201226,
+              "ci_low": -1.6707528227694153,
+              "ci_high": -0.9575708600708299,
+              "p_value": 5.079720958305457e-13
+            },
+            "C(strategy, Treatment(reference='Random'))[T.Explore]": {
+              "coef": 0.23257670283017318,
+              "ci_low": -0.1240142785191195,
+              "ci_high": 0.5891676841794659,
+              "p_value": 0.20113209399946075
+            },
+            "C(strategy, Treatment(reference='Random'))[T.LogEI]": {
+              "coef": -2.450037229190717,
+              "ci_low": -2.8066282105400098,
+              "ci_high": -2.0934462478414244,
+              "p_value": 2.467123510531056e-41
+            },
+            "C(strategy, Treatment(reference='Random'))[T.UCB]": {
+              "coef": -2.808386045682933,
+              "ci_low": -3.1649770270322257,
+              "ci_high": -2.4517950643336404,
+              "p_value": 9.37479602031357e-54
+            },
+            "C(strategy, Treatment(reference='Random'))[T.eps-PF]": {
+              "coef": -2.43887931452997,
+              "ci_low": -2.7954702958792628,
+              "ci_high": -2.0822883331806774,
+              "p_value": 5.649441721218156e-41
+            },
+            "C(strategy, Treatment(reference='Random'))[T.eps-RS]": {
+              "coef": -2.455997600112335,
+              "ci_low": -2.8125885814616276,
+              "ci_high": -2.0994066187630422,
+              "p_value": 1.5824069741073562e-41
+            }
+          },
+          "warnings": [
+            "ConvergenceWarning: Maximum Likelihood optimization failed to converge. Check mle_retvals",
+            "ConvergenceWarning: Retrying MixedLM optimization with lbfgs"
+          ]
+        },
+        "floor_1e-08": {
+          "formula": "y ~ C(strategy, Treatment(reference='Random'))",
+          "converged": false,
+          "n_obs": 2400,
+          "coefficients": {
+            "Intercept": {
+              "coef": 0.16596865999555754,
+              "ci_low": -1.3173900735980513,
+              "ci_high": 1.6493273935891666,
+              "p_value": 0.826420549199832
+            },
+            "C(strategy, Treatment(reference='Random'))[T.EI]": {
+              "coef": -2.602814020781068,
+              "ci_low": -2.9656999357480816,
+              "ci_high": -2.2399281058140543,
+              "p_value": 6.88795636103687e-45
+            },
+            "C(strategy, Treatment(reference='Random'))[T.Exploit]": {
+              "coef": -1.3254719382409863,
+              "ci_low": -1.6883578532079997,
+              "ci_high": -0.9625860232739729,
+              "p_value": 8.130526951465794e-13
+            },
+            "C(strategy, Treatment(reference='Random'))[T.Explore]": {
+              "coef": 0.23241369031510084,
+              "ci_low": -0.13047222465191283,
+              "ci_high": 0.5952996052821145,
+              "p_value": 0.20937810170597915
+            },
+            "C(strategy, Treatment(reference='Random'))[T.LogEI]": {
+              "coef": -2.4591831373466966,
+              "ci_low": -2.82206905231371,
+              "ci_high": -2.096297222379683,
+              "p_value": 2.9377807251309886e-40
+            },
+            "C(strategy, Treatment(reference='Random'))[T.UCB]": {
+              "coef": -2.812889213628058,
+              "ci_low": -3.1757751285950717,
+              "ci_high": -2.4500032986610445,
+              "p_value": 3.9621626843986286e-52
+            },
+            "C(strategy, Treatment(reference='Random'))[T.eps-PF]": {
+              "coef": -2.4457130234705615,
+              "ci_low": -2.8085989384375747,
+              "ci_high": -2.0828271085035484,
+              "p_value": 7.74272124399038e-40
+            },
+            "C(strategy, Treatment(reference='Random'))[T.eps-RS]": {
+              "coef": -2.467079759885942,
+              "ci_low": -2.8299656748529554,
+              "ci_high": -2.104193844918929,
+              "p_value": 1.660451429232509e-40
+            }
+          },
+          "warnings": [
+            "ConvergenceWarning: Gradient optimization failed, |grad| = 52.587705",
+            "ConvergenceWarning: Maximum Likelihood optimization failed to converge. Check mle_retvals",
+            "ConvergenceWarning: MixedLM optimization failed, trying a different optimizer may help.",
+            "ConvergenceWarning: Retrying MixedLM optimization with cg",
+            "ConvergenceWarning: Retrying MixedLM optimization with lbfgs"
+          ]
+        }
+      },
+      "250": {
+        "floor_1e-06": {
+          "formula": "y ~ C(strategy, Treatment(reference='Random'))",
+          "converged": true,
+          "n_obs": 2400,
+          "coefficients": {
+            "Intercept": {
+              "coef": -0.15588756231098164,
+              "ci_low": -2.1191968989951824,
+              "ci_high": 1.8074217743732193,
+              "p_value": 0.8763310300351487
+            },
+            "C(strategy, Treatment(reference='Random'))[T.EI]": {
+              "coef": -2.658195536778331,
+              "ci_low": -3.045272360253059,
+              "ci_high": -2.2711187133036033,
+              "p_value": 2.6973099452902724e-41
+            },
+            "C(strategy, Treatment(reference='Random'))[T.Exploit]": {
+              "coef": -1.2815722447720184,
+              "ci_low": -1.6686490682467467,
+              "ci_high": -0.8944954212972901,
+              "p_value": 8.626891155463205e-11
+            },
+            "C(strategy, Treatment(reference='Random'))[T.Explore]": {
+              "coef": 0.30029106825506197,
+              "ci_low": -0.0867857552196662,
+              "ci_high": 0.6873678917297901,
+              "p_value": 0.1283792804639737
+            },
+            "C(strategy, Treatment(reference='Random'))[T.LogEI]": {
+              "coef": -2.5622496481665618,
+              "ci_low": -2.94932647164129,
+              "ci_high": -2.1751728246918334,
+              "p_value": 1.7192663978262167e-38
+            },
+            "C(strategy, Treatment(reference='Random'))[T.UCB]": {
+              "coef": -3.064028444855575,
+              "ci_low": -3.4511052683303034,
+              "ci_high": -2.6769516213808466,
+              "p_value": 2.758701542055721e-54
+            },
+            "C(strategy, Treatment(reference='Random'))[T.eps-PF]": {
+              "coef": -2.950871814166294,
+              "ci_low": -3.3379486376410226,
+              "ci_high": -2.563794990691566,
+              "p_value": 1.7630231980580065e-50
+            },
+            "C(strategy, Treatment(reference='Random'))[T.eps-RS]": {
+              "coef": -2.754422389619744,
+              "ci_low": -3.1414992130944723,
+              "ci_high": -2.3673455661450156,
+              "p_value": 3.2802167687234915e-44
+            }
+          },
+          "warnings": []
+        },
+        "floor_1e-08": {
+          "formula": "y ~ C(strategy, Treatment(reference='Random'))",
+          "converged": false,
+          "n_obs": 2400,
+          "coefficients": {
+            "Intercept": {
+              "coef": -0.15592643754999191,
+              "ci_low": -1.7543146967276186,
+              "ci_high": 1.442461821627635,
+              "p_value": 0.8483697041689899
+            },
+            "C(strategy, Treatment(reference='Random'))[T.EI]": {
+              "coef": -2.67232203631718,
+              "ci_low": -3.062379536863543,
+              "ci_high": -2.2822645357708167,
+              "p_value": 4.1498780099467444e-41
+            },
+            "C(strategy, Treatment(reference='Random'))[T.Exploit]": {
+              "coef": -1.2932309388499377,
+              "ci_low": -1.6832884393963008,
+              "ci_high": -0.9031734383035745,
+              "p_value": 8.126673623190203e-11
+            },
+            "C(strategy, Treatment(reference='Random'))[T.Explore]": {
+              "coef": 0.3001263890487967,
+              "ci_low": -0.08993111149756644,
+              "ci_high": 0.6901838895951597,
+              "p_value": 0.1315347107170756
+            },
+            "C(strategy, Treatment(reference='Random'))[T.LogEI]": {
+              "coef": -2.580272392383221,
+              "ci_low": -2.970329892929584,
+              "ci_high": -2.190214891836858,
+              "p_value": 1.9229289924053756e-38
+            },
+            "C(strategy, Treatment(reference='Random'))[T.UCB]": {
+              "coef": -3.0726572812984987,
+              "ci_low": -3.462714781844862,
+              "ci_high": -2.6825997807521356,
+              "p_value": 8.876883690566421e-54
+            },
+            "C(strategy, Treatment(reference='Random'))[T.eps-PF]": {
+              "coef": -2.9750114646852994,
+              "ci_low": -3.3650689652316625,
+              "ci_high": -2.5849539641389363,
+              "p_value": 1.584360659545249e-50
+            },
+            "C(strategy, Treatment(reference='Random'))[T.eps-RS]": {
+              "coef": -2.791219872917407,
+              "ci_low": -3.1812773734637703,
+              "ci_high": -2.401162372371044,
+              "p_value": 1.0908271849157187e-44
+            }
+          },
+          "warnings": [
+            "ConvergenceWarning: Gradient optimization failed, |grad| = 75.464502",
+            "ConvergenceWarning: Maximum Likelihood optimization failed to converge. Check mle_retvals",
+            "ConvergenceWarning: MixedLM optimization failed, trying a different optimizer may help.",
+            "ConvergenceWarning: Retrying MixedLM optimization with cg",
+            "ConvergenceWarning: Retrying MixedLM optimization with lbfgs"
+          ]
+        }
+      }
+    },
+    "wilcoxon_vs_best": {
+      "20": {
+        "WangFreitas": {
+          "best_arm": "UCB",
+          "best_median": 2.00000025122738,
+          "holm_pvalues": {
+            "EI": 0.229874,
+            "LogEI": 0.258706,
+            "eps-RS": 0.134722,
+            "eps-PF": 1.0,
+            "Exploit": 0.061088,
+            "Explore": 1.0,
+            "Random": 1.0
+          },
+          "equivalent_to_best": [
+            "EI",
+            "LogEI",
+            "UCB",
+            "eps-RS",
+            "eps-PF",
+            "Exploit",
+            "Explore",
+            "Random"
+          ]
+        },
+        "BraninForrester": {
+          "best_arm": "UCB",
+          "best_median": 0.015790889581765555,
+          "holm_pvalues": {
+            "EI": 0.611351,
+            "LogEI": 0.611351,
+            "eps-RS": 2.1e-05,
+            "eps-PF": 0.0064,
+            "Exploit": 2.1e-05,
+            "Explore": 0.111656,
+            "Random": 0.069073
+          },
+          "equivalent_to_best": [
+            "EI",
+            "LogEI",
+            "UCB",
+            "Explore",
+            "Random"
+          ]
+        },
+        "Branin": {
+          "best_arm": "UCB",
+          "best_median": 0.02819283936007355,
+          "holm_pvalues": {
+            "EI": 1.0,
+            "LogEI": 1.0,
+            "eps-RS": 1.0,
+            "eps-PF": 1.0,
+            "Exploit": 1.0,
+            "Explore": 2.8e-05,
+            "Random": 8.6e-05
+          },
+          "equivalent_to_best": [
+            "EI",
+            "LogEI",
+            "UCB",
+            "eps-RS",
+            "eps-PF",
+            "Exploit"
+          ]
+        },
+        "Cosines": {
+          "best_arm": "UCB",
+          "best_median": 0.11206187197572548,
+          "holm_pvalues": {
+            "EI": 0.655438,
+            "LogEI": 0.655438,
+            "eps-RS": 0.0,
+            "eps-PF": 1e-06,
+            "Exploit": 0.0,
+            "Explore": 0.0,
+            "Random": 0.0
+          },
+          "equivalent_to_best": [
+            "EI",
+            "LogEI",
+            "UCB"
+          ]
+        },
+        "GoldsteinPriceLog": {
+          "best_arm": "UCB",
+          "best_median": 1.0333260965423299,
+          "holm_pvalues": {
+            "EI": 0.502761,
+            "LogEI": 0.502761,
+            "eps-RS": 0.001333,
+            "eps-PF": 0.003282,
+            "Exploit": 0.00051,
+            "Explore": 2.8e-05,
+            "Random": 0.00115
+          },
+          "equivalent_to_best": [
+            "EI",
+            "LogEI",
+            "UCB"
+          ]
+        },
+        "SixHumpCamelLog": {
+          "best_arm": "Exploit",
+          "best_median": 3.9869825238152323,
+          "holm_pvalues": {
+            "EI": 0.065572,
+            "LogEI": 0.20968,
+            "UCB": 0.370741,
+            "eps-RS": 0.753553,
+            "eps-PF": 0.20968,
+            "Explore": 8e-06,
+            "Random": 1.8e-05
+          },
+          "equivalent_to_best": [
+            "EI",
+            "LogEI",
+            "UCB",
+            "eps-RS",
+            "eps-PF",
+            "Exploit"
+          ]
+        },
+        "Hartmann6Log": {
+          "best_arm": "EI",
+          "best_median": 0.39118237998921823,
+          "holm_pvalues": {
+            "LogEI": 1.0,
+            "UCB": 0.198834,
+            "eps-RS": 1.0,
+            "eps-PF": 1.0,
+            "Exploit": 1.0,
+            "Explore": 2e-05,
+            "Random": 6.3e-05
+          },
+          "equivalent_to_best": [
+            "EI",
+            "LogEI",
+            "UCB",
+            "eps-RS",
+            "eps-PF",
+            "Exploit"
+          ]
+        }
+      },
+      "50": {
+        "WangFreitas": {
+          "best_arm": "Random",
+          "best_median": 0.47382337244672823,
+          "holm_pvalues": {
+            "EI": 0.001095,
+            "LogEI": 0.001095,
+            "UCB": 0.001095,
+            "eps-RS": 0.001341,
+            "eps-PF": 0.001095,
+            "Exploit": 0.001095,
+            "Explore": 0.042803
+          },
+          "equivalent_to_best": [
+            "Random"
+          ]
+        },
+        "BraninForrester": {
+          "best_arm": "EI",
+          "best_median": 0.0033349746376121203,
+          "holm_pvalues": {
+            "LogEI": 0.04049,
+            "UCB": 0.238553,
+            "eps-RS": 0.0,
+            "eps-PF": 0.000229,
+            "Exploit": 0.0,
+            "Explore": 0.0,
+            "Random": 0.0
+          },
+          "equivalent_to_best": [
+            "EI",
+            "UCB"
+          ]
+        },
+        "Branin": {
+          "best_arm": "LogEI",
+          "best_median": 0.0016539424022895544,
+          "holm_pvalues": {
+            "EI": 0.937933,
+            "UCB": 0.761065,
+            "eps-RS": 0.022606,
+            "eps-PF": 0.029491,
+            "Exploit": 0.000176,
+            "Explore": 0.0,
+            "Random": 0.0
+          },
+          "equivalent_to_best": [
+            "EI",
+            "LogEI",
+            "UCB"
+          ]
+        },
+        "Cosines": {
+          "best_arm": "LogEI",
+          "best_median": 0.07834520468332695,
+          "holm_pvalues": {
+            "EI": 0.670181,
+            "UCB": 0.735447,
+            "eps-RS": 0.003437,
+            "eps-PF": 0.015897,
+            "Exploit": 0.00095,
+            "Explore": 0.0,
+            "Random": 0.0
+          },
+          "equivalent_to_best": [
+            "EI",
+            "LogEI",
+            "UCB"
+          ]
+        },
+        "GoldsteinPriceLog": {
+          "best_arm": "UCB",
+          "best_median": 0.0031427243517740955,
+          "holm_pvalues": {
+            "EI": 0.026132,
+            "LogEI": 0.012048,
+            "eps-RS": 0.001011,
+            "eps-PF": 0.001011,
+            "Exploit": 0.000308,
+            "Explore": 0.0,
+            "Random": 2e-06
+          },
+          "equivalent_to_best": [
+            "UCB"
+          ]
+        },
+        "SixHumpCamelLog": {
+          "best_arm": "eps-RS",
+          "best_median": 2.1537033388609235,
+          "holm_pvalues": {
+            "EI": 0.017779,
+            "LogEI": 0.037059,
+            "UCB": 0.540352,
+            "eps-PF": 0.279881,
+            "Exploit": 0.279881,
+            "Explore": 2e-06,
+            "Random": 4e-06
+          },
+          "equivalent_to_best": [
+            "UCB",
+            "eps-RS",
+            "eps-PF",
+            "Exploit"
+          ]
+        },
+        "Hartmann6Log": {
+          "best_arm": "UCB",
+          "best_median": 0.01601733025873675,
+          "holm_pvalues": {
+            "EI": 0.186202,
+            "LogEI": 0.186202,
+            "eps-RS": 0.052458,
+            "eps-PF": 0.186202,
+            "Exploit": 0.010846,
+            "Explore": 0.0,
+            "Random": 0.0
+          },
+          "equivalent_to_best": [
+            "EI",
+            "LogEI",
+            "UCB",
+            "eps-RS",
+            "eps-PF"
+          ]
+        },
+        "GSobolLog": {
+          "best_arm": "Exploit",
+          "best_median": 10.0354862461312,
+          "holm_pvalues": {
+            "EI": 0.003958,
+            "LogEI": 0.082382,
+            "UCB": 0.015224,
+            "eps-RS": 0.119077,
+            "eps-PF": 0.342524,
+            "Explore": 0.0,
+            "Random": 0.0
+          },
+          "equivalent_to_best": [
+            "LogEI",
+            "eps-RS",
+            "eps-PF",
+            "Exploit"
+          ]
+        },
+        "RosenbrockLog": {
+          "best_arm": "LogEI",
+          "best_median": 8.655628645959954,
+          "holm_pvalues": {
+            "EI": 0.095335,
+            "UCB": 0.094518,
+            "eps-RS": 0.095335,
+            "eps-PF": 0.095335,
+            "Exploit": 0.077462,
+            "Explore": 0.0,
+            "Random": 0.0
+          },
+          "equivalent_to_best": [
+            "EI",
+            "LogEI",
+            "UCB",
+            "eps-RS",
+            "eps-PF",
+            "Exploit"
+          ]
+        },
+        "StyblinskiTangLog": {
+          "best_arm": "Exploit",
+          "best_median": 2.5918147405873824,
+          "holm_pvalues": {
+            "EI": 0.029076,
+            "LogEI": 0.126098,
+            "UCB": 0.000221,
+            "eps-RS": 0.126098,
+            "eps-PF": 0.126098,
+            "Explore": 0.0,
+            "Random": 2.8e-05
+          },
+          "equivalent_to_best": [
+            "LogEI",
+            "eps-RS",
+            "eps-PF",
+            "Exploit"
+          ]
+        }
+      },
+      "150": {
+        "WangFreitas": {
+          "best_arm": "Random",
+          "best_median": 0.08358921415195497,
+          "holm_pvalues": {
+            "EI": 5e-06,
+            "LogEI": 1e-06,
+            "UCB": 1e-06,
+            "eps-RS": 0.001583,
+            "eps-PF": 2e-06,
+            "Exploit": 1e-06,
+            "Explore": 0.803475
+          },
+          "equivalent_to_best": [
+            "Explore",
+            "Random"
+          ]
+        },
+        "BraninForrester": {
+          "best_arm": "EI",
+          "best_median": 0.00022004775461326176,
+          "holm_pvalues": {
+            "LogEI": 3e-05,
+            "UCB": 3e-05,
+            "eps-RS": 0.0,
+            "eps-PF": 0.0,
+            "Exploit": 0.0,
+            "Explore": 0.0,
+            "Random": 0.0
+          },
+          "equivalent_to_best": [
+            "EI"
+          ]
+        },
+        "Branin": {
+          "best_arm": "EI",
+          "best_median": 6.602585089587887e-05,
+          "holm_pvalues": {
+            "LogEI": 0.004651,
+            "UCB": 2.7e-05,
+            "eps-RS": 3.9e-05,
+            "eps-PF": 3e-06,
+            "Exploit": 0.0,
+            "Explore": 0.0,
+            "Random": 0.0
+          },
+          "equivalent_to_best": [
+            "EI"
+          ]
+        },
+        "Cosines": {
+          "best_arm": "UCB",
+          "best_median": 0.008524558574086849,
+          "holm_pvalues": {
+            "EI": 0.144683,
+            "LogEI": 0.129353,
+            "eps-RS": 0.015224,
+            "eps-PF": 0.067361,
+            "Exploit": 0.000708,
+            "Explore": 0.0,
+            "Random": 0.0
+          },
+          "equivalent_to_best": [
+            "EI",
+            "LogEI",
+            "UCB",
+            "eps-PF"
+          ]
+        },
+        "GoldsteinPriceLog": {
+          "best_arm": "UCB",
+          "best_median": 0.0006936921454100409,
+          "holm_pvalues": {
+            "EI": 1.1e-05,
+            "LogEI": 2.8e-05,
+            "eps-RS": 0.003097,
+            "eps-PF": 0.001583,
+            "Exploit": 5.9e-05,
+            "Explore": 0.0,
+            "Random": 0.0
+          },
+          "equivalent_to_best": [
+            "UCB"
+          ]
+        },
+        "SixHumpCamelLog": {
+          "best_arm": "UCB",
+          "best_median": 1.268554221992476,
+          "holm_pvalues": {
+            "EI": 9e-06,
+            "LogEI": 9e-06,
+            "eps-RS": 0.149422,
+            "eps-PF": 0.124134,
+            "Exploit": 0.010667,
+            "Explore": 0.0,
+            "Random": 0.0
+          },
+          "equivalent_to_best": [
+            "UCB",
+            "eps-RS",
+            "eps-PF"
+          ]
+        },
+        "Hartmann6Log": {
+          "best_arm": "UCB",
+          "best_median": 0.0023556582324596453,
+          "holm_pvalues": {
+            "EI": 0.244946,
+            "LogEI": 0.244946,
+            "eps-RS": 0.07287,
+            "eps-PF": 0.115082,
+            "Exploit": 0.002829,
+            "Explore": 0.0,
+            "Random": 0.0
+          },
+          "equivalent_to_best": [
+            "EI",
+            "LogEI",
+            "UCB",
+            "eps-RS",
+            "eps-PF"
+          ]
+        },
+        "GSobolLog": {
+          "best_arm": "Exploit",
+          "best_median": 4.5346104583017,
+          "holm_pvalues": {
+            "EI": 0.0,
+            "LogEI": 0.0,
+            "UCB": 1.6e-05,
+            "eps-RS": 7.9e-05,
+            "eps-PF": 0.031778,
+            "Explore": 0.0,
+            "Random": 0.0
+          },
+          "equivalent_to_best": [
+            "Exploit"
+          ]
+        },
+        "RosenbrockLog": {
+          "best_arm": "Exploit",
+          "best_median": 4.888535736735411,
+          "holm_pvalues": {
+            "EI": 1.1e-05,
+            "LogEI": 2.4e-05,
+            "UCB": 0.228553,
+            "eps-RS": 0.467699,
+            "eps-PF": 0.22783,
+            "Explore": 0.0,
+            "Random": 0.0
+          },
+          "equivalent_to_best": [
+            "UCB",
+            "eps-RS",
+            "eps-PF",
+            "Exploit"
+          ]
+        },
+        "StyblinskiTangLog": {
+          "best_arm": "UCB",
+          "best_median": 1.8882813360721986,
+          "holm_pvalues": {
+            "EI": 0.151887,
+            "LogEI": 0.459648,
+            "eps-RS": 0.014441,
+            "eps-PF": 0.060735,
+            "Exploit": 0.052458,
+            "Explore": 0.0,
+            "Random": 0.0
+          },
+          "equivalent_to_best": [
+            "EI",
+            "LogEI",
+            "UCB",
+            "eps-PF",
+            "Exploit"
+          ]
+        }
+      },
+      "250": {
+        "WangFreitas": {
+          "best_arm": "Random",
+          "best_median": 0.013685496826210564,
+          "holm_pvalues": {
+            "EI": 2e-06,
+            "LogEI": 0.0,
+            "UCB": 0.0,
+            "eps-RS": 0.019661,
+            "eps-PF": 4e-06,
+            "Exploit": 0.0,
+            "Explore": 0.642434
+          },
+          "equivalent_to_best": [
+            "Explore",
+            "Random"
+          ]
+        },
+        "BraninForrester": {
+          "best_arm": "EI",
+          "best_median": 0.0001245923973201002,
+          "holm_pvalues": {
+            "LogEI": 0.000505,
+            "UCB": 0.000119,
+            "eps-RS": 0.0,
+            "eps-PF": 0.003556,
+            "Exploit": 0.0,
+            "Explore": 0.0,
+            "Random": 0.0
+          },
+          "equivalent_to_best": [
+            "EI"
+          ]
+        },
+        "Branin": {
+          "best_arm": "EI",
+          "best_median": 2.30234474382085e-05,
+          "holm_pvalues": {
+            "LogEI": 0.008216,
+            "UCB": 1e-06,
+            "eps-RS": 0.0,
+            "eps-PF": 0.000283,
+            "Exploit": 0.0,
+            "Explore": 0.0,
+            "Random": 0.0
+          },
+          "equivalent_to_best": [
+            "EI"
+          ]
+        },
+        "Cosines": {
+          "best_arm": "UCB",
+          "best_median": 0.0007362331130876809,
+          "holm_pvalues": {
+            "EI": 0.050199,
+            "LogEI": 0.011418,
+            "eps-RS": 0.003167,
+            "eps-PF": 0.011418,
+            "Exploit": 0.000276,
+            "Explore": 0.0,
+            "Random": 0.0
+          },
+          "equivalent_to_best": [
+            "EI",
+            "UCB"
+          ]
+        },
+        "GoldsteinPriceLog": {
+          "best_arm": "UCB",
+          "best_median": 0.0005103674328326147,
+          "holm_pvalues": {
+            "EI": 9e-06,
+            "LogEI": 0.00069,
+            "eps-RS": 0.022454,
+            "eps-PF": 0.017454,
+            "Exploit": 0.000513,
+            "Explore": 0.0,
+            "Random": 0.0
+          },
+          "equivalent_to_best": [
+            "UCB"
+          ]
+        },
+        "SixHumpCamelLog": {
+          "best_arm": "UCB",
+          "best_median": 0.7249067165974843,
+          "holm_pvalues": {
+            "EI": 9e-06,
+            "LogEI": 9e-06,
+            "eps-RS": 0.140043,
+            "eps-PF": 0.029326,
+            "Exploit": 0.000469,
+            "Explore": 0.0,
+            "Random": 0.0
+          },
+          "equivalent_to_best": [
+            "UCB",
+            "eps-RS"
+          ]
+        },
+        "Hartmann6Log": {
+          "best_arm": "UCB",
+          "best_median": 0.0014557841789353265,
+          "holm_pvalues": {
+            "EI": 0.540352,
+            "LogEI": 0.253436,
+            "eps-RS": 0.076837,
+            "eps-PF": 0.078395,
+            "Exploit": 0.000198,
+            "Explore": 0.0,
+            "Random": 0.0
+          },
+          "equivalent_to_best": [
+            "EI",
+            "LogEI",
+            "UCB",
+            "eps-RS",
+            "eps-PF"
+          ]
+        },
+        "GSobolLog": {
+          "best_arm": "Exploit",
+          "best_median": 2.8263469720413794,
+          "holm_pvalues": {
+            "EI": 0.0,
+            "LogEI": 0.0,
+            "UCB": 4e-06,
+            "eps-RS": 0.012048,
+            "eps-PF": 0.012048,
+            "Explore": 0.0,
+            "Random": 0.0
+          },
+          "equivalent_to_best": [
+            "Exploit"
+          ]
+        },
+        "RosenbrockLog": {
+          "best_arm": "Exploit",
+          "best_median": 3.2778215635799297,
+          "holm_pvalues": {
+            "EI": 3e-06,
+            "LogEI": 1.4e-05,
+            "UCB": 1.0,
+            "eps-RS": 1.0,
+            "eps-PF": 1.0,
+            "Explore": 0.0,
+            "Random": 0.0
+          },
+          "equivalent_to_best": [
+            "UCB",
+            "eps-RS",
+            "eps-PF",
+            "Exploit"
+          ]
+        },
+        "StyblinskiTangLog": {
+          "best_arm": "UCB",
+          "best_median": 1.4962927770249554,
+          "holm_pvalues": {
+            "EI": 0.000313,
+            "LogEI": 0.045975,
+            "eps-RS": 0.0,
+            "eps-PF": 2e-06,
+            "Exploit": 8e-06,
+            "Explore": 0.0,
+            "Random": 0.0
+          },
+          "equivalent_to_best": [
+            "UCB"
+          ]
+        }
+      }
+    },
+    "generalization": {
+      "path": "fallback_decomposition",
+      "reason": "joint generalization model did not converge",
+      "per_checkpoint": {
+        "20": {
+          "formula": "y ~ C(strategy, Treatment(reference='Random'))",
+          "converged": true,
+          "n_obs": 1680,
+          "coefficients": {
+            "Intercept": {
+              "coef": 0.7353124744879922,
+              "ci_low": -0.14178983931801215,
+              "ci_high": 1.6124147882939965,
+              "p_value": 0.10035772707348466
+            },
+            "C(strategy, Treatment(reference='Random'))[T.EI]": {
+              "coef": -1.660238420606876,
+              "ci_low": -1.9630532298052752,
+              "ci_high": -1.357423611408477,
+              "p_value": 6.197721091638303e-27
+            },
+            "C(strategy, Treatment(reference='Random'))[T.Exploit]": {
+              "coef": -1.033779642484871,
+              "ci_low": -1.33659445168327,
+              "ci_high": -0.7309648332864722,
+              "p_value": 2.214657499195852e-11
+            },
+            "C(strategy, Treatment(reference='Random'))[T.Explore]": {
+              "coef": 0.1965615239102854,
+              "ci_low": -0.10625328528811354,
+              "ci_high": 0.49937633310868434,
+              "p_value": 0.2032873964420162
+            },
+            "C(strategy, Treatment(reference='Random'))[T.LogEI]": {
+              "coef": -1.5995056101031315,
+              "ci_low": -1.9023204193015304,
+              "ci_high": -1.2966908009047327,
+              "p_value": 4.0653149033105494e-25
+            },
+            "C(strategy, Treatment(reference='Random'))[T.UCB]": {
+              "coef": -1.8037269357850725,
+              "ci_low": -2.1065417449834714,
+              "ci_high": -1.5009121265866736,
+              "p_value": 1.7188521411930925e-31
+            },
+            "C(strategy, Treatment(reference='Random'))[T.eps-PF]": {
+              "coef": -1.1923127026732514,
+              "ci_low": -1.4951275118716503,
+              "ci_high": -0.8894978934748525,
+              "p_value": 1.1888985997693621e-14
+            },
+            "C(strategy, Treatment(reference='Random'))[T.eps-RS]": {
+              "coef": -1.0612126064251401,
+              "ci_low": -1.364027415623539,
+              "ci_high": -0.7583977972267413,
+              "p_value": 6.479797830573947e-12
+            }
+          },
+          "warnings": []
+        },
+        "50": {
+          "formula": "y ~ C(strategy, Treatment(reference='Random'))",
+          "converged": false,
+          "n_obs": 2400,
+          "coefficients": {
+            "Intercept": {
+              "coef": 0.7829832430234076,
+              "ci_low": -0.4046955046288161,
+              "ci_high": 1.9706619906756313,
+              "p_value": 0.19631690456606354
+            },
+            "C(strategy, Treatment(reference='Random'))[T.EI]": {
+              "coef": -2.1262268757184217,
+              "ci_low": -2.412694029832984,
+              "ci_high": -1.8397597216038593,
+              "p_value": 6.074017728613668e-48
+            },
+            "C(strategy, Treatment(reference='Random'))[T.Exploit]": {
+              "coef": -1.2749835386215638,
+              "ci_low": -1.5614506927361265,
+              "ci_high": -0.9885163845070011,
+              "p_value": 2.7035175722478305e-18
+            },
+            "C(strategy, Treatment(reference='Random'))[T.Explore]": {
+              "coef": 0.1881158796900079,
+              "ci_low": -0.09835127442455474,
+              "ci_high": 0.47458303380457056,
+              "p_value": 0.19807345661015496
+            },
+            "C(strategy, Treatment(reference='Random'))[T.LogEI]": {
+              "coef": -2.040839542660291,
+              "ci_low": -2.3273066967748535,
+              "ci_high": -1.7543723885457283,
+              "p_value": 2.617624726961113e-44
+            },
+            "C(strategy, Treatment(reference='Random'))[T.UCB]": {
+              "coef": -2.3867944511388726,
+              "ci_low": -2.673261605253435,
+              "ci_high": -2.10032729702431,
+              "p_value": 6.030653780739036e-60
+            },
+            "C(strategy, Treatment(reference='Random'))[T.eps-PF]": {
+              "coef": -1.804253103893648,
+              "ci_low": -2.0907202580082105,
+              "ci_high": -1.5177859497790853,
+              "p_value": 5.22085900761613e-35
+            },
+            "C(strategy, Treatment(reference='Random'))[T.eps-RS]": {
+              "coef": -1.6657694686418771,
+              "ci_low": -1.9522366227564398,
+              "ci_high": -1.3793023145273144,
+              "p_value": 4.330885620900171e-30
+            }
+          },
+          "warnings": [
+            "ConvergenceWarning: Gradient optimization failed, |grad| = 13.807900",
+            "ConvergenceWarning: Maximum Likelihood optimization failed to converge. Check mle_retvals",
+            "ConvergenceWarning: MixedLM optimization failed, trying a different optimizer may help.",
+            "ConvergenceWarning: Retrying MixedLM optimization with cg",
+            "ConvergenceWarning: Retrying MixedLM optimization with lbfgs"
+          ]
+        },
+        "150": {
+          "formula": "y ~ C(strategy, Treatment(reference='Random'))",
+          "converged": true,
+          "n_obs": 2400,
+          "coefficients": {
+            "Intercept": {
+              "coef": 0.16599508406855762,
+              "ci_low": -1.2956353458786196,
+              "ci_high": 1.6276255140157347,
+              "p_value": 0.8238545833173851
+            },
+            "C(strategy, Treatment(reference='Random'))[T.EI]": {
+              "coef": -2.595613633123398,
+              "ci_low": -2.9522046144726906,
+              "ci_high": -2.239022651774105,
+              "p_value": 3.5384276203093804e-46
+            },
+            "C(strategy, Treatment(reference='Random'))[T.Exploit]": {
+              "coef": -1.3141618414201226,
+              "ci_low": -1.6707528227694153,
+              "ci_high": -0.9575708600708299,
+              "p_value": 5.079720958305457e-13
+            },
+            "C(strategy, Treatment(reference='Random'))[T.Explore]": {
+              "coef": 0.23257670283017318,
+              "ci_low": -0.1240142785191195,
+              "ci_high": 0.5891676841794659,
+              "p_value": 0.20113209399946075
+            },
+            "C(strategy, Treatment(reference='Random'))[T.LogEI]": {
+              "coef": -2.450037229190717,
+              "ci_low": -2.8066282105400098,
+              "ci_high": -2.0934462478414244,
+              "p_value": 2.467123510531056e-41
+            },
+            "C(strategy, Treatment(reference='Random'))[T.UCB]": {
+              "coef": -2.808386045682933,
+              "ci_low": -3.1649770270322257,
+              "ci_high": -2.4517950643336404,
+              "p_value": 9.37479602031357e-54
+            },
+            "C(strategy, Treatment(reference='Random'))[T.eps-PF]": {
+              "coef": -2.43887931452997,
+              "ci_low": -2.7954702958792628,
+              "ci_high": -2.0822883331806774,
+              "p_value": 5.649441721218156e-41
+            },
+            "C(strategy, Treatment(reference='Random'))[T.eps-RS]": {
+              "coef": -2.455997600112335,
+              "ci_low": -2.8125885814616276,
+              "ci_high": -2.0994066187630422,
+              "p_value": 1.5824069741073562e-41
+            }
+          },
+          "warnings": [
+            "ConvergenceWarning: Maximum Likelihood optimization failed to converge. Check mle_retvals",
+            "ConvergenceWarning: Retrying MixedLM optimization with lbfgs"
+          ]
+        },
+        "250": {
+          "formula": "y ~ C(strategy, Treatment(reference='Random'))",
+          "converged": true,
+          "n_obs": 2400,
+          "coefficients": {
+            "Intercept": {
+              "coef": -0.15588756231098164,
+              "ci_low": -2.1191968989951824,
+              "ci_high": 1.8074217743732193,
+              "p_value": 0.8763310300351487
+            },
+            "C(strategy, Treatment(reference='Random'))[T.EI]": {
+              "coef": -2.658195536778331,
+              "ci_low": -3.045272360253059,
+              "ci_high": -2.2711187133036033,
+              "p_value": 2.6973099452902724e-41
+            },
+            "C(strategy, Treatment(reference='Random'))[T.Exploit]": {
+              "coef": -1.2815722447720184,
+              "ci_low": -1.6686490682467467,
+              "ci_high": -0.8944954212972901,
+              "p_value": 8.626891155463205e-11
+            },
+            "C(strategy, Treatment(reference='Random'))[T.Explore]": {
+              "coef": 0.30029106825506197,
+              "ci_low": -0.0867857552196662,
+              "ci_high": 0.6873678917297901,
+              "p_value": 0.1283792804639737
+            },
+            "C(strategy, Treatment(reference='Random'))[T.LogEI]": {
+              "coef": -2.5622496481665618,
+              "ci_low": -2.94932647164129,
+              "ci_high": -2.1751728246918334,
+              "p_value": 1.7192663978262167e-38
+            },
+            "C(strategy, Treatment(reference='Random'))[T.UCB]": {
+              "coef": -3.064028444855575,
+              "ci_low": -3.4511052683303034,
+              "ci_high": -2.6769516213808466,
+              "p_value": 2.758701542055721e-54
+            },
+            "C(strategy, Treatment(reference='Random'))[T.eps-PF]": {
+              "coef": -2.950871814166294,
+              "ci_low": -3.3379486376410226,
+              "ci_high": -2.563794990691566,
+              "p_value": 1.7630231980580065e-50
+            },
+            "C(strategy, Treatment(reference='Random'))[T.eps-RS]": {
+              "coef": -2.754422389619744,
+              "ci_low": -3.1414992130944723,
+              "ci_high": -2.3673455661450156,
+              "p_value": 3.2802167687234915e-44
+            }
+          },
+          "warnings": []
+        }
+      },
+      "per_dim_group": {
+        "low": {
+          "formula": "y ~ C(strategy, Treatment(reference='Random'))",
+          "converged": true,
+          "n_obs": 5760,
+          "coefficients": {
+            "Intercept": {
+              "coef": -0.11831607094479743,
+              "ci_low": -1.7697919582277453,
+              "ci_high": 1.5331598163381503,
+              "p_value": 0.8883305516536752
+            },
+            "C(strategy, Treatment(reference='Random'))[T.EI]": {
+              "coef": -2.9190468104223823,
+              "ci_low": -3.2019034616767246,
+              "ci_high": -2.63619015916804,
+              "p_value": 5.711455229778451e-91
+            },
+            "C(strategy, Treatment(reference='Random'))[T.Exploit]": {
+              "coef": -1.2396066530070442,
+              "ci_low": -1.5224633042613862,
+              "ci_high": -0.9567500017527022,
+              "p_value": 8.738304308584072e-18
+            },
+            "C(strategy, Treatment(reference='Random'))[T.Explore]": {
+              "coef": 0.2482751074532896,
+              "ci_low": -0.03458154380105241,
+              "ci_high": 0.5311317587076316,
+              "p_value": 0.0853702342541523
+            },
+            "C(strategy, Treatment(reference='Random'))[T.LogEI]": {
+              "coef": -2.7236885243675024,
+              "ci_low": -3.006545175621844,
+              "ci_high": -2.4408318731131606,
+              "p_value": 1.9047089878646066e-79
+            },
+            "C(strategy, Treatment(reference='Random'))[T.UCB]": {
+              "coef": -3.1619270798108605,
+              "ci_low": -3.4447837310652023,
+              "ci_high": -2.8790704285565187,
+              "p_value": 2.106326491904209e-106
+            },
+            "C(strategy, Treatment(reference='Random'))[T.eps-PF]": {
+              "coef": -2.6226061780697973,
+              "ci_low": -2.905462829324139,
+              "ci_high": -2.3397495268154556,
+              "p_value": 8.521886139198477e-74
+            },
+            "C(strategy, Treatment(reference='Random'))[T.eps-RS]": {
+              "coef": -2.457617582657302,
+              "ci_low": -2.7404742339116437,
+              "ci_high": -2.17476093140296,
+              "p_value": 4.9822863367599255e-65
+            }
+          },
+          "warnings": []
+        },
+        "high": {
+          "formula": "y ~ C(strategy, Treatment(reference='Random'))",
+          "converged": true,
+          "n_obs": 2160,
+          "coefficients": {
+            "Intercept": {
+              "coef": 2.0844606289141705,
+              "ci_low": 1.2609218926893422,
+              "ci_high": 2.907999365138999,
+              "p_value": 7.01785220062222e-07
+            },
+            "C(strategy, Treatment(reference='Random'))[T.EI]": {
+              "coef": -0.36738087350949555,
+              "ci_low": -0.4246437861525626,
+              "ci_high": -0.3101179608664285,
+              "p_value": 2.9158895433015138e-36
+            },
+            "C(strategy, Treatment(reference='Random'))[T.Exploit]": {
+              "coef": -0.6864634618678946,
+              "ci_low": -0.7437263745109617,
+              "ci_high": -0.6292005492248276,
+              "p_value": 4.492032790267639e-122
+            },
+            "C(strategy, Treatment(reference='Random'))[T.Explore]": {
+              "coef": 0.09484092621440779,
+              "ci_low": 0.03757801357134072,
+              "ci_high": 0.15210383885747486,
+              "p_value": 0.0011697147679911946
+            },
+            "C(strategy, Treatment(reference='Random'))[T.LogEI]": {
+              "coef": -0.4443992654703688,
+              "ci_low": -0.5016621781134358,
+              "ci_high": -0.38713635282730174,
+              "p_value": 3.0050944356673624e-52
+            },
+            "C(strategy, Treatment(reference='Random'))[T.UCB]": {
+              "coef": -0.6180018639597398,
+              "ci_low": -0.6752647766028068,
+              "ci_high": -0.5607389513166727,
+              "p_value": 2.6096001110248054e-99
+            },
+            "C(strategy, Treatment(reference='Random'))[T.eps-PF]": {
+              "coef": -0.6390673906029711,
+              "ci_low": -0.6963303032460382,
+              "ci_high": -0.5818044779599041,
+              "p_value": 4.629843584486597e-106
+            },
+            "C(strategy, Treatment(reference='Random'))[T.eps-RS]": {
+              "coef": -0.6407034577437573,
+              "ci_low": -0.6979663703868243,
+              "ci_high": -0.5834405451006902,
+              "p_value": 1.3546171910006908e-106
+            }
+          },
+          "warnings": [
+            "ConvergenceWarning: The MLE may be on the boundary of the parameter space."
+          ]
+        }
+      }
+    }
+  },
+  "analysis_B_claim_verdicts": {
+    "C1_contrasts": {
+      "20": {
+        "CD": 3.9684,
+        "contrasts": {
+          "eps-RS-EI": {
+            "mixedlm_contrast": {
+              "estimate": 0.599025814181736,
+              "ci_low": 0.29621100498333713,
+              "ci_high": 0.9018406233801348,
+              "p_value": 0.00010567202849733661
+            },
+            "rank_gap": 1.4286,
+            "exceeds_CD": false
+          },
+          "eps-PF-EI": {
+            "mixedlm_contrast": {
+              "estimate": 0.4679257179336247,
+              "ci_low": 0.16511090873522594,
+              "ci_high": 0.7707405271320235,
+              "p_value": 0.0024565585314198883
+            },
+            "rank_gap": 0.4286,
+            "exceeds_CD": false
+          },
+          "eps-RS-UCB": {
+            "mixedlm_contrast": {
+              "estimate": 0.7425143293599323,
+              "ci_low": 0.4396995201615335,
+              "ci_high": 1.0453291385583312,
+              "p_value": 1.540476045232977e-06
+            },
+            "rank_gap": 2.5714,
+            "exceeds_CD": false
+          },
+          "eps-PF-UCB": {
+            "mixedlm_contrast": {
+              "estimate": 0.6114142331118211,
+              "ci_low": 0.30859942391342227,
+              "ci_high": 0.91422904231022,
+              "p_value": 7.577988676089394e-05
+            },
+            "rank_gap": 1.5714,
+            "exceeds_CD": false
+          }
+        }
+      },
+      "50": {
+        "CD": 3.3202,
+        "contrasts": {
+          "eps-RS-EI": {
+            "mixedlm_contrast": null,
+            "rank_gap": 0.7,
+            "exceeds_CD": false
+          },
+          "eps-PF-EI": {
+            "mixedlm_contrast": null,
+            "rank_gap": 1.0,
+            "exceeds_CD": false
+          },
+          "eps-RS-UCB": {
+            "mixedlm_contrast": null,
+            "rank_gap": 0.8,
+            "exceeds_CD": false
+          },
+          "eps-PF-UCB": {
+            "mixedlm_contrast": null,
+            "rank_gap": 1.1,
+            "exceeds_CD": false
+          }
+        }
+      },
+      "150": {
+        "CD": 3.3202,
+        "contrasts": {
+          "eps-RS-EI": {
+            "mixedlm_contrast": {
+              "estimate": 0.13961603301106296,
+              "ci_low": -0.21697494833822933,
+              "ci_high": 0.49620701436035525,
+              "p_value": 0.4428529340247399
+            },
+            "rank_gap": -0.1,
+            "exceeds_CD": false
+          },
+          "eps-PF-EI": {
+            "mixedlm_contrast": {
+              "estimate": 0.1567343185934278,
+              "ci_low": -0.1998566627558645,
+              "ci_high": 0.51332529994272,
+              "p_value": 0.388977404715218
+            },
+            "rank_gap": -0.5,
+            "exceeds_CD": false
+          },
+          "eps-RS-UCB": {
+            "mixedlm_contrast": {
+              "estimate": 0.3523884455705981,
+              "ci_low": -0.004202535778694172,
+              "ci_high": 0.7089794269198904,
+              "p_value": 0.05276182353544951
+            },
+            "rank_gap": 1.3,
+            "exceeds_CD": false
+          },
+          "eps-PF-UCB": {
+            "mixedlm_contrast": {
+              "estimate": 0.36950673115296295,
+              "ci_low": 0.012915749803670662,
+              "ci_high": 0.7260977125022552,
+              "p_value": 0.04225965966357499
+            },
+            "rank_gap": 0.9,
+            "exceeds_CD": false
+          }
+        }
+      },
+      "250": {
+        "CD": 3.3202,
+        "contrasts": {
+          "eps-RS-EI": {
+            "mixedlm_contrast": {
+              "estimate": -0.09622685284141275,
+              "ci_low": -0.4833036763161412,
+              "ci_high": 0.2908499706333157,
+              "p_value": 0.6260848671540109
+            },
+            "rank_gap": -0.4,
+            "exceeds_CD": false
+          },
+          "eps-PF-EI": {
+            "mixedlm_contrast": {
+              "estimate": -0.292676277387963,
+              "ci_low": -0.6797531008626914,
+              "ci_high": 0.0944005460867654,
+              "p_value": 0.13834915563636754
+            },
+            "rank_gap": -0.7,
+            "exceeds_CD": false
+          },
+          "eps-RS-UCB": {
+            "mixedlm_contrast": {
+              "estimate": 0.30960605523583107,
+              "ci_low": -0.07747076823889737,
+              "ci_high": 0.6966828787105595,
+              "p_value": 0.11695334439925627
+            },
+            "rank_gap": 0.6,
+            "exceeds_CD": false
+          },
+          "eps-PF-UCB": {
+            "mixedlm_contrast": {
+              "estimate": 0.11315663068928083,
+              "ci_low": -0.2739201927854476,
+              "ci_high": 0.5002334541640092,
+              "p_value": 0.5666658582672748
+            },
+            "rank_gap": 0.3,
+            "exceeds_CD": false
+          }
+        }
+      }
+    },
+    "C2_dim_interaction": {
+      "model_T250": {
+        "formula": "y ~ C(strategy, Treatment(reference='Random')) * C(dim_group)",
+        "converged": false,
+        "n_obs": 2400,
+        "coefficients": {
+          "Intercept": {
+            "coef": 2.0591025363981816,
+            "ci_low": -0.6322941535529294,
+            "ci_high": 4.750499226349293,
+            "p_value": 0.13374228554069328
+          },
+          "C(strategy, Treatment(reference='Random'))[T.EI]": {
+            "coef": -0.4333797456695272,
+            "ci_low": -1.116177465257934,
+            "ci_high": 0.24941797391887965,
+            "p_value": 0.2134950729413141
+          },
+          "C(strategy, Treatment(reference='Random'))[T.Exploit]": {
+            "coef": -1.000049149993768,
+            "ci_low": -1.682846869582175,
+            "ci_high": -0.3172514304053611,
+            "p_value": 0.004096533862363186
+          },
+          "C(strategy, Treatment(reference='Random'))[T.Explore]": {
+            "coef": 0.11878386896513574,
+            "ci_low": -0.564013850623271,
+            "ci_high": 0.8015815885535424,
+            "p_value": 0.733127746727342
+          },
+          "C(strategy, Treatment(reference='Random'))[T.LogEI]": {
+            "coef": -0.5407386622839918,
+            "ci_low": -1.2235363818723988,
+            "ci_high": 0.14205905730441504,
+            "p_value": 0.12061799052206544
+          },
+          "C(strategy, Treatment(reference='Random'))[T.UCB]": {
+            "coef": -0.9727220343701088,
+            "ci_low": -1.6555197539585156,
+            "ci_high": -0.289924314781702,
+            "p_value": 0.005235279720386485
+          },
+          "C(strategy, Treatment(reference='Random'))[T.eps-PF]": {
+            "coef": -0.9279198849844966,
+            "ci_low": -1.6107176045729035,
+            "ci_high": -0.24512216539608989,
+            "p_value": 0.00773129470113048
+          },
+          "C(strategy, Treatment(reference='Random'))[T.eps-RS]": {
+            "coef": -0.9608852027761622,
+            "ci_low": -1.643682922364569,
+            "ci_high": -0.27808748318775534,
+            "p_value": 0.0058118615600587275
+          },
+          "C(dim_group)[T.low]": {
+            "coef": -3.1468258200882966,
+            "ci_low": -6.443100112986219,
+            "ci_high": 0.1494484728096257,
+            "p_value": 0.06133095070556627
+          },
+          "C(dim_group)[T.mid]": {
+            "coef": -3.2689460665721057,
+            "ci_low": -8.651739446474327,
+            "ci_high": 2.1138473133301163,
+            "p_value": 0.23393743529296063
+          },
+          "C(strategy, Treatment(reference='Random'))[T.EI]:C(dim_group)[T.low]": {
+            "coef": -3.1274622366454397,
+            "ci_low": -3.963715241909213,
+            "ci_high": -2.291209231381666,
+            "p_value": 2.301962351760017e-13
+          },
+          "C(strategy, Treatment(reference='Random'))[T.Exploit]:C(dim_group)[T.low]": {
+            "coef": -0.09547076604931766,
+            "ci_low": -0.9317237713130915,
+            "ci_high": 0.7407822392144561,
+            "p_value": 0.8229447162911148
+          },
+          "C(strategy, Treatment(reference='Random'))[T.Explore]:C(dim_group)[T.low]": {
+            "coef": 0.24896530692536747,
+            "ci_low": -0.5872876983384062,
+            "ci_high": 1.0852183121891412,
+            "p_value": 0.5595491871148206
+          },
+          "C(strategy, Treatment(reference='Random'))[T.LogEI]:C(dim_group)[T.low]": {
+            "coef": -2.7658922844565708,
+            "ci_low": -3.6021452897203448,
+            "ci_high": -1.929639279192797,
+            "p_value": 9.018708186793009e-11
+          },
+          "C(strategy, Treatment(reference='Random'))[T.UCB]:C(dim_group)[T.low]": {
+            "coef": -2.836209823225478,
+            "ci_low": -3.6724628284892518,
+            "ci_high": -1.9999568179617044,
+            "p_value": 2.984103223826828e-11
+          },
+          "C(strategy, Treatment(reference='Random'))[T.eps-PF]:C(dim_group)[T.low]": {
+            "coef": -2.8485209590268465,
+            "ci_low": -3.68477396429062,
+            "ci_high": -2.012267953763073,
+            "p_value": 2.4520492335553573e-11
+          },
+          "C(strategy, Treatment(reference='Random'))[T.eps-RS]:C(dim_group)[T.low]": {
+            "coef": -2.478321557953919,
+            "ci_low": -3.3145745632176924,
+            "ci_high": -1.6420685526901453,
+            "p_value": 6.3014590237945265e-09
+          },
+          "C(strategy, Treatment(reference='Random'))[T.EI]:C(dim_group)[T.mid]": {
+            "coef": -3.483384491215118,
+            "ci_low": -4.8489799303919305,
+            "ci_high": -2.117789052038305,
+            "p_value": 5.747617121649229e-07
+          },
+          "C(strategy, Treatment(reference='Random'))[T.Exploit]:C(dim_group)[T.mid]": {
+            "coef": -2.2424063514863173,
+            "ci_low": -3.6080017906631303,
+            "ci_high": -0.876810912309504,
+            "p_value": 0.0012890681647906705
+          },
+          "C(strategy, Treatment(reference='Random'))[T.Explore]:C(dim_group)[T.mid]": {
+            "coef": 0.32128015134732807,
+            "ci_low": -1.0443152878294852,
+            "ci_high": 1.6868755905241413,
+            "p_value": 0.6447155832413067
+          },
+          "C(strategy, Treatment(reference='Random'))[T.LogEI]:C(dim_group)[T.mid]": {
+            "coef": -3.6197561520859916,
+            "ci_low": -4.985351591262805,
+            "ci_high": -2.2541607129091785,
+            "p_value": 2.044594080717336e-07
+          },
+          "C(strategy, Treatment(reference='Random'))[T.UCB]:C(dim_group)[T.mid]": {
+            "coef": -3.8958051655015113,
+            "ci_low": -5.261400604678324,
+            "ci_high": -2.5302097263246983,
+            "p_value": 2.2520090235121478e-08
+          },
+          "C(strategy, Treatment(reference='Random'))[T.eps-PF]:C(dim_group)[T.mid]": {
+            "coef": -3.1383935376566137,
+            "ci_low": -4.503988976833426,
+            "ci_high": -1.7727980984798006,
+            "p_value": 6.6572159800573665e-06
+          },
+          "C(strategy, Treatment(reference='Random'))[T.eps-RS]:C(dim_group)[T.mid]": {
+            "coef": -3.065442520712018,
+            "ci_low": -4.431037959888831,
+            "ci_high": -1.6998470815352047,
+            "p_value": 1.0842013560181095e-05
+          }
+        },
+        "warnings": [
+          "ConvergenceWarning: Gradient optimization failed, |grad| = 39.671440",
+          "ConvergenceWarning: Maximum Likelihood optimization failed to converge. Check mle_retvals",
+          "ConvergenceWarning: MixedLM optimization failed, trying a different optimizer may help.",
+          "ConvergenceWarning: Retrying MixedLM optimization with cg",
+          "ConvergenceWarning: Retrying MixedLM optimization with lbfgs"
+        ]
+      },
+      "ranks_by_dim_group": {
+        "low": {
+          "EI": 3.0,
+          "LogEI": 4.166666666666667,
+          "UCB": 3.0,
+          "eps-RS": 3.5,
+          "eps-PF": 3.1666666666666665,
+          "Exploit": 6.333333333333333,
+          "Explore": 6.666666666666667,
+          "Random": 6.166666666666667
+        },
+        "mid": {
+          "EI": 5.0,
+          "LogEI": 3.0,
+          "UCB": 1.0,
+          "eps-RS": 4.0,
+          "eps-PF": 2.0,
+          "Exploit": 6.0,
+          "Explore": 8.0,
+          "Random": 7.0
+        },
+        "high": {
+          "EI": 5.0,
+          "LogEI": 4.0,
+          "UCB": 3.0,
+          "eps-RS": 3.0,
+          "eps-PF": 3.3333333333333335,
+          "Exploit": 2.6666666666666665,
+          "Explore": 8.0,
+          "Random": 7.0
+        }
+      }
+    },
+    "C4_exploit": {
+      "20": {
+        "high_group_ranks": null,
+        "exploit_minus_ei_contrast": {
+          "estimate": 0.626458778122005,
+          "ci_low": 0.3236439689236062,
+          "ci_high": 0.9292735873204039,
+          "p_value": 5.018915807930463e-05
+        }
+      },
+      "50": {
+        "high_group_ranks": {
+          "EI": 4.0,
+          "LogEI": 2.3333333333333335,
+          "UCB": 5.333333333333333,
+          "eps-RS": 3.0,
+          "eps-PF": 3.6666666666666665,
+          "Exploit": 2.6666666666666665,
+          "Explore": 8.0,
+          "Random": 7.0
+        },
+        "exploit_minus_ei_contrast": null
+      },
+      "150": {
+        "high_group_ranks": {
+          "EI": 6.0,
+          "LogEI": 4.0,
+          "UCB": 3.0,
+          "eps-RS": 3.0,
+          "eps-PF": 2.6666666666666665,
+          "Exploit": 2.3333333333333335,
+          "Explore": 8.0,
+          "Random": 7.0
+        },
+        "exploit_minus_ei_contrast": {
+          "estimate": 1.2814517917032753,
+          "ci_low": 0.924860810353983,
+          "ci_high": 1.6380427730525675,
+          "p_value": 1.8765588070716223e-12
+        }
+      },
+      "250": {
+        "high_group_ranks": {
+          "EI": 5.0,
+          "LogEI": 4.0,
+          "UCB": 3.0,
+          "eps-RS": 3.0,
+          "eps-PF": 3.3333333333333335,
+          "Exploit": 2.6666666666666665,
+          "Explore": 8.0,
+          "Random": 7.0
+        },
+        "exploit_minus_ei_contrast": {
+          "estimate": 1.3766232920063128,
+          "ci_low": 0.9895464685315845,
+          "ci_high": 1.7637001154810412,
+          "p_value": 3.157407002905863e-12
+        }
+      }
+    }
+  },
+  "analysis_C_mechanism": {
+    "P1a_e3_identification": {
+      "hypothesis": "Delta > 0, increasing with dim group",
+      "per_problem": {
+        "WangFreitas": {
+          "dim_group": "low",
+          "median_delta": -6.681633024641087e-11,
+          "delta_ci": [
+            -9.944721717298957,
+            1.13339387336736
+          ],
+          "wilcoxon_greater_p": 0.889676621183753
+        },
+        "BraninForrester": {
+          "dim_group": "low",
+          "median_delta": -1.4565214261602786,
+          "delta_ci": [
+            -4.645137351945604,
+            4.606448452027504
+          ],
+          "wilcoxon_greater_p": 0.9889505729079247
+        },
+        "Branin": {
+          "dim_group": "low",
+          "median_delta": -1.0058046471208293,
+          "delta_ci": [
+            -4.221565453678577,
+            3.2848682791073927
+          ],
+          "wilcoxon_greater_p": 0.9922699984163046
+        },
+        "Cosines": {
+          "dim_group": "low",
+          "median_delta": -0.5795227248117913,
+          "delta_ci": [
+            -3.5467061039193566,
+            3.695654042875708
+          ],
+          "wilcoxon_greater_p": 0.9882949283346534
+        },
+        "GoldsteinPriceLog": {
+          "dim_group": "low",
+          "median_delta": 1.6835115440367177,
+          "delta_ci": [
+            -1.6136960077921556,
+            6.781143306297001
+          ],
+          "wilcoxon_greater_p": 5.304813385009766e-06
+        },
+        "SixHumpCamelLog": {
+          "dim_group": "low",
+          "median_delta": -0.1215755114428988,
+          "delta_ci": [
+            -0.5452497769798288,
+            0.5447055822786858
+          ],
+          "wilcoxon_greater_p": 0.9666676456108689
+        },
+        "Hartmann6Log": {
+          "dim_group": "mid",
+          "median_delta": 0.5010183737790177,
+          "delta_ci": [
+            -1.6316576785407404,
+            2.2523529597925447
+          ],
+          "wilcoxon_greater_p": 0.169370892457664
+        },
+        "GSobolLog": {
+          "dim_group": "high",
+          "median_delta": 0.05823702653944873,
+          "delta_ci": [
+            -0.4987343463592661,
+            0.5798528389934313
+          ],
+          "wilcoxon_greater_p": 0.09903789963573217
+        },
+        "RosenbrockLog": {
+          "dim_group": "high",
+          "median_delta": 0.12930283310938295,
+          "delta_ci": [
+            -0.17554714210988648,
+            0.4105265563775591
+          ],
+          "wilcoxon_greater_p": 0.000670301727950573
+        },
+        "StyblinskiTangLog": {
+          "dim_group": "high",
+          "median_delta": 0.10648066249730986,
+          "delta_ci": [
+            -0.20107006032654323,
+            0.9139234205496365
+          ],
+          "wilcoxon_greater_p": 0.0038060685619711876
+        }
+      },
+      "pooled_mixedlm": {
+        "formula": "delta ~ C(dim_group)",
+        "converged": true,
+        "n_obs": 300,
+        "coefficients": {
+          "Intercept": {
+            "coef": 0.10735891661446252,
+            "ci_low": -1.0619028298574018,
+            "ci_high": 1.276620663086327,
+            "p_value": 0.8571844635945884
+          },
+          "C(dim_group)[T.low]": {
+            "coef": -0.3615699521888659,
+            "ci_low": -1.7936172794946543,
+            "ci_high": 1.0704773751169228,
+            "p_value": 0.6206983839068719
+          },
+          "C(dim_group)[T.mid]": {
+            "coef": 0.13637166087087446,
+            "ci_low": -2.202151832072855,
+            "ci_high": 2.474895153814604,
+            "p_value": 0.9090032676041723
+          }
+        },
+        "warnings": []
+      }
+    },
+    "P1b_optimizer_mediation": {
+      "hypothesis": "D > 0 (EI's standing relative to greedy is worse under the gradient stack)",
+      "interpretation_label": "consistent-with evidence; stack differences beyond the acquisition optimizer are not held constant",
+      "per_problem": {
+        "WangFreitas": {
+          "dim_group": "low",
+          "median_D": -0.17627734370879006,
+          "D_ci": [
+            -26.464963562274537,
+            19.60819487107263
+          ],
+          "wilcoxon_greater_p": 0.9711560355499387
+        },
+        "BraninForrester": {
+          "dim_group": "low",
+          "median_D": -4.254471266078109,
+          "D_ci": [
+            -10.190764372345575,
+            2.4243397682486614
+          ],
+          "wilcoxon_greater_p": 0.9999994039535522
+        },
+        "Branin": {
+          "dim_group": "low",
+          "median_D": -2.825142672342789,
+          "D_ci": [
+            -6.701018251553734,
+            1.591370763958769
+          ],
+          "wilcoxon_greater_p": 0.9999992903321981
+        },
+        "Cosines": {
+          "dim_group": "low",
+          "median_D": 3.2882726020571615,
+          "D_ci": [
+            -5.053505795072878,
+            15.45139005217924
+          ],
+          "wilcoxon_greater_p": 0.006023811176419258
+        },
+        "GoldsteinPriceLog": {
+          "dim_group": "low",
+          "median_D": 2.8712336661605313,
+          "D_ci": [
+            -4.403718707266564,
+            17.10350409285719
+          ],
+          "wilcoxon_greater_p": 0.0016114944592118263
+        },
+        "SixHumpCamelLog": {
+          "dim_group": "low",
+          "median_D": 0.5696924212761987,
+          "D_ci": [
+            -3.9574205206909223,
+            4.4247854600790175
+          ],
+          "wilcoxon_greater_p": 0.2712639691308141
+        },
+        "Hartmann6Log": {
+          "dim_group": "mid",
+          "median_D": 0.5500257234199255,
+          "D_ci": [
+            -2.96028267286912,
+            5.024019805235505
+          ],
+          "wilcoxon_greater_p": 0.11832617223262787
+        },
+        "GSobolLog": {
+          "dim_group": "high",
+          "median_D": 0.7354691728552807,
+          "D_ci": [
+            -0.3530527673939583,
+            1.6516328944634886
+          ],
+          "wilcoxon_greater_p": 2.5723129510879517e-06
+        },
+        "RosenbrockLog": {
+          "dim_group": "high",
+          "median_D": 0.4406108141422246,
+          "D_ci": [
+            -0.4084278034043179,
+            1.047421188011316
+          ],
+          "wilcoxon_greater_p": 2.5723129510879517e-06
+        },
+        "StyblinskiTangLog": {
+          "dim_group": "high",
+          "median_D": -0.36430238845991414,
+          "D_ci": [
+            -0.9185585026124642,
+            0.0857654481673
+          ],
+          "wilcoxon_greater_p": 0.9999999348074198
+        }
+      },
+      "pooled_mixedlm": {
+        "formula": "D ~ 1",
+        "converged": true,
+        "n_obs": 300,
+        "coefficients": {
+          "Intercept": {
+            "coef": -0.21722614695119788,
+            "ci_low": -1.9535514695944936,
+            "ci_high": 1.519099175692098,
+            "p_value": 0.8062978059834449
+          }
+        },
+        "warnings": []
+      }
+    },
+    "P2_underflow_coupling": {
+      "arms": {
+        "EI": {
+          "WangFreitas": {
+            "dim_group": "low",
+            "n_runs_paired": 6,
+            "median_p_improve_diff": -0.08613949553640997,
+            "sign_test": {
+              "n_pos": 2,
+              "n_neg": 4,
+              "p_value": 0.6875
+            }
+          },
+          "BraninForrester": {
+            "dim_group": "low",
+            "n_runs_paired": 30,
+            "median_p_improve_diff": -0.27151962886437175,
+            "sign_test": {
+              "n_pos": 1,
+              "n_neg": 29,
+              "p_value": 5.774199962615967e-08
+            }
+          },
+          "Branin": {
+            "dim_group": "low",
+            "n_runs_paired": 0,
+            "median_p_improve_diff": null,
+            "sign_test": {
+              "n_pos": 0,
+              "n_neg": 0,
+              "p_value": 1.0
+            }
+          },
+          "Cosines": {
+            "dim_group": "low",
+            "n_runs_paired": 2,
+            "median_p_improve_diff": -0.11632653061224489,
+            "sign_test": {
+              "n_pos": 0,
+              "n_neg": 2,
+              "p_value": 0.5
+            }
+          },
+          "GoldsteinPriceLog": {
+            "dim_group": "low",
+            "n_runs_paired": 0,
+            "median_p_improve_diff": null,
+            "sign_test": {
+              "n_pos": 0,
+              "n_neg": 0,
+              "p_value": 1.0
+            }
+          },
+          "SixHumpCamelLog": {
+            "dim_group": "low",
+            "n_runs_paired": 7,
+            "median_p_improve_diff": -0.09387755102040816,
+            "sign_test": {
+              "n_pos": 0,
+              "n_neg": 7,
+              "p_value": 0.015625
+            }
+          },
+          "Hartmann6Log": {
+            "dim_group": "mid",
+            "n_runs_paired": 0,
+            "median_p_improve_diff": null,
+            "sign_test": {
+              "n_pos": 0,
+              "n_neg": 0,
+              "p_value": 1.0
+            }
+          },
+          "GSobolLog": {
+            "dim_group": "high",
+            "n_runs_paired": 0,
+            "median_p_improve_diff": null,
+            "sign_test": {
+              "n_pos": 0,
+              "n_neg": 0,
+              "p_value": 1.0
+            }
+          },
+          "RosenbrockLog": {
+            "dim_group": "high",
+            "n_runs_paired": 0,
+            "median_p_improve_diff": null,
+            "sign_test": {
+              "n_pos": 0,
+              "n_neg": 0,
+              "p_value": 1.0
+            }
+          },
+          "StyblinskiTangLog": {
+            "dim_group": "high",
+            "n_runs_paired": 0,
+            "median_p_improve_diff": null,
+            "sign_test": {
+              "n_pos": 0,
+              "n_neg": 0,
+              "p_value": 1.0
+            }
+          }
+        },
+        "LogEI": {
+          "WangFreitas": {
+            "dim_group": "low",
+            "n_runs_paired": 0,
+            "median_p_improve_diff": null,
+            "sign_test": {
+              "n_pos": 0,
+              "n_neg": 0,
+              "p_value": 1.0
+            }
+          },
+          "BraninForrester": {
+            "dim_group": "low",
+            "n_runs_paired": 30,
+            "median_p_improve_diff": -0.7222222222222222,
+            "sign_test": {
+              "n_pos": 0,
+              "n_neg": 30,
+              "p_value": 1.862645149230957e-09
+            }
+          },
+          "Branin": {
+            "dim_group": "low",
+            "n_runs_paired": 30,
+            "median_p_improve_diff": -0.5979166666666667,
+            "sign_test": {
+              "n_pos": 0,
+              "n_neg": 30,
+              "p_value": 1.862645149230957e-09
+            }
+          },
+          "Cosines": {
+            "dim_group": "low",
+            "n_runs_paired": 30,
+            "median_p_improve_diff": -0.48589211618257255,
+            "sign_test": {
+              "n_pos": 1,
+              "n_neg": 29,
+              "p_value": 5.774199962615967e-08
+            }
+          },
+          "GoldsteinPriceLog": {
+            "dim_group": "low",
+            "n_runs_paired": 4,
+            "median_p_improve_diff": -0.7204081632653061,
+            "sign_test": {
+              "n_pos": 0,
+              "n_neg": 4,
+              "p_value": 0.125
+            }
+          },
+          "SixHumpCamelLog": {
+            "dim_group": "low",
+            "n_runs_paired": 3,
+            "median_p_improve_diff": 0.12653061224489795,
+            "sign_test": {
+              "n_pos": 3,
+              "n_neg": 0,
+              "p_value": 0.25
+            }
+          },
+          "Hartmann6Log": {
+            "dim_group": "mid",
+            "n_runs_paired": 3,
+            "median_p_improve_diff": -0.5780590717299579,
+            "sign_test": {
+              "n_pos": 1,
+              "n_neg": 2,
+              "p_value": 1.0
+            }
+          },
+          "GSobolLog": {
+            "dim_group": "high",
+            "n_runs_paired": 22,
+            "median_p_improve_diff": -0.5361080789572856,
+            "sign_test": {
+              "n_pos": 2,
+              "n_neg": 20,
+              "p_value": 0.00012111663818359375
+            }
+          },
+          "RosenbrockLog": {
+            "dim_group": "high",
+            "n_runs_paired": 1,
+            "median_p_improve_diff": -0.8427947598253275,
+            "sign_test": {
+              "n_pos": 0,
+              "n_neg": 1,
+              "p_value": 1.0
+            }
+          },
+          "StyblinskiTangLog": {
+            "dim_group": "high",
+            "n_runs_paired": 0,
+            "median_p_improve_diff": null,
+            "sign_test": {
+              "n_pos": 0,
+              "n_neg": 0,
+              "p_value": 1.0
+            }
+          }
+        }
+      },
+      "headline": {
+        "EI": {
+          "WangFreitas": {
+            "dim_group": "low",
+            "pct_runs_with_degenerate_iter": 20.0,
+            "mean_numerics_warnings": 248.0
+          },
+          "BraninForrester": {
+            "dim_group": "low",
+            "pct_runs_with_degenerate_iter": 100.0,
+            "mean_numerics_warnings": 246.0
+          },
+          "Branin": {
+            "dim_group": "low",
+            "pct_runs_with_degenerate_iter": 0.0,
+            "mean_numerics_warnings": 246.0
+          },
+          "Cosines": {
+            "dim_group": "low",
+            "pct_runs_with_degenerate_iter": 6.67,
+            "mean_numerics_warnings": 246.0
+          },
+          "GoldsteinPriceLog": {
+            "dim_group": "low",
+            "pct_runs_with_degenerate_iter": 0.0,
+            "mean_numerics_warnings": 246.0
+          },
+          "SixHumpCamelLog": {
+            "dim_group": "low",
+            "pct_runs_with_degenerate_iter": 23.33,
+            "mean_numerics_warnings": 246.0
+          },
+          "Hartmann6Log": {
+            "dim_group": "mid",
+            "pct_runs_with_degenerate_iter": 0.0,
+            "mean_numerics_warnings": 238.0
+          },
+          "GSobolLog": {
+            "dim_group": "high",
+            "pct_runs_with_degenerate_iter": 0.0,
+            "mean_numerics_warnings": 230.0
+          },
+          "RosenbrockLog": {
+            "dim_group": "high",
+            "pct_runs_with_degenerate_iter": 0.0,
+            "mean_numerics_warnings": 230.0
+          },
+          "StyblinskiTangLog": {
+            "dim_group": "high",
+            "pct_runs_with_degenerate_iter": 0.0,
+            "mean_numerics_warnings": 230.0
+          }
+        },
+        "LogEI": {
+          "WangFreitas": {
+            "dim_group": "low",
+            "pct_runs_with_degenerate_iter": 100.0,
+            "mean_numerics_warnings": 0.0
+          },
+          "BraninForrester": {
+            "dim_group": "low",
+            "pct_runs_with_degenerate_iter": 100.0,
+            "mean_numerics_warnings": 0.0
+          },
+          "Branin": {
+            "dim_group": "low",
+            "pct_runs_with_degenerate_iter": 100.0,
+            "mean_numerics_warnings": 0.0
+          },
+          "Cosines": {
+            "dim_group": "low",
+            "pct_runs_with_degenerate_iter": 100.0,
+            "mean_numerics_warnings": 0.0
+          },
+          "GoldsteinPriceLog": {
+            "dim_group": "low",
+            "pct_runs_with_degenerate_iter": 100.0,
+            "mean_numerics_warnings": 0.0
+          },
+          "SixHumpCamelLog": {
+            "dim_group": "low",
+            "pct_runs_with_degenerate_iter": 100.0,
+            "mean_numerics_warnings": 0.0
+          },
+          "Hartmann6Log": {
+            "dim_group": "mid",
+            "pct_runs_with_degenerate_iter": 100.0,
+            "mean_numerics_warnings": 0.0
+          },
+          "GSobolLog": {
+            "dim_group": "high",
+            "pct_runs_with_degenerate_iter": 100.0,
+            "mean_numerics_warnings": 0.0
+          },
+          "RosenbrockLog": {
+            "dim_group": "high",
+            "pct_runs_with_degenerate_iter": 100.0,
+            "mean_numerics_warnings": 0.0
+          },
+          "StyblinskiTangLog": {
+            "dim_group": "high",
+            "pct_runs_with_degenerate_iter": 100.0,
+            "mean_numerics_warnings": 0.0
+          }
+        }
+      }
+    },
+    "P3_scaling": {
+      "WangFreitas": {
+        "dim_group": "low",
+        "median_zero_fraction_final": 0.6953125,
+        "median_tiny_fraction_final": 0.71875,
+        "spearman_zero_vs_iter": {
+          "rho": 0.9925660565722908,
+          "p_value": 4.977129041814007e-227
+        },
+        "spearman_tiny_vs_iter": {
+          "rho": 0.9929849440983708,
+          "p_value": 4.0727486652670735e-230
+        }
+      },
+      "BraninForrester": {
+        "dim_group": "low",
+        "median_zero_fraction_final": 0.96875,
+        "median_tiny_fraction_final": 0.9765625,
+        "spearman_zero_vs_iter": {
+          "rho": 0.9969449268705373,
+          "p_value": 3.360604093628507e-272
+        },
+        "spearman_tiny_vs_iter": {
+          "rho": 0.9969562090394388,
+          "p_value": 2.1413307120946644e-272
+        }
+      },
+      "Branin": {
+        "dim_group": "low",
+        "median_zero_fraction_final": 0.2109375,
+        "median_tiny_fraction_final": 0.21875,
+        "spearman_zero_vs_iter": {
+          "rho": 0.9800395374314554,
+          "p_value": 3.4002320300017474e-173
+        },
+        "spearman_tiny_vs_iter": {
+          "rho": 0.9781300812656832,
+          "p_value": 2.0978275579185182e-168
+        }
+      },
+      "Cosines": {
+        "dim_group": "low",
+        "median_zero_fraction_final": 0.7578125,
+        "median_tiny_fraction_final": 0.796875,
+        "spearman_zero_vs_iter": {
+          "rho": 0.9934489370491701,
+          "p_value": 7.120190810662295e-232
+        },
+        "spearman_tiny_vs_iter": {
+          "rho": 0.9947537114487804,
+          "p_value": 1.313782556125307e-243
+        }
+      },
+      "GoldsteinPriceLog": {
+        "dim_group": "low",
+        "median_zero_fraction_final": 0.046875,
+        "median_tiny_fraction_final": 0.0625,
+        "spearman_zero_vs_iter": {
+          "rho": 0.7631014840699645,
+          "p_value": 3.684665401083554e-48
+        },
+        "spearman_tiny_vs_iter": {
+          "rho": 0.7961523156381933,
+          "p_value": 3.723585891801186e-55
+        }
+      },
+      "SixHumpCamelLog": {
+        "dim_group": "low",
+        "median_zero_fraction_final": 0.046875,
+        "median_tiny_fraction_final": 0.0625,
+        "spearman_zero_vs_iter": {
+          "rho": 0.6062748120902216,
+          "p_value": 4.4231929111966967e-26
+        },
+        "spearman_tiny_vs_iter": {
+          "rho": 0.7106159692749923,
+          "p_value": 3.9715086682726136e-39
+        }
+      },
+      "Hartmann6Log": {
+        "dim_group": "mid",
+        "median_zero_fraction_final": 0.0,
+        "median_tiny_fraction_final": 0.0,
+        "spearman_zero_vs_iter": {
+          "rho": NaN,
+          "p_value": NaN
+        },
+        "spearman_tiny_vs_iter": {
+          "rho": NaN,
+          "p_value": NaN
+        }
+      },
+      "GSobolLog": {
+        "dim_group": "high",
+        "median_zero_fraction_final": 0.0,
+        "median_tiny_fraction_final": 0.0,
+        "spearman_zero_vs_iter": {
+          "rho": NaN,
+          "p_value": NaN
+        },
+        "spearman_tiny_vs_iter": {
+          "rho": NaN,
+          "p_value": NaN
+        }
+      },
+      "RosenbrockLog": {
+        "dim_group": "high",
+        "median_zero_fraction_final": 0.0,
+        "median_tiny_fraction_final": 0.0,
+        "spearman_zero_vs_iter": {
+          "rho": NaN,
+          "p_value": NaN
+        },
+        "spearman_tiny_vs_iter": {
+          "rho": NaN,
+          "p_value": NaN
+        }
+      },
+      "StyblinskiTangLog": {
+        "dim_group": "high",
+        "median_zero_fraction_final": 0.0,
+        "median_tiny_fraction_final": 0.0,
+        "spearman_zero_vs_iter": {
+          "rho": NaN,
+          "p_value": NaN
+        },
+        "spearman_tiny_vs_iter": {
+          "rho": NaN,
+          "p_value": NaN
+        }
+      }
+    }
+  }
+}

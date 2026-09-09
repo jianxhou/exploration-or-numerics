@@ -1,0 +1,695 @@
+{
+ "_banner": "POST-HOC EXPLORATORY (2026-06-18); NOT exp09-prereg; exploratory only.",
+ "definition": "vanishing_grad_frac = 1 - frac_nonzero_grad (frac of 64-pt pool with EXACTLY zero gradient norm); magnitudes are problem-scale-dependent.",
+ "step0_fields_present": true,
+ "step1_dimension_story": {
+  "per_problem_EI": [
+   {
+    "problem": "WangFreitas",
+    "dim": 1,
+    "source": "core",
+    "mean_vanishing_grad_frac": 0.348786122311828,
+    "frac_iters_any_vanishing": 0.9439516129032258,
+    "max_vanishing_grad_frac": 1.0,
+    "median_grad_norm": 7.87137406339804e-92,
+    "min_median_grad_norm": 0.0
+   },
+   {
+    "problem": "Branin",
+    "dim": 2,
+    "source": "core",
+    "mean_vanishing_grad_frac": 0.1526782689701897,
+    "frac_iters_any_vanishing": 0.9313008130081301,
+    "max_vanishing_grad_frac": 0.78125,
+    "median_grad_norm": 4.349577840385983e-30,
+    "min_median_grad_norm": 0.0
+   },
+   {
+    "problem": "BraninForrester",
+    "dim": 2,
+    "source": "core",
+    "mean_vanishing_grad_frac": 0.6735962906504065,
+    "frac_iters_any_vanishing": 0.9582655826558265,
+    "max_vanishing_grad_frac": 1.0,
+    "median_grad_norm": 0.0,
+    "min_median_grad_norm": 0.0
+   },
+   {
+    "problem": "Cosines",
+    "dim": 2,
+    "source": "core",
+    "mean_vanishing_grad_frac": 0.6878218157181571,
+    "frac_iters_any_vanishing": 0.9867208672086721,
+    "max_vanishing_grad_frac": 0.984375,
+    "median_grad_norm": 0.0,
+    "min_median_grad_norm": 0.0
+   },
+   {
+    "problem": "GoldsteinPriceLog",
+    "dim": 2,
+    "source": "core",
+    "mean_vanishing_grad_frac": 0.11496019647696477,
+    "frac_iters_any_vanishing": 0.6117886178861789,
+    "max_vanishing_grad_frac": 0.71875,
+    "median_grad_norm": 2.3632086047440528e-60,
+    "min_median_grad_norm": 0.0
+   },
+   {
+    "problem": "SixHumpCamelLog",
+    "dim": 2,
+    "source": "core",
+    "mean_vanishing_grad_frac": 0.21001651422764228,
+    "frac_iters_any_vanishing": 0.48685636856368564,
+    "max_vanishing_grad_frac": 1.0,
+    "median_grad_norm": 4.3456704235226545e-90,
+    "min_median_grad_norm": 0.0
+   },
+   {
+    "problem": "Hartmann6Log",
+    "dim": 6,
+    "source": "core",
+    "mean_vanishing_grad_frac": 0.0003720238095238095,
+    "frac_iters_any_vanishing": 0.023109243697478993,
+    "max_vanishing_grad_frac": 0.03125,
+    "median_grad_norm": 2.489603039003573e-10,
+    "min_median_grad_norm": 6.53214200926186e-38
+   },
+   {
+    "problem": "Ackley8",
+    "dim": 8,
+    "source": "ext",
+    "mean_vanishing_grad_frac": 0.0003672542735042735,
+    "frac_iters_any_vanishing": 0.01623931623931624,
+    "max_vanishing_grad_frac": 0.09375,
+    "median_grad_norm": 1.0359978619735332e-33,
+    "min_median_grad_norm": 2.6705057538074713e-120
+   },
+   {
+    "problem": "GSobolLog",
+    "dim": 10,
+    "source": "core",
+    "mean_vanishing_grad_frac": 0.0,
+    "frac_iters_any_vanishing": 0.0,
+    "max_vanishing_grad_frac": 0.0,
+    "median_grad_norm": 2.121115958344076e-15,
+    "min_median_grad_norm": 5.33331611175908e-67
+   },
+   {
+    "problem": "RosenbrockLog",
+    "dim": 10,
+    "source": "core",
+    "mean_vanishing_grad_frac": 0.0002943840579710145,
+    "frac_iters_any_vanishing": 0.004492753623188406,
+    "max_vanishing_grad_frac": 0.171875,
+    "median_grad_norm": 9.819600145587518e-14,
+    "min_median_grad_norm": 1.880702643362368e-120
+   },
+   {
+    "problem": "StyblinskiTangLog",
+    "dim": 10,
+    "source": "core",
+    "mean_vanishing_grad_frac": 0.0,
+    "frac_iters_any_vanishing": 0.0,
+    "max_vanishing_grad_frac": 0.0,
+    "median_grad_norm": 3.3645809380836945e-06,
+    "min_median_grad_norm": 1.3548148108658705e-35
+   },
+   {
+    "problem": "GSobol",
+    "dim": 10,
+    "source": "ext",
+    "mean_vanishing_grad_frac": 2.2644927536231883e-06,
+    "frac_iters_any_vanishing": 0.00014492753623188405,
+    "max_vanishing_grad_frac": 0.015625,
+    "median_grad_norm": 6096140.276523058,
+    "min_median_grad_norm": 128631.57859639991
+   },
+   {
+    "problem": "Rosenbrock",
+    "dim": 10,
+    "source": "ext",
+    "mean_vanishing_grad_frac": 0.0,
+    "frac_iters_any_vanishing": 0.0,
+    "max_vanishing_grad_frac": 0.0,
+    "median_grad_norm": 1.8735732266354255,
+    "min_median_grad_norm": 8.58663937691499e-05
+   }
+  ],
+  "EI_by_dim_group": {
+   "low (d<=2)": 0.36464320139253137,
+   "mid (d=6)": 0.0003720238095238095,
+   "high-core (d=10)": 9.812801932367151e-05,
+   "ext (d=8-10)": 0.00012317292208596556
+  }
+ },
+ "step2_ei_vs_logei": {
+  "WangFreitas": {
+   "dim": 1,
+   "source": "core",
+   "EI_vanish_frac": 0.348786122311828,
+   "LogEI_vanish_frac": 0.0,
+   "EI_minus_LogEI_vanish": 0.348786122311828,
+   "EI_median_grad_norm": 7.87137406339804e-92,
+   "LogEI_median_grad_norm": 5932.684440842864,
+   "EI_min_median_grad_norm": 0.0,
+   "LogEI_min_median_grad_norm": 2.9235020139961845e-17,
+   "paired_vanish": {
+    "wilcoxon_stat": 0.0,
+    "wilcoxon_p": 1.862645149230957e-09
+   },
+   "EI_grad_healthier_than_LogEI": false
+  },
+  "BraninForrester": {
+   "dim": 2,
+   "source": "core",
+   "EI_vanish_frac": 0.6735962906504065,
+   "LogEI_vanish_frac": 0.0,
+   "EI_minus_LogEI_vanish": 0.6735962906504065,
+   "EI_median_grad_norm": 0.0,
+   "LogEI_median_grad_norm": 88.0338524688085,
+   "EI_min_median_grad_norm": 0.0,
+   "LogEI_min_median_grad_norm": 0.08262429180314151,
+   "paired_vanish": {
+    "wilcoxon_stat": 0.0,
+    "wilcoxon_p": 1.862645149230957e-09
+   },
+   "EI_grad_healthier_than_LogEI": false
+  },
+  "Branin": {
+   "dim": 2,
+   "source": "core",
+   "EI_vanish_frac": 0.1526782689701897,
+   "LogEI_vanish_frac": 0.0,
+   "EI_minus_LogEI_vanish": 0.1526782689701897,
+   "EI_median_grad_norm": 4.349577840385983e-30,
+   "LogEI_median_grad_norm": 31.385519863781383,
+   "EI_min_median_grad_norm": 0.0,
+   "LogEI_min_median_grad_norm": 0.052613318903965776,
+   "paired_vanish": {
+    "wilcoxon_stat": 0.0,
+    "wilcoxon_p": 1.862645149230957e-09
+   },
+   "EI_grad_healthier_than_LogEI": false
+  },
+  "Cosines": {
+   "dim": 2,
+   "source": "core",
+   "EI_vanish_frac": 0.6878218157181571,
+   "LogEI_vanish_frac": 0.0,
+   "EI_minus_LogEI_vanish": 0.6878218157181571,
+   "EI_median_grad_norm": 0.0,
+   "LogEI_median_grad_norm": 998.2639867852466,
+   "EI_min_median_grad_norm": 0.0,
+   "LogEI_min_median_grad_norm": 0.4928030302885659,
+   "paired_vanish": {
+    "wilcoxon_stat": 0.0,
+    "wilcoxon_p": 1.7333066441991056e-06
+   },
+   "EI_grad_healthier_than_LogEI": false
+  },
+  "GoldsteinPriceLog": {
+   "dim": 2,
+   "source": "core",
+   "EI_vanish_frac": 0.11496019647696477,
+   "LogEI_vanish_frac": 0.0,
+   "EI_minus_LogEI_vanish": 0.11496019647696477,
+   "EI_median_grad_norm": 2.3632086047440528e-60,
+   "LogEI_median_grad_norm": 287.26668078099146,
+   "EI_min_median_grad_norm": 0.0,
+   "LogEI_min_median_grad_norm": 1.7932157316344515e-07,
+   "paired_vanish": {
+    "wilcoxon_stat": 0.0,
+    "wilcoxon_p": 1.7333066441991056e-06
+   },
+   "EI_grad_healthier_than_LogEI": false
+  },
+  "SixHumpCamelLog": {
+   "dim": 2,
+   "source": "core",
+   "EI_vanish_frac": 0.21001651422764228,
+   "LogEI_vanish_frac": 0.0,
+   "EI_minus_LogEI_vanish": 0.21001651422764228,
+   "EI_median_grad_norm": 4.3456704235226545e-90,
+   "LogEI_median_grad_norm": 79.46506491841356,
+   "EI_min_median_grad_norm": 0.0,
+   "LogEI_min_median_grad_norm": 2.8240813052912836e-10,
+   "paired_vanish": {
+    "wilcoxon_stat": 0.0,
+    "wilcoxon_p": 1.862645149230957e-09
+   },
+   "EI_grad_healthier_than_LogEI": false
+  },
+  "Hartmann6Log": {
+   "dim": 6,
+   "source": "core",
+   "EI_vanish_frac": 0.0003720238095238095,
+   "LogEI_vanish_frac": 0.0,
+   "EI_minus_LogEI_vanish": 0.0003720238095238095,
+   "EI_median_grad_norm": 2.489603039003573e-10,
+   "LogEI_median_grad_norm": 69.93117189306204,
+   "EI_min_median_grad_norm": 6.53214200926186e-38,
+   "LogEI_min_median_grad_norm": 4.999157504447271,
+   "paired_vanish": {
+    "wilcoxon_stat": 0.0,
+    "wilcoxon_p": 2.4712751612376075e-06
+   },
+   "EI_grad_healthier_than_LogEI": false
+  },
+  "GSobolLog": {
+   "dim": 10,
+   "source": "core",
+   "EI_vanish_frac": 0.0,
+   "LogEI_vanish_frac": 0.0,
+   "EI_minus_LogEI_vanish": 0.0,
+   "EI_median_grad_norm": 2.121115958344076e-15,
+   "LogEI_median_grad_norm": 3.6876012055731375,
+   "EI_min_median_grad_norm": 5.33331611175908e-67,
+   "LogEI_min_median_grad_norm": 0.1830448331041259,
+   "paired_vanish": null,
+   "EI_grad_healthier_than_LogEI": false
+  },
+  "RosenbrockLog": {
+   "dim": 10,
+   "source": "core",
+   "EI_vanish_frac": 0.0002943840579710145,
+   "LogEI_vanish_frac": 0.0,
+   "EI_minus_LogEI_vanish": 0.0002943840579710145,
+   "EI_median_grad_norm": 9.819600145587518e-14,
+   "LogEI_median_grad_norm": 1.5015720165838045,
+   "EI_min_median_grad_norm": 1.880702643362368e-120,
+   "LogEI_min_median_grad_norm": 0.0695390792351889,
+   "paired_vanish": {
+    "wilcoxon_stat": 0.0,
+    "wilcoxon_p": 0.31731050786291415
+   },
+   "EI_grad_healthier_than_LogEI": false
+  },
+  "StyblinskiTangLog": {
+   "dim": 10,
+   "source": "core",
+   "EI_vanish_frac": 0.0,
+   "LogEI_vanish_frac": 0.0,
+   "EI_minus_LogEI_vanish": 0.0,
+   "EI_median_grad_norm": 3.3645809380836945e-06,
+   "LogEI_median_grad_norm": 0.06435561512173148,
+   "EI_min_median_grad_norm": 1.3548148108658705e-35,
+   "LogEI_min_median_grad_norm": 0.0025366733352616805,
+   "paired_vanish": null,
+   "EI_grad_healthier_than_LogEI": false
+  },
+  "GSobol": {
+   "dim": 10,
+   "source": "ext",
+   "EI_vanish_frac": 2.2644927536231883e-06,
+   "LogEI_vanish_frac": 0.0,
+   "EI_minus_LogEI_vanish": 2.2644927536231883e-06,
+   "EI_median_grad_norm": 6096140.276523058,
+   "LogEI_median_grad_norm": 0.5935325136793221,
+   "EI_min_median_grad_norm": 128631.57859639991,
+   "LogEI_min_median_grad_norm": 0.1371977790790808,
+   "paired_vanish": {
+    "wilcoxon_stat": 0.0,
+    "wilcoxon_p": 0.31731050786291415
+   },
+   "EI_grad_healthier_than_LogEI": false
+  },
+  "Rosenbrock": {
+   "dim": 10,
+   "source": "ext",
+   "EI_vanish_frac": 0.0,
+   "LogEI_vanish_frac": 0.0,
+   "EI_minus_LogEI_vanish": 0.0,
+   "EI_median_grad_norm": 1.8735732266354255,
+   "LogEI_median_grad_norm": 1.3359953361045083,
+   "EI_min_median_grad_norm": 8.58663937691499e-05,
+   "LogEI_min_median_grad_norm": 0.33505321460795834,
+   "paired_vanish": null,
+   "EI_grad_healthier_than_LogEI": false
+  },
+  "Ackley8": {
+   "dim": 8,
+   "source": "ext",
+   "EI_vanish_frac": 0.0003672542735042735,
+   "LogEI_vanish_frac": 0.0,
+   "EI_minus_LogEI_vanish": 0.0003672542735042735,
+   "EI_median_grad_norm": 1.0359978619735332e-33,
+   "LogEI_median_grad_norm": 5.549549187592207,
+   "EI_min_median_grad_norm": 2.6705057538074713e-120,
+   "LogEI_min_median_grad_norm": 0.012220966170043845,
+   "paired_vanish": {
+    "wilcoxon_stat": 0.0,
+    "wilcoxon_p": 0.00028848152803549043
+   },
+   "EI_grad_healthier_than_LogEI": false
+  }
+ },
+ "step3_gsobol_puzzle": {
+  "EI_vanish_frac": 2.2644927536231883e-06,
+  "EI_frac_iters_any_vanishing": 0.00014492753623188405,
+  "EI_median_grad_norm": 6096140.276523058,
+  "EI_min_median_grad_norm": 128631.57859639991,
+  "LogEI_vanish_frac": 0.0,
+  "LogEI_median_grad_norm": 0.5935325136793221,
+  "verdict": "EI gradients HEALTHY on GSobol (mechanism ABSENT) -> LogEI's win is a GENUINE PUZZLE beyond Ament's mechanism"
+ },
+ "all_stats": {
+  "WangFreitas|EI": {
+   "n_cells": 30,
+   "n_iter_obs": 7440,
+   "mean_vanishing_grad_frac": 0.348786122311828,
+   "frac_iters_any_vanishing": 0.9439516129032258,
+   "max_vanishing_grad_frac": 1.0,
+   "median_grad_norm": 7.87137406339804e-92,
+   "q10_median_grad_norm": 0.0,
+   "min_median_grad_norm": 0.0,
+   "median_max_grad_norm": 0.008969245613833655,
+   "dim": 1,
+   "source": "core"
+  },
+  "WangFreitas|LogEI": {
+   "n_cells": 30,
+   "n_iter_obs": 7440,
+   "mean_vanishing_grad_frac": 0.0,
+   "frac_iters_any_vanishing": 0.0,
+   "max_vanishing_grad_frac": 0.0,
+   "median_grad_norm": 5932.684440842864,
+   "q10_median_grad_norm": 1208.0523228706575,
+   "min_median_grad_norm": 2.9235020139961845e-17,
+   "median_max_grad_norm": 21542335.21128398,
+   "dim": 1,
+   "source": "core"
+  },
+  "BraninForrester|EI": {
+   "n_cells": 30,
+   "n_iter_obs": 7380,
+   "mean_vanishing_grad_frac": 0.6735962906504065,
+   "frac_iters_any_vanishing": 0.9582655826558265,
+   "max_vanishing_grad_frac": 1.0,
+   "median_grad_norm": 0.0,
+   "q10_median_grad_norm": 0.0,
+   "min_median_grad_norm": 0.0,
+   "median_max_grad_norm": 5.606397919838578e-16,
+   "dim": 2,
+   "source": "core"
+  },
+  "BraninForrester|LogEI": {
+   "n_cells": 30,
+   "n_iter_obs": 7380,
+   "mean_vanishing_grad_frac": 0.0,
+   "frac_iters_any_vanishing": 0.0,
+   "max_vanishing_grad_frac": 0.0,
+   "median_grad_norm": 88.0338524688085,
+   "q10_median_grad_norm": 23.855990872304776,
+   "min_median_grad_norm": 0.08262429180314151,
+   "median_max_grad_norm": 19626.3152021845,
+   "dim": 2,
+   "source": "core"
+  },
+  "Branin|EI": {
+   "n_cells": 30,
+   "n_iter_obs": 7380,
+   "mean_vanishing_grad_frac": 0.1526782689701897,
+   "frac_iters_any_vanishing": 0.9313008130081301,
+   "max_vanishing_grad_frac": 0.78125,
+   "median_grad_norm": 4.349577840385983e-30,
+   "q10_median_grad_norm": 1.0075131574664855e-126,
+   "min_median_grad_norm": 0.0,
+   "median_max_grad_norm": 0.007142814246174824,
+   "dim": 2,
+   "source": "core"
+  },
+  "Branin|LogEI": {
+   "n_cells": 30,
+   "n_iter_obs": 7380,
+   "mean_vanishing_grad_frac": 0.0,
+   "frac_iters_any_vanishing": 0.0,
+   "max_vanishing_grad_frac": 0.0,
+   "median_grad_norm": 31.385519863781383,
+   "q10_median_grad_norm": 14.493537759868788,
+   "min_median_grad_norm": 0.052613318903965776,
+   "median_max_grad_norm": 6962.367944895641,
+   "dim": 2,
+   "source": "core"
+  },
+  "Cosines|EI": {
+   "n_cells": 30,
+   "n_iter_obs": 7380,
+   "mean_vanishing_grad_frac": 0.6878218157181571,
+   "frac_iters_any_vanishing": 0.9867208672086721,
+   "max_vanishing_grad_frac": 0.984375,
+   "median_grad_norm": 0.0,
+   "q10_median_grad_norm": 0.0,
+   "min_median_grad_norm": 0.0,
+   "median_max_grad_norm": 4.857738336406875e-61,
+   "dim": 2,
+   "source": "core"
+  },
+  "Cosines|LogEI": {
+   "n_cells": 30,
+   "n_iter_obs": 7380,
+   "mean_vanishing_grad_frac": 0.0,
+   "frac_iters_any_vanishing": 0.0,
+   "max_vanishing_grad_frac": 0.0,
+   "median_grad_norm": 998.2639867852466,
+   "q10_median_grad_norm": 111.65367640397741,
+   "min_median_grad_norm": 0.4928030302885659,
+   "median_max_grad_norm": 105221.92605895927,
+   "dim": 2,
+   "source": "core"
+  },
+  "GoldsteinPriceLog|EI": {
+   "n_cells": 30,
+   "n_iter_obs": 7380,
+   "mean_vanishing_grad_frac": 0.11496019647696477,
+   "frac_iters_any_vanishing": 0.6117886178861789,
+   "max_vanishing_grad_frac": 0.71875,
+   "median_grad_norm": 2.3632086047440528e-60,
+   "q10_median_grad_norm": 3.456198742302093e-140,
+   "min_median_grad_norm": 0.0,
+   "median_max_grad_norm": 2.55518103408035e-22,
+   "dim": 2,
+   "source": "core"
+  },
+  "GoldsteinPriceLog|LogEI": {
+   "n_cells": 30,
+   "n_iter_obs": 7380,
+   "mean_vanishing_grad_frac": 0.0,
+   "frac_iters_any_vanishing": 0.0,
+   "max_vanishing_grad_frac": 0.0,
+   "median_grad_norm": 287.26668078099146,
+   "q10_median_grad_norm": 27.185940467304196,
+   "min_median_grad_norm": 1.7932157316344515e-07,
+   "median_max_grad_norm": 7329.667487950466,
+   "dim": 2,
+   "source": "core"
+  },
+  "SixHumpCamelLog|EI": {
+   "n_cells": 30,
+   "n_iter_obs": 7380,
+   "mean_vanishing_grad_frac": 0.21001651422764228,
+   "frac_iters_any_vanishing": 0.48685636856368564,
+   "max_vanishing_grad_frac": 1.0,
+   "median_grad_norm": 4.3456704235226545e-90,
+   "q10_median_grad_norm": 0.0,
+   "min_median_grad_norm": 0.0,
+   "median_max_grad_norm": 1.868042350099867e-58,
+   "dim": 2,
+   "source": "core"
+  },
+  "SixHumpCamelLog|LogEI": {
+   "n_cells": 30,
+   "n_iter_obs": 7380,
+   "mean_vanishing_grad_frac": 0.0,
+   "frac_iters_any_vanishing": 0.0,
+   "max_vanishing_grad_frac": 0.0,
+   "median_grad_norm": 79.46506491841356,
+   "q10_median_grad_norm": 19.060860496984507,
+   "min_median_grad_norm": 2.8240813052912836e-10,
+   "median_max_grad_norm": 894.1967002704073,
+   "dim": 2,
+   "source": "core"
+  },
+  "Hartmann6Log|EI": {
+   "n_cells": 30,
+   "n_iter_obs": 7140,
+   "mean_vanishing_grad_frac": 0.0003720238095238095,
+   "frac_iters_any_vanishing": 0.023109243697478993,
+   "max_vanishing_grad_frac": 0.03125,
+   "median_grad_norm": 2.489603039003573e-10,
+   "q10_median_grad_norm": 1.1152081065857565e-22,
+   "min_median_grad_norm": 6.53214200926186e-38,
+   "median_max_grad_norm": 0.00015093089084742477,
+   "dim": 6,
+   "source": "core"
+  },
+  "Hartmann6Log|LogEI": {
+   "n_cells": 30,
+   "n_iter_obs": 7140,
+   "mean_vanishing_grad_frac": 0.0,
+   "frac_iters_any_vanishing": 0.0,
+   "max_vanishing_grad_frac": 0.0,
+   "median_grad_norm": 69.93117189306204,
+   "q10_median_grad_norm": 27.416011354574398,
+   "min_median_grad_norm": 4.999157504447271,
+   "median_max_grad_norm": 746.8708082135095,
+   "dim": 6,
+   "source": "core"
+  },
+  "GSobolLog|EI": {
+   "n_cells": 30,
+   "n_iter_obs": 6900,
+   "mean_vanishing_grad_frac": 0.0,
+   "frac_iters_any_vanishing": 0.0,
+   "max_vanishing_grad_frac": 0.0,
+   "median_grad_norm": 2.121115958344076e-15,
+   "q10_median_grad_norm": 6.430686225438382e-36,
+   "min_median_grad_norm": 5.33331611175908e-67,
+   "median_max_grad_norm": 6.940613476952565e-11,
+   "dim": 10,
+   "source": "core"
+  },
+  "GSobolLog|LogEI": {
+   "n_cells": 30,
+   "n_iter_obs": 6900,
+   "mean_vanishing_grad_frac": 0.0,
+   "frac_iters_any_vanishing": 0.0,
+   "max_vanishing_grad_frac": 0.0,
+   "median_grad_norm": 3.6876012055731375,
+   "q10_median_grad_norm": 0.682172060501594,
+   "min_median_grad_norm": 0.1830448331041259,
+   "median_max_grad_norm": 11.86800639889969,
+   "dim": 10,
+   "source": "core"
+  },
+  "RosenbrockLog|EI": {
+   "n_cells": 30,
+   "n_iter_obs": 6900,
+   "mean_vanishing_grad_frac": 0.0002943840579710145,
+   "frac_iters_any_vanishing": 0.004492753623188406,
+   "max_vanishing_grad_frac": 0.171875,
+   "median_grad_norm": 9.819600145587518e-14,
+   "q10_median_grad_norm": 1.0791111858167786e-42,
+   "min_median_grad_norm": 1.880702643362368e-120,
+   "median_max_grad_norm": 2.5228002634520637e-09,
+   "dim": 10,
+   "source": "core"
+  },
+  "RosenbrockLog|LogEI": {
+   "n_cells": 30,
+   "n_iter_obs": 6900,
+   "mean_vanishing_grad_frac": 0.0,
+   "frac_iters_any_vanishing": 0.0,
+   "max_vanishing_grad_frac": 0.0,
+   "median_grad_norm": 1.5015720165838045,
+   "q10_median_grad_norm": 0.34593837067248345,
+   "min_median_grad_norm": 0.0695390792351889,
+   "median_max_grad_norm": 7.606395280805746,
+   "dim": 10,
+   "source": "core"
+  },
+  "StyblinskiTangLog|EI": {
+   "n_cells": 30,
+   "n_iter_obs": 6900,
+   "mean_vanishing_grad_frac": 0.0,
+   "frac_iters_any_vanishing": 0.0,
+   "max_vanishing_grad_frac": 0.0,
+   "median_grad_norm": 3.3645809380836945e-06,
+   "q10_median_grad_norm": 4.2496216042595436e-08,
+   "min_median_grad_norm": 1.3548148108658705e-35,
+   "median_max_grad_norm": 4.700677779172368e-05,
+   "dim": 10,
+   "source": "core"
+  },
+  "StyblinskiTangLog|LogEI": {
+   "n_cells": 30,
+   "n_iter_obs": 6900,
+   "mean_vanishing_grad_frac": 0.0,
+   "frac_iters_any_vanishing": 0.0,
+   "max_vanishing_grad_frac": 0.0,
+   "median_grad_norm": 0.06435561512173148,
+   "q10_median_grad_norm": 0.02282171495058876,
+   "min_median_grad_norm": 0.0025366733352616805,
+   "median_max_grad_norm": 1.3936409919827049,
+   "dim": 10,
+   "source": "core"
+  },
+  "GSobol|EI": {
+   "n_cells": 30,
+   "n_iter_obs": 6900,
+   "mean_vanishing_grad_frac": 2.2644927536231883e-06,
+   "frac_iters_any_vanishing": 0.00014492753623188405,
+   "max_vanishing_grad_frac": 0.015625,
+   "median_grad_norm": 6096140.276523058,
+   "q10_median_grad_norm": 631858.6388416114,
+   "min_median_grad_norm": 128631.57859639991,
+   "median_max_grad_norm": 23243519.487683035,
+   "dim": 10,
+   "source": "ext"
+  },
+  "GSobol|LogEI": {
+   "n_cells": 30,
+   "n_iter_obs": 6900,
+   "mean_vanishing_grad_frac": 0.0,
+   "frac_iters_any_vanishing": 0.0,
+   "max_vanishing_grad_frac": 0.0,
+   "median_grad_norm": 0.5935325136793221,
+   "q10_median_grad_norm": 0.3828602568416031,
+   "min_median_grad_norm": 0.1371977790790808,
+   "median_max_grad_norm": 11.824661948875914,
+   "dim": 10,
+   "source": "ext"
+  },
+  "Rosenbrock|EI": {
+   "n_cells": 30,
+   "n_iter_obs": 6900,
+   "mean_vanishing_grad_frac": 0.0,
+   "frac_iters_any_vanishing": 0.0,
+   "max_vanishing_grad_frac": 0.0,
+   "median_grad_norm": 1.8735732266354255,
+   "q10_median_grad_norm": 0.01929484471002526,
+   "min_median_grad_norm": 8.58663937691499e-05,
+   "median_max_grad_norm": 256.1005308735526,
+   "dim": 10,
+   "source": "ext"
+  },
+  "Rosenbrock|LogEI": {
+   "n_cells": 30,
+   "n_iter_obs": 6900,
+   "mean_vanishing_grad_frac": 0.0,
+   "frac_iters_any_vanishing": 0.0,
+   "max_vanishing_grad_frac": 0.0,
+   "median_grad_norm": 1.3359953361045083,
+   "q10_median_grad_norm": 0.9343938989761462,
+   "min_median_grad_norm": 0.33505321460795834,
+   "median_max_grad_norm": 7.902024888002121,
+   "dim": 10,
+   "source": "ext"
+  },
+  "Ackley8|EI": {
+   "n_cells": 30,
+   "n_iter_obs": 7020,
+   "mean_vanishing_grad_frac": 0.0003672542735042735,
+   "frac_iters_any_vanishing": 0.01623931623931624,
+   "max_vanishing_grad_frac": 0.09375,
+   "median_grad_norm": 1.0359978619735332e-33,
+   "q10_median_grad_norm": 3.3950775958902316e-77,
+   "min_median_grad_norm": 2.6705057538074713e-120,
+   "median_max_grad_norm": 5.191074553694942e-21,
+   "dim": 8,
+   "source": "ext"
+  },
+  "Ackley8|LogEI": {
+   "n_cells": 30,
+   "n_iter_obs": 7020,
+   "mean_vanishing_grad_frac": 0.0,
+   "frac_iters_any_vanishing": 0.0,
+   "max_vanishing_grad_frac": 0.0,
+   "median_grad_norm": 5.549549187592207,
+   "q10_median_grad_norm": 1.1953755484261217,
+   "min_median_grad_norm": 0.012220966170043845,
+   "median_max_grad_norm": 23.939198244765727,
+   "dim": 8,
+   "source": "ext"
+  }
+ }
+}

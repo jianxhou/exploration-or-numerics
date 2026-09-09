@@ -1,0 +1,162 @@
+{
+ "_banner": "POST-HOC EXPLORATORY (2026-06-18); NOT exp09-prereg; exploratory only; 2-3 problems; conditioning is a HYPOTHESIS, not proven.",
+ "step1_grad_scale": {
+  "GSobol|EI": {
+   "median_grad_norm": 6096140.276523058,
+   "max_grad_norm": 979683588.2889631,
+   "median_of_max_grad_norm": 23243519.487683035,
+   "median_max_over_median_ratio": 4.095536947479088
+  },
+  "GSobol|LogEI": {
+   "median_grad_norm": 0.5935325136793221,
+   "max_grad_norm": 4842.346646355274,
+   "median_of_max_grad_norm": 11.824661948875914,
+   "median_max_over_median_ratio": 19.558296777394975
+  },
+  "Rosenbrock|EI": {
+   "median_grad_norm": 1.8735732266354255,
+   "max_grad_norm": 90231.0388007432,
+   "median_of_max_grad_norm": 256.1005308735526,
+   "median_max_over_median_ratio": 133.75967099851067
+  },
+  "Rosenbrock|LogEI": {
+   "median_grad_norm": 1.3359953361045083,
+   "max_grad_norm": 158.37132840682366,
+   "median_of_max_grad_norm": 7.902024888002121,
+   "median_max_over_median_ratio": 5.889904155408089
+  },
+  "Ackley8|EI": {
+   "median_grad_norm": 1.0359978619735332e-33,
+   "max_grad_norm": 0.26829382922303296,
+   "median_of_max_grad_norm": 5.191074553694942e-21,
+   "median_max_over_median_ratio": 1795785386449.8696
+  },
+  "Ackley8|LogEI": {
+   "median_grad_norm": 5.549549187592207,
+   "max_grad_norm": 2311.9561421737662,
+   "median_of_max_grad_norm": 23.939198244765727,
+   "median_max_over_median_ratio": 4.337196089926984
+  }
+ },
+ "step2_optimizer_progress": {
+  "GSobol|EI": {
+   "n_restart_obs": 69000,
+   "n_excluded_exact_zero": 0,
+   "mean_log_improvement": 1.3058934244333869,
+   "median_log_improvement": 1.0207378534605045,
+   "frac_restarts_improved": 0.9991739130434782,
+   "frac_restarts_no_progress": 0.0008260869565217392
+  },
+  "GSobol|LogEI": {
+   "n_restart_obs": 69000,
+   "n_excluded_exact_zero": 0,
+   "mean_log_improvement": 1.5040111017129454,
+   "median_log_improvement": 1.2669943540376298,
+   "frac_restarts_improved": 1.0,
+   "frac_restarts_no_progress": 0.0
+  },
+  "Rosenbrock|EI": {
+   "n_restart_obs": 69000,
+   "n_excluded_exact_zero": 0,
+   "mean_log_improvement": 6.0927567619282454,
+   "median_log_improvement": 4.9833371151483625,
+   "frac_restarts_improved": 0.9678840579710145,
+   "frac_restarts_no_progress": 0.03211594202898551
+  },
+  "Rosenbrock|LogEI": {
+   "n_restart_obs": 69000,
+   "n_excluded_exact_zero": 0,
+   "mean_log_improvement": 6.451886428802652,
+   "median_log_improvement": 5.840738639134328,
+   "frac_restarts_improved": 1.0,
+   "frac_restarts_no_progress": 0.0
+  },
+  "Ackley8|EI": {
+   "n_restart_obs": 70200,
+   "n_excluded_exact_zero": 0,
+   "mean_log_improvement": 0.40254153339281756,
+   "median_log_improvement": 0.0,
+   "frac_restarts_improved": 0.11356125356125356,
+   "frac_restarts_no_progress": 0.8864387464387464
+  },
+  "Ackley8|LogEI": {
+   "n_restart_obs": 70200,
+   "n_excluded_exact_zero": 0,
+   "mean_log_improvement": 15.678854966835106,
+   "median_log_improvement": 10.050442686365287,
+   "frac_restarts_improved": 0.999957264957265,
+   "frac_restarts_no_progress": 4.2735042735042735e-05
+  }
+ },
+ "step2_progress_gaps": {
+  "GSobol": {
+   "EI_mean_log_improvement": 1.3058934244333869,
+   "LogEI_mean_log_improvement": 1.5040111017129454,
+   "gap_LogEI_minus_EI": 0.19811767727955854
+  },
+  "Rosenbrock": {
+   "EI_mean_log_improvement": 6.0927567619282454,
+   "LogEI_mean_log_improvement": 6.451886428802652,
+   "gap_LogEI_minus_EI": 0.3591296668744066
+  },
+  "Ackley8": {
+   "EI_mean_log_improvement": 0.40254153339281756,
+   "LogEI_mean_log_improvement": 15.678854966835106,
+   "gap_LogEI_minus_EI": 15.276313433442288
+  }
+ },
+ "step3_performance": {
+  "GSobol": {
+   "median_regret_EI": 1905.0042622554802,
+   "median_regret_LogEI": 516.4068965111239,
+   "n_LogEI_better": 23,
+   "wilcoxon_p": 0.0012263975391646,
+   "LogEI_significantly_wins": true
+  },
+  "Rosenbrock": {
+   "median_regret_EI": 1844.1980632466634,
+   "median_regret_LogEI": 1673.6176294554753,
+   "n_LogEI_better": 17,
+   "wilcoxon_p": 0.6120056137442589,
+   "LogEI_significantly_wins": false
+  },
+  "Ackley8": {
+   "median_regret_EI": 2.8976512671889947,
+   "median_regret_LogEI": 3.032836913006554,
+   "n_LogEI_better": 12,
+   "wilcoxon_p": 0.7151329666376114,
+   "LogEI_significantly_wins": false
+  }
+ },
+ "crosstab": {
+  "GSobol": {
+   "EI_median_grad_norm": 6096140.276523058,
+   "EI_grad_pathologically_large": true,
+   "optimizer_progress_gap_LogEI_minus_EI": 0.19811767727955854,
+   "LogEI_more_optimizer_progress": true,
+   "LogEI_significantly_wins": true
+  },
+  "Rosenbrock": {
+   "EI_median_grad_norm": 1.8735732266354255,
+   "EI_grad_pathologically_large": false,
+   "optimizer_progress_gap_LogEI_minus_EI": 0.3591296668744066,
+   "LogEI_more_optimizer_progress": true,
+   "LogEI_significantly_wins": false
+  },
+  "Ackley8": {
+   "EI_median_grad_norm": 1.0359978619735332e-33,
+   "EI_grad_pathologically_large": false,
+   "optimizer_progress_gap_LogEI_minus_EI": 15.276313433442288,
+   "LogEI_more_optimizer_progress": true,
+   "LogEI_significantly_wins": false
+  },
+  "_gap_order_biggest_first": [
+   "Ackley8",
+   "Rosenbrock",
+   "GSobol"
+  ],
+  "_gap_tracks_performance": false,
+  "_EI_optimizer_fails_on_winning_problem": false
+ },
+ "verdict": "CONDITIONING via optimiser-progress NOT SUPPORTED (exploratory). (1) The progress gap does NOT track performance: gap ordering (biggest->smallest) = ['Ackley8', 'Rosenbrock', 'GSobol'], but the only win is GSobol, which has the SMALLEST gap (+0.198); Rosenbrock (+0.359) and Ackley8 (+15.276) have LARGER gaps yet NO win, so optimiser progress != performance. (2) EI's optimiser does NOT fail on GSobol (frac_restarts_improved 0.999, mean log-improvement 1.306): its large gradients do not impair acqf optimisation -- EI reaches essentially the same relative acqf max as LogEI. (3) By the coarse max/median dispersion proxy GSobol is the LEAST ill-conditioned (4.1) of the three, not the most. => What is unique to GSobol is large gradient MAGNITUDE co-occurring with the LogEI win, but the proposed MECHANISM (large grads -> optimiser failure -> LogEI rescue) is not borne out; LogEI's GSobol win is NOT explained by conditioning-via-optimiser-progress and remains unexplained by this test."
+}

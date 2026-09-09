@@ -1,0 +1,679 @@
+{
+ "meta": {
+  "prereg_tag": "phase3-prereg",
+  "alpha": 0.05,
+  "epsilon": 1e-12,
+  "merged_optimal_table": "{**_problem_optimal_values(), **_ext_optimal_values()}",
+  "n_problems": 11,
+  "n_seeds": 30
+ },
+ "data": {
+  "n_cells": 3300,
+  "n_clipped": 0
+ },
+ "H1": {
+  "per_optimizer": {
+   "grad": {
+    "A_p": {
+     "WangFreitas": -0.9236551363239823,
+     "BraninForrester": -7.690046433789149,
+     "Branin": -5.4571781256045435,
+     "Cosines": -0.7990232157706207,
+     "GoldsteinPriceLog": -0.5586603944092747,
+     "SixHumpCamelLog": 0.6166508752143355,
+     "Hartmann6Log": -0.6743694053481477,
+     "Ackley8": 3.1230360163531903,
+     "GSobolLog": 1.1266845539234034,
+     "RosenbrockLog": 0.6183084591036915,
+     "StyblinskiTangLog": -0.04498444418901044
+    },
+    "primary_ols_hc3": {
+     "slope": 1.8094018343028562,
+     "p": 0.07187632320013333,
+     "ci95": [
+      -0.16090823868632653,
+      3.7797119072920387
+     ],
+     "spearman_rho": 0.7127255688897131,
+     "spearman_p": 0.013831909804680888,
+     "confirmed_this_optimizer": false
+    },
+    "secondary_mixedlm_interaction": {
+     "interaction_term": "C(acq, Treatment('EI'))[T.Exploit]:logdim",
+     "coef": -1.8094018343028575,
+     "p": 3.174677300888778e-15,
+     "ci": [
+      -2.2592285552804783,
+      -1.3595751133252365
+     ]
+    },
+    "secondary_perproblem_wilcoxon_holm": [
+     {
+      "problem": "WangFreitas",
+      "dim": 1,
+      "median_logregret_diff": -1.5982282808302273e-07,
+      "frac_seeds_exploit_better": 0.2,
+      "wilcoxon_p_raw": 0.9999804794788361,
+      "wilcoxon_p_holm": 1.0
+     },
+     {
+      "problem": "BraninForrester",
+      "dim": 2,
+      "median_logregret_diff": -7.013189950225545,
+      "frac_seeds_exploit_better": 0.0,
+      "wilcoxon_p_raw": 1.0,
+      "wilcoxon_p_holm": 1.0
+     },
+     {
+      "problem": "Branin",
+      "dim": 2,
+      "median_logregret_diff": -6.281864036738108,
+      "frac_seeds_exploit_better": 0.06666666666666667,
+      "wilcoxon_p_raw": 0.9999999767169356,
+      "wilcoxon_p_holm": 1.0
+     },
+     {
+      "problem": "Cosines",
+      "dim": 2,
+      "median_logregret_diff": -1.6186405334776492,
+      "frac_seeds_exploit_better": 0.43333333333333335,
+      "wilcoxon_p_raw": 0.8505779262632132,
+      "wilcoxon_p_holm": 1.0
+     },
+     {
+      "problem": "GoldsteinPriceLog",
+      "dim": 2,
+      "median_logregret_diff": -3.5387532223241775,
+      "frac_seeds_exploit_better": 0.43333333333333335,
+      "wilcoxon_p_raw": 0.7677274774760008,
+      "wilcoxon_p_holm": 1.0
+     },
+     {
+      "problem": "SixHumpCamelLog",
+      "dim": 2,
+      "median_logregret_diff": 0.6105786310813915,
+      "frac_seeds_exploit_better": 0.6666666666666666,
+      "wilcoxon_p_raw": 0.036622037179768085,
+      "wilcoxon_p_holm": 0.2929762974381447
+     },
+     {
+      "problem": "Hartmann6Log",
+      "dim": 6,
+      "median_logregret_diff": -0.8117653421981823,
+      "frac_seeds_exploit_better": 0.23333333333333334,
+      "wilcoxon_p_raw": 0.9953494388610125,
+      "wilcoxon_p_holm": 1.0
+     },
+     {
+      "problem": "Ackley8",
+      "dim": 8,
+      "median_logregret_diff": 3.108250174741388,
+      "frac_seeds_exploit_better": 1.0,
+      "wilcoxon_p_raw": 9.313225746154785e-10,
+      "wilcoxon_p_holm": 1.0244548320770264e-08
+     },
+     {
+      "problem": "GSobolLog",
+      "dim": 10,
+      "median_logregret_diff": 1.1186886315198616,
+      "frac_seeds_exploit_better": 1.0,
+      "wilcoxon_p_raw": 9.313225746154785e-10,
+      "wilcoxon_p_holm": 1.0244548320770264e-08
+     },
+     {
+      "problem": "RosenbrockLog",
+      "dim": 10,
+      "median_logregret_diff": 0.6812035572496755,
+      "frac_seeds_exploit_better": 0.9333333333333333,
+      "wilcoxon_p_raw": 1.2759119272232056e-07,
+      "wilcoxon_p_holm": 1.148320734500885e-06
+     },
+     {
+      "problem": "StyblinskiTangLog",
+      "dim": 10,
+      "median_logregret_diff": -0.06799825585186442,
+      "frac_seeds_exploit_better": 0.26666666666666666,
+      "wilcoxon_p_raw": 0.9751449394971132,
+      "wilcoxon_p_holm": 1.0
+     }
+    ],
+    "missing_cells": []
+   },
+   "nsga": {
+    "A_p": {
+     "WangFreitas": -0.02834458732801691,
+     "BraninForrester": -6.732786617649819,
+     "Branin": -4.191087413825369,
+     "Cosines": -0.09834107733699306,
+     "GoldsteinPriceLog": -1.3560619559066864,
+     "SixHumpCamelLog": 0.6222848877743813,
+     "Hartmann6Log": -0.6810127644581816,
+     "Ackley8": 3.5255353740472786,
+     "GSobolLog": 1.17754484116278,
+     "RosenbrockLog": 0.5950339832726689,
+     "StyblinskiTangLog": -0.10599150798266996
+    },
+    "primary_ols_hc3": {
+     "slope": 1.5168259484797897,
+     "p": 0.12799878487142619,
+     "ci95": [
+      -0.4364223878002935,
+      3.470074284759873
+     ],
+     "spearman_rho": 0.39488849087132755,
+     "spearman_p": 0.22938811590271926,
+     "confirmed_this_optimizer": false
+    },
+    "secondary_mixedlm_interaction": {
+     "interaction_term": "C(acq, Treatment('EI'))[T.Exploit]:logdim",
+     "coef": -1.5168259484797872,
+     "p": 8.372051077296035e-10,
+     "ci": [
+      -2.0011963649353115,
+      -1.032455532024263
+     ]
+    },
+    "secondary_perproblem_wilcoxon_holm": [
+     {
+      "problem": "WangFreitas",
+      "dim": 1,
+      "median_logregret_diff": -3.6371699652093525e-08,
+      "frac_seeds_exploit_better": 0.36666666666666664,
+      "wilcoxon_p_raw": 0.99358313344419,
+      "wilcoxon_p_holm": 1.0
+     },
+     {
+      "problem": "BraninForrester",
+      "dim": 2,
+      "median_logregret_diff": -6.641840728584161,
+      "frac_seeds_exploit_better": 0.03333333333333333,
+      "wilcoxon_p_raw": 0.9999999981373549,
+      "wilcoxon_p_holm": 1.0
+     },
+     {
+      "problem": "Branin",
+      "dim": 2,
+      "median_logregret_diff": -4.139276588152603,
+      "frac_seeds_exploit_better": 0.06666666666666667,
+      "wilcoxon_p_raw": 0.9999995836988091,
+      "wilcoxon_p_holm": 1.0
+     },
+     {
+      "problem": "Cosines",
+      "dim": 2,
+      "median_logregret_diff": -0.7341828217099431,
+      "frac_seeds_exploit_better": 0.43333333333333335,
+      "wilcoxon_p_raw": 0.564396102912724,
+      "wilcoxon_p_holm": 1.0
+     },
+     {
+      "problem": "GoldsteinPriceLog",
+      "dim": 2,
+      "median_logregret_diff": -2.866113929809459,
+      "frac_seeds_exploit_better": 0.43333333333333335,
+      "wilcoxon_p_raw": 0.8972951536998153,
+      "wilcoxon_p_holm": 1.0
+     },
+     {
+      "problem": "SixHumpCamelLog",
+      "dim": 2,
+      "median_logregret_diff": 0.4462340368979432,
+      "frac_seeds_exploit_better": 0.6333333333333333,
+      "wilcoxon_p_raw": 0.023629524745047092,
+      "wilcoxon_p_holm": 0.18903619796037674
+     },
+     {
+      "problem": "Hartmann6Log",
+      "dim": 6,
+      "median_logregret_diff": -0.43784699869105337,
+      "frac_seeds_exploit_better": 0.2,
+      "wilcoxon_p_raw": 0.9988162526860833,
+      "wilcoxon_p_holm": 1.0
+     },
+     {
+      "problem": "Ackley8",
+      "dim": 8,
+      "median_logregret_diff": 3.4571880677947373,
+      "frac_seeds_exploit_better": 1.0,
+      "wilcoxon_p_raw": 9.313225746154785e-10,
+      "wilcoxon_p_holm": 1.0244548320770264e-08
+     },
+     {
+      "problem": "GSobolLog",
+      "dim": 10,
+      "median_logregret_diff": 1.1662242952047737,
+      "frac_seeds_exploit_better": 1.0,
+      "wilcoxon_p_raw": 9.313225746154785e-10,
+      "wilcoxon_p_holm": 1.0244548320770264e-08
+     },
+     {
+      "problem": "RosenbrockLog",
+      "dim": 10,
+      "median_logregret_diff": 0.6922984640828848,
+      "frac_seeds_exploit_better": 0.9,
+      "wilcoxon_p_raw": 6.51925802230835e-08,
+      "wilcoxon_p_holm": 5.867332220077515e-07
+     },
+     {
+      "problem": "StyblinskiTangLog",
+      "dim": 10,
+      "median_logregret_diff": -0.1374583225011356,
+      "frac_seeds_exploit_better": 0.23333333333333334,
+      "wilcoxon_p_raw": 0.9901695922017097,
+      "wilcoxon_p_holm": 1.0
+     }
+    ],
+    "missing_cells": []
+   }
+  },
+  "dimension_levels": [
+   1,
+   2,
+   6,
+   8,
+   10
+  ],
+  "H1_CONFIRMED": false,
+  "note_dimension_ties": "5 distinct dims {1,2,6,8,10}; ties at d=2 (n=5), d=10 (n=3) => slope + Spearman driven by few effective dimension points"
+ },
+ "H2": {
+  "M_pa_nsga": {
+   "EI": {
+    "WangFreitas": -0.15915025628229376,
+    "BraninForrester": -8.393701659664224,
+    "Branin": -9.865342879298863,
+    "Cosines": -4.121617053437879,
+    "GoldsteinPriceLog": -5.4615171522787,
+    "SixHumpCamelLog": 1.3386073159169638,
+    "Hartmann6Log": -5.053651882584916,
+    "GSobolLog": 2.1801454153428197,
+    "RosenbrockLog": 2.009997751736573,
+    "StyblinskiTangLog": 0.5214668688837142
+   },
+   "UCB": {
+    "WangFreitas": 0.09278292691111482,
+    "BraninForrester": -6.507874500837185,
+    "Branin": -8.856342502743342,
+    "Cosines": -6.411813226446677,
+    "GoldsteinPriceLog": -8.093285591842763,
+    "SixHumpCamelLog": 0.2518957758398893,
+    "Hartmann6Log": -6.1192559933278075,
+    "GSobolLog": 1.47292946983179,
+    "RosenbrockLog": 1.4569110501076663,
+    "StyblinskiTangLog": 0.3562393386385438
+   },
+   "Exploit": {
+    "WangFreitas": -0.1308056689542768,
+    "BraninForrester": -1.6609150420144034,
+    "Branin": -5.674255465473495,
+    "Cosines": -4.023275976100886,
+    "GoldsteinPriceLog": -4.105455196372015,
+    "SixHumpCamelLog": 0.7163224281425825,
+    "Hartmann6Log": -4.372639118126734,
+    "GSobolLog": 1.0026005741800397,
+    "RosenbrockLog": 1.4149637684639036,
+    "StyblinskiTangLog": 0.6274583768663841
+   }
+  },
+  "M_a_nsga": {
+   "EI": -2.70047635316668,
+   "UCB": -3.235781325386877,
+   "Exploit": -1.62060013193889
+  },
+  "our_order_best_to_worst": [
+   "UCB",
+   "EI",
+   "Exploit"
+  ],
+  "criterion1_spearman": {
+   "rho_vs_DeAth_ref": -0.5,
+   "ref_order": [
+    "Exploit",
+    "UCB",
+    "EI"
+   ],
+   "rho_vs_alt_EIUCB_swapped": -1.0,
+   "alt_order": [
+    "Exploit",
+    "EI",
+    "UCB"
+   ],
+   "threshold": 0.5,
+   "passed": false,
+   "ambiguity_flag": "De Ath's exact EI-vs-UCB sub-order is not crisply specified; reference uses Exploit-best (paper-supported) with EI/UCB flagged; alt rho reported as sensitivity."
+  },
+  "criterion2_highd_majority": {
+   "problems": [
+    "Hartmann6Log",
+    "GSobolLog",
+    "RosenbrockLog",
+    "StyblinskiTangLog"
+   ],
+   "exploit_at_or_above_ei": {
+    "Hartmann6Log": false,
+    "GSobolLog": true,
+    "RosenbrockLog": true,
+    "StyblinskiTangLog": false
+   },
+   "n_exploit_wins": 2,
+   "n_total": 4,
+   "passed": false
+  },
+  "H2a_PASS": false,
+  "H2b_epsPF_descriptive": {
+   "M_pa_nsga": {
+    "WangFreitas": -1.5544003823812063,
+    "BraninForrester": -8.274573911574107,
+    "Branin": -9.4701452088069,
+    "Cosines": -4.447017562927938,
+    "GoldsteinPriceLog": -8.65277179044861,
+    "SixHumpCamelLog": -0.8364544852118386,
+    "Hartmann6Log": -4.823066589719544,
+    "GSobolLog": 1.1191282389275872,
+    "RosenbrockLog": 1.289627420027807,
+    "StyblinskiTangLog": 0.6815510814060097
+   },
+   "M_a_nsga": -3.496812319070874,
+   "note": "descriptive only; excluded from any pass/fail (\u00a73 H2b)"
+  },
+  "gradient_context_descriptive": {
+   "M_a_grad": {
+    "EI": -2.828410763205905,
+    "UCB": -3.228680806885115,
+    "Exploit": -1.4497834364865754
+   },
+   "order_best_to_worst": [
+    "UCB",
+    "EI",
+    "Exploit"
+   ],
+   "exploit_at_or_above_ei_highd": "2/4",
+   "note": "NOT the verdict; for cause attribution. A matching grad ordering means the failed reproduction is NOT due to the NSGA-II substitution."
+  }
+ },
+ "H3": {
+  "D_p": {
+   "WangFreitas": -1.0573361668688517,
+   "BraninForrester": -0.3101662431952827,
+   "Branin": -0.8038918267944885,
+   "Cosines": -0.04987836022947379,
+   "GoldsteinPriceLog": 2.421347730763182,
+   "SixHumpCamelLog": -0.38495505028217386,
+   "Hartmann6Log": 0.26115038479623665,
+   "Ackley8": 0.009220746381795394,
+   "GSobolLog": 0.025484989272686973,
+   "RosenbrockLog": 0.05339266396772366,
+   "StyblinskiTangLog": 0.15408846474325957
+  },
+  "mean_D_p": 0.028950666595873965,
+  "median_D_p": 0.009220746381795394,
+  "ci95_mean_D_p": [
+   -0.5704415198280806,
+   0.6283428530198285
+  ],
+  "n_problems_D_p_positive": 6,
+  "primary_wilcoxon_one_sided_greater": {
+   "statistic": 29.0,
+   "p": 0.64990234375,
+   "alpha": 0.05,
+   "H3_CONFIRMED": false
+  },
+  "sensitivity_ttest_one_sided": {
+   "t": 0.10761919573563199,
+   "p": 0.4582131845362947
+  },
+  "sensitivity_sign_test": {
+   "n_positive": 6,
+   "n": 11,
+   "p": 0.5
+  },
+  "secondary_seedlevel_mixedlm": {
+   "intercept": 0.028950666595873982,
+   "p_two_sided": 0.914300863584928,
+   "p_one_sided_in_direction": 0.457150431792464,
+   "ci95": [
+    -0.49831884201822396,
+    0.5562201752099719
+   ],
+   "significant_in_direction": false
+  },
+  "descriptive_components": {
+   "per_problem_logei_advantage": {
+    "WangFreitas": {
+     "logei_adv_grad": -1.0566011125354455,
+     "logei_adv_nsga": 0.0007350543334058157
+    },
+    "BraninForrester": {
+     "logei_adv_grad": -0.9699439760402205,
+     "logei_adv_nsga": -0.659777732844938
+    },
+    "Branin": {
+     "logei_adv_grad": -0.9542377694507168,
+     "logei_adv_nsga": -0.15034594265622842
+    },
+    "Cosines": {
+     "logei_adv_grad": -0.5516125626483905,
+     "logei_adv_nsga": -0.5017342024189169
+    },
+    "GoldsteinPriceLog": {
+     "logei_adv_grad": 2.126819732519379,
+     "logei_adv_nsga": -0.2945279982438027
+    },
+    "SixHumpCamelLog": {
+     "logei_adv_grad": -0.07957240393296137,
+     "logei_adv_nsga": 0.3053826463492125
+    },
+    "Hartmann6Log": {
+     "logei_adv_grad": 0.24392022996217508,
+     "logei_adv_nsga": -0.017230154834061606
+    },
+    "Ackley8": {
+     "logei_adv_grad": -0.008571530343269247,
+     "logei_adv_nsga": -0.017792276725064653
+    },
+    "GSobolLog": {
+     "logei_adv_grad": 0.06098903714335678,
+     "logei_adv_nsga": 0.03550404787066981
+    },
+    "RosenbrockLog": {
+     "logei_adv_grad": 0.11384109932723696,
+     "logei_adv_nsga": 0.0604484353595133
+    },
+    "StyblinskiTangLog": {
+     "logei_adv_grad": 0.14724676687164187,
+     "logei_adv_nsga": -0.006841697871617624
+    }
+   },
+   "mean_logei_adv_grad": -0.084338408102474,
+   "mean_logei_adv_nsga": -0.11328907469834802,
+   "note": "both means near zero => little robust LogEI edge over EI under either optimizer (descriptive)"
+  },
+  "H3_VERDICT": "REJECTED",
+  "interpretation": "H3 REJECTED: the LogEI advantage is NOT smaller under gradient-free optimization (problem-level primary not sig in direction D>0, seed-level not in-direction either) => consistent with value-underflow, not gradient-vanishing, being operationally dominant (\u00a73 H3 falsification)."
+ },
+ "attribution": {
+  "per_acq_optimizer_dim": [
+   {
+    "acq": "EI",
+    "optimizer": "grad",
+    "dim": 1,
+    "own_acqf_underflow_frac": 0.3503549227150538,
+    "own_grad_frac_below_tiny": 0.34878612231182793,
+    "own_grad_median_log10_norm": -86.92650895463973,
+    "raw_ei_underflow_frac": NaN
+   },
+   {
+    "acq": "EI",
+    "optimizer": "grad",
+    "dim": 2,
+    "own_acqf_underflow_frac": 0.22446815718157181,
+    "own_grad_frac_below_tiny": 0.3678146172086721,
+    "own_grad_median_log10_norm": -53.648441573831214,
+    "raw_ei_underflow_frac": NaN
+   },
+   {
+    "acq": "EI",
+    "optimizer": "grad",
+    "dim": 6,
+    "own_acqf_underflow_frac": 5.47093837535014e-05,
+    "own_grad_frac_below_tiny": 0.00037202380952380956,
+    "own_grad_median_log10_norm": -10.542953587515463,
+    "raw_ei_underflow_frac": NaN
+   },
+   {
+    "acq": "EI",
+    "optimizer": "grad",
+    "dim": 8,
+    "own_acqf_underflow_frac": 0.0,
+    "own_grad_frac_below_tiny": 0.00036725427350427355,
+    "own_grad_median_log10_norm": -34.32815099642484,
+    "raw_ei_underflow_frac": NaN
+   },
+   {
+    "acq": "EI",
+    "optimizer": "grad",
+    "dim": 10,
+    "own_acqf_underflow_frac": 0.0,
+    "own_grad_frac_below_tiny": 9.81280193236715e-05,
+    "own_grad_median_log10_norm": -11.976294709369805,
+    "raw_ei_underflow_frac": NaN
+   },
+   {
+    "acq": "EI",
+    "optimizer": "nsga",
+    "dim": 1,
+    "own_acqf_underflow_frac": NaN,
+    "own_grad_frac_below_tiny": 0.8370736399004536,
+    "own_grad_median_log10_norm": -36.573990721359415,
+    "raw_ei_underflow_frac": 0.2222324494392641
+   },
+   {
+    "acq": "EI",
+    "optimizer": "nsga",
+    "dim": 2,
+    "own_acqf_underflow_frac": NaN,
+    "own_grad_frac_below_tiny": 0.7099705443343496,
+    "own_grad_median_log10_norm": -42.16408633562253,
+    "raw_ei_underflow_frac": 0.09888512422721883
+   },
+   {
+    "acq": "EI",
+    "optimizer": "nsga",
+    "dim": 6,
+    "own_acqf_underflow_frac": NaN,
+    "own_grad_frac_below_tiny": 0.33053272578562676,
+    "own_grad_median_log10_norm": -9.693041987226843,
+    "raw_ei_underflow_frac": 2.9782420780812324e-05
+   },
+   {
+    "acq": "EI",
+    "optimizer": "nsga",
+    "dim": 8,
+    "own_acqf_underflow_frac": NaN,
+    "own_grad_frac_below_tiny": 0.5206316217058404,
+    "own_grad_median_log10_norm": -14.34685195213843,
+    "raw_ei_underflow_frac": 1.1476696047008549e-06
+   },
+   {
+    "acq": "EI",
+    "optimizer": "nsga",
+    "dim": 10,
+    "own_acqf_underflow_frac": NaN,
+    "own_grad_frac_below_tiny": 0.320751693651872,
+    "own_grad_median_log10_norm": -11.453251266234785,
+    "raw_ei_underflow_frac": 0.0
+   },
+   {
+    "acq": "LogEI",
+    "optimizer": "grad",
+    "dim": 1,
+    "own_acqf_underflow_frac": 0.0,
+    "own_grad_frac_below_tiny": 0.0,
+    "own_grad_median_log10_norm": 3.8389364258889485,
+    "raw_ei_underflow_frac": NaN
+   },
+   {
+    "acq": "LogEI",
+    "optimizer": "grad",
+    "dim": 2,
+    "own_acqf_underflow_frac": 0.0,
+    "own_grad_frac_below_tiny": 0.0,
+    "own_grad_median_log10_norm": 2.1809991038815646,
+    "raw_ei_underflow_frac": NaN
+   },
+   {
+    "acq": "LogEI",
+    "optimizer": "grad",
+    "dim": 6,
+    "own_acqf_underflow_frac": 0.0,
+    "own_grad_frac_below_tiny": 0.0,
+    "own_grad_median_log10_norm": 1.854427995942451,
+    "raw_ei_underflow_frac": NaN
+   },
+   {
+    "acq": "LogEI",
+    "optimizer": "grad",
+    "dim": 8,
+    "own_acqf_underflow_frac": 0.0,
+    "own_grad_frac_below_tiny": 0.0,
+    "own_grad_median_log10_norm": 0.7996998746660959,
+    "raw_ei_underflow_frac": NaN
+   },
+   {
+    "acq": "LogEI",
+    "optimizer": "grad",
+    "dim": 10,
+    "own_acqf_underflow_frac": 0.0,
+    "own_grad_frac_below_tiny": 0.0,
+    "own_grad_median_log10_norm": -0.11691905666119283,
+    "raw_ei_underflow_frac": NaN
+   },
+   {
+    "acq": "LogEI",
+    "optimizer": "nsga",
+    "dim": 1,
+    "own_acqf_underflow_frac": NaN,
+    "own_grad_frac_below_tiny": 0.0007135534799227151,
+    "own_grad_median_log10_norm": 3.695997410323973,
+    "raw_ei_underflow_frac": 0.22002990066364247
+   },
+   {
+    "acq": "LogEI",
+    "optimizer": "nsga",
+    "dim": 2,
+    "own_acqf_underflow_frac": NaN,
+    "own_grad_frac_below_tiny": 0.0010288178565379404,
+    "own_grad_median_log10_norm": 2.021472562564217,
+    "raw_ei_underflow_frac": 0.09199158541878387
+   },
+   {
+    "acq": "LogEI",
+    "optimizer": "nsga",
+    "dim": 6,
+    "own_acqf_underflow_frac": NaN,
+    "own_grad_frac_below_tiny": 0.0,
+    "own_grad_median_log10_norm": 1.8588805459487006,
+    "raw_ei_underflow_frac": 1.637862176120448e-05
+   },
+   {
+    "acq": "LogEI",
+    "optimizer": "nsga",
+    "dim": 8,
+    "own_acqf_underflow_frac": NaN,
+    "own_grad_frac_below_tiny": 3.2343416132478636e-06,
+    "own_grad_median_log10_norm": 0.7301659282758881,
+    "raw_ei_underflow_frac": 4.5211226851851854e-07
+   },
+   {
+    "acq": "LogEI",
+    "optimizer": "nsga",
+    "dim": 10,
+    "own_acqf_underflow_frac": NaN,
+    "own_grad_frac_below_tiny": 8.255963164251207e-08,
+    "own_grad_median_log10_norm": -0.07633410519714837,
+    "raw_ei_underflow_frac": 0.0
+   }
+  ],
+  "CAVEAT": "NSGA probe = K=4096 raw-EI underflow + own-surface gradient; grad probe = existing K=64 AcqProbe (own-acqf value -> for LogEI that is the LogEI value, NOT raw EI). Cross-optimizer comparison is DESCRIPTIVE, never a tested claim."
+ }
+}

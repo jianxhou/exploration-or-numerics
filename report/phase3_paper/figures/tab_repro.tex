@@ -1,0 +1,21 @@
+\begin{table}[t]
+\centering
+\caption{Part-1 reproduction, representative of the $90/90$ reproduced Table-2 cells. Median absolute regret at $T=250$ over De Ath's $51$ published runs on Branin; our recomputation matches his published value to three significant figures for every method. In De Ath's labels, eFront and eRandom are the eps-PF and eps-RS eps-greedy methods ($\epsilon=0.1$) and Exploit is pure greedy, matching the arm names used in Part~2.}
+\label{tab:repro}
+\small
+\begin{tabular}{lcc}
+\toprule
+Method & De Ath (published) & Ours (recomputed) \\
+\midrule
+LHS      & 1.31e-1 & 1.31e-1 \\
+Explore  & 1.66e-1 & 1.66e-1 \\
+EI       & 4.15e-6 & 4.15e-6 \\
+PI       & 2.26e-5 & 2.26e-5 \\
+UCB      & 4.42e-6 & 4.42e-6 \\
+PFRandom & 1.67e-3 & 1.67e-3 \\
+eRandom  & 3.17e-6 & 3.17e-6 \\
+eFront   & 3.57e-6 & 3.57e-6 \\
+Exploit  & 3.08e-6 & 3.08e-6 \\
+\bottomrule
+\end{tabular}
+\end{table}

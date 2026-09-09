@@ -1,0 +1,250 @@
+{
+  "config": {
+    "problems": [
+      "branin",
+      "sixhumpcamel",
+      "hartmann6",
+      "piston",
+      "borehole",
+      "ackley"
+    ],
+    "strategies": [
+      "EI",
+      "UCB",
+      "Uncertainty",
+      "Random"
+    ],
+    "alpha": 0.05,
+    "note": "Corrected analyses treating the problem (not problem x seed) as the independent block, per Demsar (2006). exp_03 is left intact for comparison."
+  },
+  "n60_reproduction": {
+    "description": "Reproduction of published exp_03 N=60 (problem x seed) Friedman.",
+    "n_blocks": 60,
+    "friedman": {
+      "chi_square": 128.815699658703,
+      "p_value": 9.733829173297537e-28,
+      "df": 3,
+      "rejected_H0": true
+    },
+    "average_ranks": {
+      "EI": 1.7583,
+      "UCB": 1.3917,
+      "Uncertainty": 3.375,
+      "Random": 3.475
+    },
+    "validation_passed": true
+  },
+  "analysis_A_demsar_n6": {
+    "description": "Friedman + Nemenyi on 6 problems, 10 seeds aggregated by median.",
+    "aggregation": "median",
+    "n_blocks": 6,
+    "k": 4,
+    "median_matrix": {
+      "branin": {
+        "EI": 0.026312589702357836,
+        "UCB": 0.014939838795076876,
+        "Uncertainty": 2.6757798612086274,
+        "Random": 0.9199141301775651
+      },
+      "sixhumpcamel": {
+        "EI": 0.05694380380174979,
+        "UCB": 0.2867833378683378,
+        "Uncertainty": 0.936261635941441,
+        "Random": 0.9237075584804963
+      },
+      "hartmann6": {
+        "EI": 0.18331708253424028,
+        "UCB": 0.2540718575047134,
+        "Uncertainty": 1.9132238535806523,
+        "Random": 1.8019109826162132
+      },
+      "piston": {
+        "EI": 0.015474053031131696,
+        "UCB": 0.001099950233023561,
+        "Uncertainty": 0.03270003927849008,
+        "Random": 0.39483861504089546
+      },
+      "borehole": {
+        "EI": 2.4085122151037694,
+        "UCB": 0.4244123395920951,
+        "Uncertainty": 5.747236731325813,
+        "Random": 111.64233021838564
+      },
+      "ackley": {
+        "EI": 3.8000003716613784,
+        "UCB": 4.295220610400131,
+        "Uncertainty": 8.44105452927295,
+        "Random": 8.272333203380482
+      }
+    },
+    "friedman": {
+      "chi_square": 14.600000000000009,
+      "p_value": 0.002192438137306532,
+      "df": 3,
+      "rejected_H0": true
+    },
+    "average_ranks": {
+      "EI": 1.5,
+      "UCB": 1.5,
+      "Uncertainty": 3.6667,
+      "Random": 3.3333
+    },
+    "nemenyi_pvalues": {
+      "EI": {
+        "EI": 1.0,
+        "UCB": 1.0,
+        "Uncertainty": 0.01913,
+        "Random": 0.066389
+      },
+      "UCB": {
+        "EI": 1.0,
+        "UCB": 1.0,
+        "Uncertainty": 0.01913,
+        "Random": 0.066389
+      },
+      "Uncertainty": {
+        "EI": 0.01913,
+        "UCB": 0.01913,
+        "Uncertainty": 1.0,
+        "Random": 0.970178
+      },
+      "Random": {
+        "EI": 0.066389,
+        "UCB": 0.066389,
+        "Uncertainty": 0.970178,
+        "Random": 1.0
+      }
+    },
+    "q_alpha": 2.569,
+    "CD": 1.9148
+  },
+  "analysis_B_per_problem": {
+    "branin": {
+      "n_seeds": 10,
+      "friedman": {
+        "chi_square": 22.560000000000002,
+        "p_value": 4.987424681389724e-05,
+        "df": 3,
+        "rejected_H0": true
+      },
+      "mean_ranks": {
+        "EI": 1.5,
+        "UCB": 1.7,
+        "Uncertainty": 3.9,
+        "Random": 2.9
+      }
+    },
+    "sixhumpcamel": {
+      "n_seeds": 10,
+      "friedman": {
+        "chi_square": 22.163265306122447,
+        "p_value": 6.032245731228496e-05,
+        "df": 3,
+        "rejected_H0": true
+      },
+      "mean_ranks": {
+        "EI": 1.5,
+        "UCB": 1.6,
+        "Uncertainty": 3.5,
+        "Random": 3.4
+      }
+    },
+    "hartmann6": {
+      "n_seeds": 10,
+      "friedman": {
+        "chi_square": 26.05263157894737,
+        "p_value": 9.29844337329297e-06,
+        "df": 3,
+        "rejected_H0": true
+      },
+      "mean_ranks": {
+        "EI": 1.5,
+        "UCB": 1.5,
+        "Uncertainty": 3.75,
+        "Random": 3.25
+      }
+    },
+    "piston": {
+      "n_seeds": 10,
+      "friedman": {
+        "chi_square": 27.47999999999999,
+        "p_value": 4.6694098201657755e-06,
+        "df": 3,
+        "rejected_H0": true
+      },
+      "mean_ranks": {
+        "EI": 2.3,
+        "UCB": 1.0,
+        "Uncertainty": 2.7,
+        "Random": 4.0
+      }
+    },
+    "borehole": {
+      "n_seeds": 10,
+      "friedman": {
+        "chi_square": 26.99999999999999,
+        "p_value": 5.887355583577692e-06,
+        "df": 3,
+        "rejected_H0": true
+      },
+      "mean_ranks": {
+        "EI": 2.25,
+        "UCB": 1.05,
+        "Uncertainty": 2.7,
+        "Random": 4.0
+      }
+    },
+    "ackley": {
+      "n_seeds": 10,
+      "friedman": {
+        "chi_square": 26.042553191489354,
+        "p_value": 9.343735479138255e-06,
+        "df": 3,
+        "rejected_H0": true
+      },
+      "mean_ranks": {
+        "EI": 1.5,
+        "UCB": 1.5,
+        "Uncertainty": 3.7,
+        "Random": 3.3
+      }
+    }
+  },
+  "analysis_C_mixedlm": {
+    "description": "MixedLM on log(final_regret + 1e-6); fixed effect = strategy (Treatment, ref=Random); random intercept grouped by problem.",
+    "formula": "y ~ C(strategy, Treatment(reference='Random'))",
+    "reference": "Random",
+    "response": "log(final_regret + 1e-6)",
+    "n_obs": 240,
+    "n_groups": 6,
+    "intercept_random_var": 4.544894416923904,
+    "coefficients": {
+      "EI": {
+        "coef": -2.652636753373453,
+        "std_err": 0.2306547040194528,
+        "ci_low": -3.1047116661163265,
+        "ci_high": -2.20056184063058,
+        "p_value": 1.3120399763962732e-30,
+        "ci_excludes_zero": true
+      },
+      "UCB": {
+        "coef": -3.1953816399864263,
+        "std_err": 0.2306547040194528,
+        "ci_low": -3.6474565527292997,
+        "ci_high": -2.743306727243553,
+        "p_value": 1.2111252979193757e-43,
+        "ci_excludes_zero": true
+      },
+      "Uncertainty": {
+        "coef": -0.6157947524849504,
+        "std_err": 0.2306547040194528,
+        "ci_low": -1.067869665227824,
+        "ci_high": -0.16371983974207693,
+        "p_value": 0.00759034717833479,
+        "ci_excludes_zero": true
+      }
+    },
+    "convergence_warnings": []
+  },
+  "critical_difference_n6": 1.9148
+}

@@ -1,0 +1,64 @@
+{
+ "config": {
+  "arms": [
+   "EI",
+   "LogEI",
+   "UCB",
+   "eps-RS",
+   "eps-PF",
+   "Exploit",
+   "Explore",
+   "Random"
+  ],
+  "problems": [
+   "GSobol",
+   "Rosenbrock",
+   "Ackley8"
+  ],
+  "n_seeds": 30,
+  "T_total": 250,
+  "checkpoints": [
+   20,
+   50,
+   150,
+   250
+  ],
+  "initial_designs": "GSobol/Rosenbrock: De Ath seed s -> run s+1; Ackley8: Sobol fallback n_init=2*dim",
+  "design_tag": "exp10-ext-postdoc",
+  "versions": {
+   "python": "3.11.15",
+   "torch": "2.12.0",
+   "botorch": "0.17.2",
+   "gpytorch": "1.15.2",
+   "numpy": "2.4.6"
+  }
+ },
+ "gates": {
+  "a_file_count": {
+   "n_files": 720,
+   "expected": 720,
+   "passed": true
+  },
+  "b_no_nan_finals": {
+   "n_nonfinite_final": 0,
+   "bad_runs": [],
+   "passed": true
+  },
+  "c_shared_designs": {
+   "n_cells_sampled": 24,
+   "mismatches": [],
+   "passed": true
+  },
+  "d_probe_logs_present": {
+   "n_probe_runs": 180,
+   "n_missing_or_short": 0,
+   "bad": [],
+   "passed": true
+  },
+  "all_passed": true
+ },
+ "manifest": {
+  "n_files": 720,
+  "sha256_of_listing": "aa0e973c0f55a983b9fa867e9790e7a7081f8b3eceb6706b5d8d306adc906a57"
+ }
+}

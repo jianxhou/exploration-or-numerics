@@ -1,0 +1,78 @@
+{
+ "config": {
+  "arms": [
+   "EINSGA2",
+   "LogEINSGA2",
+   "UCBNSGA2",
+   "ExploitNSGA2",
+   "EpsPFNSGA2"
+  ],
+  "arm_acq": {
+   "EINSGA2": "EI",
+   "LogEINSGA2": "LogEI",
+   "UCBNSGA2": "UCB",
+   "ExploitNSGA2": "Exploit",
+   "EpsPFNSGA2": "eps-PF"
+  },
+  "optimizer": "nsga",
+  "problems": [
+   "WangFreitas",
+   "BraninForrester",
+   "Branin",
+   "Cosines",
+   "GoldsteinPriceLog",
+   "SixHumpCamelLog",
+   "Hartmann6Log",
+   "Ackley8",
+   "GSobolLog",
+   "RosenbrockLog",
+   "StyblinskiTangLog"
+  ],
+  "n_seeds": 30,
+  "T_total": 250,
+  "checkpoints": [
+   20,
+   50,
+   150,
+   250
+  ],
+  "probe_protocol": "phase3-prereg-5.2-K4096",
+  "prereg_tag": "phase3-prereg",
+  "versions": {
+   "python": "3.11.15",
+   "torch": "2.12.0",
+   "botorch": "0.17.2",
+   "gpytorch": "1.15.2",
+   "numpy": "2.4.6",
+   "pymoo": "0.6.1.6"
+  }
+ },
+ "gates": {
+  "a_file_count": {
+   "n_files": 1650,
+   "expected": 1650,
+   "passed": true
+  },
+  "b_finite_finals": {
+   "n_nonfinite_final": 0,
+   "bad_runs": [],
+   "passed": true
+  },
+  "c_paired_designs": {
+   "n_cells_sampled": 22,
+   "mismatches": [],
+   "passed": true
+  },
+  "d_probe_present": {
+   "n_runs": 1650,
+   "n_bad_probe": 0,
+   "bad": [],
+   "passed": true
+  },
+  "all_passed": true
+ },
+ "manifest": {
+  "n_files": 1650,
+  "sha256_of_listing": "92504189bb278b4b4887f974214c961e2919194f6537d34631d37d8dedad4774"
+ }
+}

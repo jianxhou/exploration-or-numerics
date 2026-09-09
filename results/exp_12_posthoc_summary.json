@@ -1,0 +1,66 @@
+{
+ "config": {
+  "arms": [
+   "EpsPFExactNSGA2",
+   "EIRS",
+   "LogEIRS"
+  ],
+  "arm_acq": {
+   "EpsPFExactNSGA2": "eps-PF-exact",
+   "EIRS": "EI",
+   "LogEIRS": "LogEI"
+  },
+  "arm_optimizer": {
+   "EpsPFExactNSGA2": "nsga",
+   "EIRS": "rs",
+   "LogEIRS": "rs"
+  },
+  "problems": [
+   "WangFreitas",
+   "BraninForrester",
+   "Branin",
+   "Cosines",
+   "GoldsteinPriceLog",
+   "SixHumpCamelLog",
+   "Hartmann6Log",
+   "Ackley8",
+   "GSobolLog",
+   "RosenbrockLog",
+   "StyblinskiTangLog"
+  ],
+  "n_seeds": 30,
+  "T_total": 250,
+  "posthoc_protocol": "docs/posthoc_protocol.md@54fb7e1",
+  "versions": {
+   "python": "3.11.15",
+   "torch": "2.12.0",
+   "botorch": "0.17.2",
+   "gpytorch": "1.15.2",
+   "numpy": "2.4.6",
+   "pymoo": "0.6.1.6"
+  }
+ },
+ "gates": {
+  "a_file_count": {
+   "n_files": 990,
+   "expected": 990,
+   "passed": true
+  },
+  "b_finite_finals": {
+   "n_nonfinite_final": 0,
+   "n_negative_clips": 0,
+   "bad_runs": [],
+   "passed": true
+  },
+  "c_paired_designs": {
+   "n_cells_sampled": 22,
+   "mismatches": [],
+   "passed": true
+  },
+  "all_passed": true
+ },
+ "manifest": {
+  "n_files": 990,
+  "sha256_of_listing": "eb39bfd42644710e95d6de05ef1c6e0cb5a7a03f5737d08106afc07c6cc70c49"
+ }
+}

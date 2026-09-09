@@ -1,0 +1,325 @@
+{
+ "protocol": "docs/posthoc_protocol.md@54fb7e1",
+ "bootstrap": {
+  "spec": {
+   "B": 10000,
+   "ci_level": 95,
+   "seed": 20260701,
+   "method": "percentile bootstrap over problems (resample problems, problem-level means fixed)"
+  },
+  "logei_advantage": {
+   "problems11_grad": {
+    "point": -0.08433840810247453,
+    "ci95": [
+     -0.5325582566267418,
+     0.46079591250723495
+    ],
+    "per_problem": {
+     "WangFreitas": -1.0566011125354458,
+     "BraninForrester": -0.96994397604022,
+     "Branin": -0.9542377694507209,
+     "Cosines": -0.5516125626483905,
+     "GoldsteinPriceLog": 2.1268197325193787,
+     "SixHumpCamelLog": -0.07957240393296106,
+     "Hartmann6Log": 0.24392022996217388,
+     "Ackley8": -0.008571530343269407,
+     "GSobolLog": 0.06098903714335613,
+     "RosenbrockLog": 0.11384109932723652,
+     "StyblinskiTangLog": 0.14724676687164207
+    }
+   },
+   "problems11_nsga": {
+    "point": -0.11328907469834792,
+    "ci95": [
+     -0.2755128523140674,
+     0.03230498575020403
+    ],
+    "per_problem": {
+     "WangFreitas": 0.0007350543334057047,
+     "BraninForrester": -0.6597777328449403,
+     "Branin": -0.15034594265622658,
+     "Cosines": -0.5017342024189153,
+     "GoldsteinPriceLog": -0.2945279982438027,
+     "SixHumpCamelLog": 0.3053826463492124,
+     "Hartmann6Log": -0.01723015483406165,
+     "Ackley8": -0.01779227672506445,
+     "GSobolLog": 0.035504047870670075,
+     "RosenbrockLog": 0.060448435359513164,
+     "StyblinskiTangLog": -0.006841697871617591
+    }
+   },
+   "death10_grad": {
+    "point": -0.09191509587839507,
+    "ci95": [
+     -0.5784428732682046,
+     0.5044399394980785
+    ],
+    "per_problem": {
+     "WangFreitas": -1.0566011125354458,
+     "BraninForrester": -0.96994397604022,
+     "Branin": -0.9542377694507209,
+     "Cosines": -0.5516125626483905,
+     "GoldsteinPriceLog": 2.1268197325193787,
+     "SixHumpCamelLog": -0.07957240393296106,
+     "Hartmann6Log": 0.24392022996217388,
+     "GSobolLog": 0.06098903714335613,
+     "RosenbrockLog": 0.11384109932723652,
+     "StyblinskiTangLog": 0.14724676687164207
+    }
+   },
+   "death10_nsga": {
+    "point": -0.1228387544956763,
+    "ci95": [
+     -0.2990839794121109,
+     0.036796802805993775
+    ],
+    "per_problem": {
+     "WangFreitas": 0.0007350543334057047,
+     "BraninForrester": -0.6597777328449403,
+     "Branin": -0.15034594265622658,
+     "Cosines": -0.5017342024189153,
+     "GoldsteinPriceLog": -0.2945279982438027,
+     "SixHumpCamelLog": 0.3053826463492124,
+     "Hartmann6Log": -0.01723015483406165,
+     "GSobolLog": 0.035504047870670075,
+     "RosenbrockLog": 0.060448435359513164,
+     "StyblinskiTangLog": -0.006841697871617591
+    }
+   }
+  },
+  "mean_D_p": {
+   "point": 0.02895066659587334,
+   "ci95": [
+    -0.3949209009607042,
+    0.572736491643303
+   ],
+   "n_problems": 11
+  },
+  "context_logei_minus_epspf_death10_nsga": 0.9191747203998698
+ },
+ "arms": {
+  "n_files": 990,
+  "n_negative_clips": 0,
+  "per_problem_M_pa": {
+   "eps-PF-exact": {
+    "WangFreitas": -0.26178232890617986,
+    "BraninForrester": -10.467165667236085,
+    "Branin": -10.5821185871938,
+    "Cosines": -5.556063692615923,
+    "GoldsteinPriceLog": -10.789617790848302,
+    "SixHumpCamelLog": -0.9700614650021626,
+    "Hartmann6Log": -5.459120655067865,
+    "Ackley8": -0.5705466385267878,
+    "GSobolLog": 1.3972822700955818,
+    "RosenbrockLog": 1.565981583160565,
+    "StyblinskiTangLog": 0.4323746365285108
+   },
+   "EI-RS": {
+    "WangFreitas": -0.5673935652377476,
+    "BraninForrester": -9.57950848590016,
+    "Branin": -10.199045206228293,
+    "Cosines": -4.40833264834518,
+    "GoldsteinPriceLog": -7.118012768658903,
+    "SixHumpCamelLog": 1.3817021121811153,
+    "Hartmann6Log": -4.117477986345738,
+    "Ackley8": 1.2504401149836046,
+    "GSobolLog": 2.2800067595696993,
+    "RosenbrockLog": 2.1643989935057824,
+    "StyblinskiTangLog": 0.8730906721560514
+   },
+   "LogEI-RS": {
+    "WangFreitas": 0.013308240412769911,
+    "BraninForrester": -9.646150481229338,
+    "Branin": -10.469432713169965,
+    "Cosines": -4.48498614808693,
+    "GoldsteinPriceLog": -6.987172542424859,
+    "SixHumpCamelLog": 1.3376621618214986,
+    "Hartmann6Log": -4.089642102165122,
+    "Ackley8": 1.2187022930221683,
+    "GSobolLog": 2.284281915972385,
+    "RosenbrockLog": 2.141368368078339,
+    "StyblinskiTangLog": 0.8475221378864808
+   }
+  },
+  "per_problem_SE": {
+   "eps-PF-exact": {
+    "WangFreitas": 0.6890958113576375,
+    "BraninForrester": 0.25977060284878833,
+    "Branin": 0.2697062779439708,
+    "Cosines": 0.6357239851043303,
+    "GoldsteinPriceLog": 0.6557878211677646,
+    "SixHumpCamelLog": 0.30235416692626743,
+    "Hartmann6Log": 0.253327943604541,
+    "Ackley8": 0.05318193529687591,
+    "GSobolLog": 0.02495495239088953,
+    "RosenbrockLog": 0.019499442463600015,
+    "StyblinskiTangLog": 0.06474676570027234
+   },
+   "EI-RS": {
+    "WangFreitas": 0.8761142460234023,
+    "BraninForrester": 0.517378695370402,
+    "Branin": 0.23660159837069683,
+    "Cosines": 0.3123446958768106,
+    "GoldsteinPriceLog": 0.30274006393377173,
+    "SixHumpCamelLog": 0.046398459931374474,
+    "Hartmann6Log": 0.05904548005329833,
+    "Ackley8": 0.012700277446811337,
+    "GSobolLog": 0.015722477647683877,
+    "RosenbrockLog": 0.011975212394785715,
+    "StyblinskiTangLog": 0.013986959113953588
+   },
+   "LogEI-RS": {
+    "WangFreitas": 0.47753657945231565,
+    "BraninForrester": 0.49753006439559716,
+    "Branin": 0.24273644905699251,
+    "Cosines": 0.38207167795117325,
+    "GoldsteinPriceLog": 0.2902184926404249,
+    "SixHumpCamelLog": 0.0855740866934971,
+    "Hartmann6Log": 0.07831843722065775,
+    "Ackley8": 0.020387042541508835,
+    "GSobolLog": 0.01607324126176628,
+    "RosenbrockLog": 0.009519311885347681,
+    "StyblinskiTangLog": 0.014821835801645793
+   }
+  },
+  "aggregates": {
+   "death10": {
+    "eps-PF-exact": -4.069029169708566,
+    "EI-RS": -2.9290572123303367,
+    "LogEI-RS": -2.9053241162904735,
+    "ref": {
+     "EI/grad": -2.828410763205905,
+     "EI/nsga": -2.70047635316668,
+     "LogEI/grad": -2.7364956673275107,
+     "LogEI/nsga": -2.577637598671004,
+     "UCB/grad": -3.228680806885115,
+     "UCB/nsga": -3.235781325386877,
+     "Exploit/grad": -1.4497834364865754,
+     "Exploit/nsga": -1.62060013193889,
+     "eps-PF/grad": -3.1322891540198112,
+     "eps-PF/nsga": -3.496812319070874
+    }
+   },
+   "highd": {
+    "eps-PF-exact": -0.5158705413208018,
+    "EI-RS": 0.3000046097214489,
+    "LogEI-RS": 0.29588257994302064,
+    "ref": {
+     "EI/grad": -0.062422392218230066,
+     "EI/nsga": -0.08551046165545226,
+     "LogEI/grad": -0.20392167554433221,
+     "LogEI/nsga": -0.10348061928657826,
+     "UCB/grad": -0.7052670819927611,
+     "UCB/nsga": -0.7082940336874518,
+     "Exploit/grad": -0.31883218309071415,
+     "Exploit/nsga": -0.3319040996541016,
+     "eps-PF/grad": -0.47078918757790655,
+     "eps-PF/nsga": -0.4331899623395351
+    }
+   },
+   "lowd": {
+    "eps-PF-exact": -6.437801588633742,
+    "EI-RS": -5.081765093698194,
+    "LogEI-RS": -5.03946191377947,
+    "ref": {
+     "EI/grad": -4.672403010531022,
+     "EI/nsga": -4.4437869475074985,
+     "LogEI/grad": -4.424878328516296,
+     "LogEI/nsga": -4.227075584927289,
+     "UCB/grad": -4.9109566234800175,
+     "UCB/nsga": -4.920772853186494,
+     "Exploit/grad": -2.203750938750483,
+     "Exploit/nsga": -2.479730820128749,
+     "eps-PF/grad": -4.906622464981082,
+     "eps-PF/nsga": -5.539227223558433
+    }
+   },
+   "problems11": {
+    "eps-PF-exact": -3.750985303237496,
+    "EI-RS": -2.5491029098472513,
+    "LogEI-RS": -2.530412624534779,
+    "ref": {
+     "EI/grad": -2.476282652604832,
+     "EI/nsga": -2.359902318467055,
+     "LogEI/grad": -2.3919442445023584,
+     "LogEI/nsga": -2.246613243768707,
+     "UCB/grad": -2.971730819362554,
+     "UCB/nsga": -2.9788838758930676,
+     "Exploit/grad": -1.5068974479830042,
+     "Exploit/nsga": -1.6986998786279075,
+     "eps-PF/grad": -2.999181092023889,
+     "eps-PF/nsga": -3.378347154302428
+    }
+   }
+  },
+  "exactfront_vs_pool_per_problem": {
+   "WangFreitas": {
+    "exact": -0.26178232890617986,
+    "pool": -1.5544003823812063,
+    "exact_better": false
+   },
+   "BraninForrester": {
+    "exact": -10.467165667236085,
+    "pool": -8.274573911574107,
+    "exact_better": true
+   },
+   "Branin": {
+    "exact": -10.5821185871938,
+    "pool": -9.4701452088069,
+    "exact_better": true
+   },
+   "Cosines": {
+    "exact": -5.556063692615923,
+    "pool": -4.447017562927938,
+    "exact_better": true
+   },
+   "GoldsteinPriceLog": {
+    "exact": -10.789617790848302,
+    "pool": -8.65277179044861,
+    "exact_better": true
+   },
+   "SixHumpCamelLog": {
+    "exact": -0.9700614650021626,
+    "pool": -0.8364544852118386,
+    "exact_better": true
+   },
+   "Hartmann6Log": {
+    "exact": -5.459120655067865,
+    "pool": -4.823066589719544,
+    "exact_better": true
+   },
+   "Ackley8": {
+    "exact": -0.5705466385267878,
+    "pool": -2.1936955066179706,
+    "exact_better": false
+   },
+   "GSobolLog": {
+    "exact": 1.3972822700955818,
+    "pool": 1.1191282389275872,
+    "exact_better": false
+   },
+   "RosenbrockLog": {
+    "exact": 1.565981583160565,
+    "pool": 1.289627420027807,
+    "exact_better": false
+   },
+   "StyblinskiTangLog": {
+    "exact": 0.4323746365285108,
+    "pool": 0.6815510814060097,
+    "exact_better": true
+   }
+  },
+  "rs_summary": {
+   "death10": {
+    "EI_RS": -2.9290572123303367,
+    "LogEI_RS": -2.9053241162904735,
+    "logei_adv_rs": -0.023733096039863132
+   },
+   "problems11": {
+    "EI_RS": -2.5491029098472513,
+    "LogEI_RS": -2.530412624534779,
+    "logei_adv_rs": -0.018690285312472268
+   }
+  }
+ }
+}
