@@ -41,9 +41,9 @@ A mechanism probe records EI value-underflow and gradient-vanishing per cell, so
 
 ## Earlier phase: a controlled benchmark of four acquisition strategies
 
-The Part-2 experiment sits on top of a benchmark built first: four acquisition strategies (EI, UCB, pure-uncertainty, Sobol random) sharing an identical normalised Gaussian-process surrogate and BO loop, on six problems (d = 2 to 10, synthetic and engineering), 10 seeds each, 240 runs, evaluated with a Friedman + Nemenyi framework (N = 60 blocks). The 240 runs partition the strategies into two statistically separated classes, {EI, UCB} and {Uncertainty, Random}: selecting the point of maximum posterior standard deviation ranks indistinguishably from blind Sobol sampling, so exploitation of the posterior mean, not the uncertainty estimate alone, is the necessary ingredient. A secondary finding is that GP input normalisation to the known problem bounds is a first-class requirement on multi-scale engineering inputs; omitting it degraded BO to random-search performance on Piston (7D).
+The Part-2 experiment sits on top of a benchmark built first: four acquisition strategies (EI, UCB, pure-uncertainty, Sobol random) sharing an identical normalised Gaussian-process surrogate and BO loop, on six problems (d = 2 to 10, synthetic and engineering), 10 seeds each, 240 runs. Analysed at the problem level (Friedman + Nemenyi, N = 6, with a mixed-effects model on log final regret), the strategies that use the GP posterior mean (EI, UCB) lead on every problem and reduce log-regret four to five times more than sigma-only exploration, while pure-uncertainty sampling retains a small but significant edge over the Sobol baseline. The benchmark ranks the strategies but does not isolate the independent contribution of the posterior mean, which motivated the greedy and eps-greedy arms in Part 2. A secondary finding is that GP input normalisation to the known problem bounds is an important requirement on multi-scale engineering inputs; omitting it degraded BO to the level of the Sobol baseline on Piston (7D).
 
-![Critical Difference diagram](figures/exp_03_cd_diagram.png)
+![Critical Difference diagram](figures/cd_diagram_n6.png)
 
 ## Repository layout
 
